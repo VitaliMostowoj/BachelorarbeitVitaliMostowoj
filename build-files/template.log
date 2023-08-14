@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  14 AUG 2023 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  14 AUG 2023 22:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1359,15 +1359,15 @@ l.13
 
 
  <./resources/images//P+F_Standorte.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
+Overfull \hbox (10.16158pt too wide) in paragraph at lines 15--18
+\T1/cmr/m/n/12 Primäres Ziel die-ser Ba-che-lor-ar-beit ist da-her, die pro-to-ty-pi-sche Ent-wick-lung ei-ner Hardware-
  []
 
-)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.66 \include{sections/einleitung/Einleitung.tex}
-                                                  [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+l.18 
+      [2])pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.66 \include{sections/einleitung/Einleitung.tex}
@@ -1389,7 +1389,7 @@ l.70 \include{sections/grundlagen/Teil1.tex}
 \openout2 = `sections/grundlagen/VisuNET.aux'.
 
  (./sections/grundlagen/VisuNET.tex
-<resources/images//VisunetFLX.PNG, id=254, 316.18124pt x 803.0pt>
+<resources/images//VisunetFLX.PNG, id=256, 316.18124pt x 803.0pt>
 File: resources/images//VisunetFLX.PNG Graphic file (type png)
 <use resources/images//VisunetFLX.PNG>
 Package pdftex.def Info: resources/images//VisunetFLX.PNG  used on input line 5.
@@ -1441,7 +1441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-<resources/images//UMLAdapterPattern.png, id=263, 818.05624pt x 359.3425pt>
+<resources/images//UMLAdapterPattern.png, id=265, 818.05624pt x 359.3425pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 13.
@@ -1458,7 +1458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<resources/images//UMLStrategyPattern.png, id=270, 438.63875pt x 164.615pt>
+<resources/images//UMLStrategyPattern.png, id=272, 438.63875pt x 164.615pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 28.
@@ -1467,12 +1467,12 @@ Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input
 \openout2 = `sections/grundlagen/Datenbanken.aux'.
 
  (./sections/grundlagen/Datenbanken.tex
-<resources/images//DatenvolumenStatistik.png, id=287, 880.28876pt x 590.205pt>
+<resources/images//DatenvolumenStatistik.png, id=289, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 5.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
-<resources/images//SQLCommands.png, id=291, 799.98875pt x 671.50874pt>
+<resources/images//SQLCommands.png, id=293, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 19.
@@ -1494,7 +1494,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--73
 \openout2 = `sections/grundlagen/MTBFReliability.aux'.
 
  (./sections/grundlagen/MTBFReliability.tex
-<resources/images//BathTubCurve.png, id=319, 687.56876pt x 400.49625pt>
+<resources/images//BathTubCurve.png, id=321, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 6.
@@ -1593,10 +1593,10 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  133i,20n,134p,10639b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (30 pages, 1150169 bytes).
+Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (30 pages, 1151940 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 524 compressed objects within 6 object streams
+ 618 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
  105 named destinations out of 1000 (max. 500000)
  530 words of extra memory for PDF output out of 10000 (max. 10000000)
 
