@@ -1,18 +1,18 @@
 \chapter{Einleitung}
-\section{Pepperl + Fuchs / HMI}
+\section{Pepperl + Fuchs / HMI}\label{sec:PFHMI}
 Die \ac{p+f} wurde 1945 von Walter Pepperl und Ludwig Fuchs gegründet. Anfangs war sie eine Radioreperaturwekstadt, welche sich erst nach der Entwicklung eines eigenen Näherungsschalters so wie eines eigensicheren Transistorverstärkers auf das gebiet der Elektronik ausweitete. Inzwischen entwickelt, produziert und vertreibt \ac{p+f} Baugruppen und Sensoren für den Automatisierungsmarkt.\\
 \begin{flushleft}
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 0.35]{P+F_Standorte.png}
+        \includegraphics[width=1\linewidth]{P+F_Standorte.png}
         \caption{Standorte der Pepperl+Fuchs SE}
         \label{fig:StandortePF}
     \end{figure}
 \end{flushleft}
-Pepperl\todo{mehr auf HMI eingehen, warum braucht man diese, wo werden die eingesetzt}
-Im Bereich der Prozessautomation ist \ac*{p+f} führender Hersteller industrieller Sicherheitsausstattungen. Das Produktportfolio umfasst Trennbarrieren, Signaltrenner, Zener-Barrieren, Feldbus-Technologien, Remote-I/O, HART-Interface-Lösungen, Mensch-Maschine-Schnittstellen (HMI) für Gefahrenbereiche, Füllstandsüberwachung, Überdruckkapselungssysteme, Schaltschränke,Feldverteiler und Warnsysteme für Ex-Umgebungen.\\
-Die Abteilung \textit{Human Machine Interfaces} beschäftigt sich dabei mit der Entwicklung von Industrieller Computer Hard- und Software. Dies reicht von zubehör bishin zu vollständige Systemen mit Ex-Umgebungen Zertifizierung. Ziel der Systeme ist die Überwachung und Steuerung sämtlicher Produktionsschritte.   
+Im Bereich der Prozessautomation ist \ac*{p+f} führender Hersteller industrieller Sicherheitsausstattungen. Das Produktportfolio umfasst eine Reihe von industrieller Computer Systeme, welche zur Überwachung und Steuerung von Prozessen in Explosionsgefährdeten Bereichen genutzt werde. Die \ac{hmi} Abteilung beschäftigt sich mit der Entwicklung diser Systeme, welche eine Schnitstelle zwischen Mensch und Maschiene bilden. Da es eine vielzahl an Anwendungen für \ac{hmi} Systeme im Explosionsgefährdeten bereichen gibt, wurde die Produktfamilie \textit{VisuNet} speziell für den Einsatz in diesen Zohnen Konzipiert. Solche Ex-Zohnen sind überall da zu finden, wo Explosionsgefährliche stoffe gelagert oder gehandhabt werden. In diesen Zohnen kann durch Gas oder Staub, eine explosionsfähige Atmosphäre entstehen. Zudem kommen auch Umwelttechnische Einflüsse wie Sonne, Nässe, Hitze und Kälte, aber auch Einflüsse welche beispielsweise durch die Reinigung mit aggresiven Chemikalien entstehen, hinzu. Um in einer solchen Computerfeindlichen Umgebung dennoch ein Prozessleitsystem zu Integrieren, setzte \ac{p+f} mit den \textit{VisuNet} Remote Monitoren auf die Thin-Client-Technologie. Hierbei verbindet sich der Ex-Geschützte Monitor aus der Explosionsgefährdeten Zohne mit der Zentralen, meist Leistungsstärkeren, Recheneinheit in der No-Ex-Zohne. Eingaben über Tastatur und Maus werden anschließend über den Monitor an die Zentrale Recheneinheit weitergeleitet, welche anschließend die neuen ausgaben an den Monitor zurückschickt.  
 
-\section{Problemstellung und Ziel der Arbeit}
+\section{Intention und Ziel der Arbeit}
+Durch die Ex-Schutz Zertifizierung der \textit{VisuNet} Platformen, sind Vorgeschriebene Temperaturen der Systeme einzuhalten. Durch integrierte Schutzschaltungen und weitere Sicherheitsmechanismen ist es den Geräten nicht möglich diese Grenzwerte zu überschreiten. Der einsatz dieser Geräte in Industriellen Umgebungen, kann sich durch verschiedene Umwelteinflüsse wie beispielsweise Sonneneinstrahlung, negativ auf das System auswirken. Zudem können diese Umwelteinflüsse das gerät auch in Systemzustände bringen, welche den Zertifizierungsrichtlinien wiedersprechen. Durch eine Falsche einschätzung der Umweltfaktoren werden solche unzulässigen bzw schädlichen Betriebe vom Endkunden meist nicht wargenommen.\\   
+
 
 \section{Anforderungen}

@@ -99,9 +99,26 @@
       \verb %7Bhttps://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/%7D
       \endverb
     \endentry
-    \entry{SQLDoku}{online}{}
+    \entry{SQL}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{SQL – Alles über die Datenbanksprache}
+      \field{urlday}{11}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://datascientest.com/de/sql-alles-uber-die-datenbanksprache#:~:text=SQL%20oder%20%E2%80%9EStructured%20Query%20Language,darin%20enthaltenen%20Daten%20zu%20verwalten.}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://datascientest.com/de/sql-alles-uber-die-datenbanksprache#:~:text=SQL%20oder%20%E2%80%9EStructured%20Query%20Language,darin%20enthaltenen%20Daten%20zu%20verwalten.%7D
+      \endverb
+    \endentry
+    \entry{SQLDoku}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{{SQL Tutorial}}
       \field{urlday}{11}
@@ -198,7 +215,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{sql}
 \endrefsection
 \endinput
 
