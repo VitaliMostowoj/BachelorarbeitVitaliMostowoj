@@ -43,55 +43,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}MTBF und Reliability}{10}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Architektur Konzept}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Architektur Konzept}{12}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Datenerfassung}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Datenerfassung}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{13}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{13}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Datenverarbeitung}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Datenverarbeitung}{13}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{13}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Ermittelung des Health Status}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Ermittelung des Health Status}{13}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie}{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie}{13}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{12}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{13}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Dashboard}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Dashboard}{13}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Bereitstellung der Daten}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Bereitstellung der Daten}{13}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Konzeptentwurf zur Datenvisualisierung}{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Konzeptentwurf zur Datenvisualisierung}{13}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Entwurf eines Task Scheduling Verfahrens}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Entwurf eines Task Scheduling Verfahrens}{13}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Prototypische Implementierung}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Prototypische Implementierung}{14}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Implementierung des Taskschedulers}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Implementierung des Taskschedulers}{15}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Implementierung einer Plattform unabhängigen Datenerfassung}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Implementierung einer Plattform unabhängigen Datenerfassung}{15}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Umsetzung der Hardware Services}{14}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Umsetzung der Hardware Services}{15}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung der Datenbank Services}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung der Datenbank Services}{15}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Umsetzung der Strategien zur Datenerfassung}{14}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Umsetzung der Strategien zur Datenerfassung}{15}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Implementierung der Datenverarbeitung}{14}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Implementierung der Datenverarbeitung}{15}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Implementierung der Algorithmen zur Health Status Erfassung}{14}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Implementierung der Algorithmen zur Health Status Erfassung}{15}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Implementierung der Datenvisualisierung}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Implementierung der Datenvisualisierung}{15}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Implementierung der API}{14}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Implementierung der API}{15}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Aufbau eines Dashboards}{14}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Aufbau eines Dashboards}{15}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Ausblick}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Ausblick}{16}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Literaturverzeichnis}{I}{chapter.5}%
 \defcounter {refsection}{0}\relax 

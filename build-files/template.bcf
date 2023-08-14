@@ -2348,23 +2348,29 @@
     <bcf:datasource type="file" datatype="bibtex">resources/directories/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="5">DesignPatterns</bcf:citekey>
     <bcf:citekey order="6">DesignPatterns</bcf:citekey>
     <bcf:citekey order="7">DesignPatterns</bcf:citekey>
     <bcf:citekey order="8">DesignPatterns</bcf:citekey>
     <bcf:citekey order="9">DesignPatterns</bcf:citekey>
     <bcf:citekey order="10">DesignPatterns</bcf:citekey>
     <bcf:citekey order="11">DesignPatterns</bcf:citekey>
-    <bcf:citekey order="12">HeadfirstDesignPatterns</bcf:citekey>
-    <bcf:citekey order="13">Datenmengen</bcf:citekey>
+    <bcf:citekey order="12">DesignPatterns</bcf:citekey>
+    <bcf:citekey order="13">HeadfirstDesignPatterns</bcf:citekey>
     <bcf:citekey order="14">Datenmengen</bcf:citekey>
-    <bcf:citekey order="15">sql</bcf:citekey>
-    <bcf:citekey order="16">SQLCommands</bcf:citekey>
-    <bcf:citekey order="17">SQLDoku</bcf:citekey>
-    <bcf:citekey order="18">SQLCommands</bcf:citekey>
+    <bcf:citekey order="15">Datenmengen</bcf:citekey>
+    <bcf:citekey order="16">sql</bcf:citekey>
+    <bcf:citekey order="17">SQLCommands</bcf:citekey>
+    <bcf:citekey order="18">SQLDoku</bcf:citekey>
     <bcf:citekey order="19">SQLCommands</bcf:citekey>
-    <bcf:citekey order="20">SQLiteHompage</bcf:citekey>
-    <bcf:citekey order="21">AIP</bcf:citekey>
+    <bcf:citekey order="20">SQLCommands</bcf:citekey>
+    <bcf:citekey order="21">SQLiteHompage</bcf:citekey>
+    <bcf:citekey order="22">AIP</bcf:citekey>
+    <bcf:citekey order="23">AREPA_LifeExpectancy</bcf:citekey>
+    <bcf:citekey order="24">AREPA_LifeExpectancy</bcf:citekey>
+    <bcf:citekey order="25">AREPA_LifeExpectancy</bcf:citekey>
+    <bcf:citekey order="26">AREPA_LifeExpectancy</bcf:citekey>
+    <bcf:citekey order="27">MTBFReliability</bcf:citekey>
+    <bcf:citekey order="28">MTBFReliability</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
