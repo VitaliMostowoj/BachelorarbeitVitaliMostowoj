@@ -1,0 +1,12 @@
+\chapter{Stand der Technik}
+In diesem Kapitel werden die in dieser Arbeit Verwendeten Konzepte und Technologien beleuchtet. 
+
+\section{Vorarbeiten zur Bachelorthesis}
+Zum Thema dieser Bachelorarbeit wurden bereits zwei Vorarbeiten geleistet. Zum einen wurde im Rahmen einer Praxisphase, eine Voruntersuchung zum Thema \textit{Condition-Based-Monitorig für industrielle PC's}  vorgenommen. Die im Rahmen dieser Arbeit \cite{PAMathias} durchgeführte Grundlagenuntersuchung und Marktrecherche hat auf zwei Computer Monitoring Technologien aufmerksam gemacht. Diese wurden anschließend in der zweiten Vorarbeit \cite{t3000} evaluiert. Aus dieser Bewertung heraus, wurde sich für die \textit{HWiNFO} Software, zum auslesen der auf der Hardware verbauten Sensoren entschieden. Die Software wird genauer in Abschnitt \ref{sec:HWiNFO} behandelt. Desweiteren wurde in der Vorarbeit \cite{t3000} auch eine geeignete Datenbank für das Health Monitoring System ausgewählt. In Abschnitt \ref{sec:SQLite} wird die ausgewählte Datenbank Technologie genauer beschrieben.   
+
+\subsection{SQLite Embedded Datenbank}\label{sec:SQLite}
+In der Vorarbeit zu dieser Bachelorarbeit wurde bereits eine auswahl für eine Datenbank getroffen. Dabei wurde sich nach einigen vergleichen für die SQLite Embedded Datenbank Engine entschieden. \\
+Diese Bietet eine zuverlässige, kleine, schnelle und vollfunktionale Datenbank Engine, welche vollständige in das Gesamtsystem integriert werden kann \cite{SQLiteHompage}. Zur implementierung der Datenbank in die anwendung wird die System.Data.SQLite Bibliothek für C\# verwendet.\\
+Auf das Thema Datenbanken wird in Abschnitt \ref{sec:Datenbank} genauer eingegangen.
+
+\subsection{HWiNFO}\label{sec:HWiNFO}

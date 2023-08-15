@@ -1,4 +1,4 @@
-\section{Datenbanken}
+\section{Datenbanken}\label{sec:Datenbank}
 \begin{wrapfigure}{r}{0.5\textwidth}
     \vspace{-1.2cm}
     \begin{center}
@@ -28,7 +28,3 @@ IBM-Forscher Edgar F. Codd definierte 1969 ein Datenbankmodell für Relationale 
 Die besondere eigenschaft von \ac{sql} ist das Konzepte von Arrays. Relationale Datenbanken bestehen aus Arrays, welche sich mit Hilfe von verschiedenen Befehen erzeugen und bearbeiten. \cite{SQL}\\
 \ac{sql} beitet eine reihe von Befehlen, welche die Interaktion mit der Datenbank ermöglichen. Diese können Grundsätzlich in 5 Kategorien eingeteilt werden (siehe Abb. \ref{fig:SQLCommands}). Die wichtigsten Befehle sind dabei \text{INSERT}, \textit{UPDATE} und \textit{DELEAT}, mit welchen sich datensätze schreiben und bearbeiten lassen. Zudem der kommt der \textit{SELECT} Befehl, welcher das auslesen von Datensätzen ermöglicht. Um die tabellenstruktur der Datenbank zu berarbeiten kommen die Befehle \textit{CREATE} und \textit{DROP} zum einsatz. \cite{SQLCommands}\\
 Natürlich bietet die Programmiersprache eine weit aus komplexere Sysntax, um datensätze sortiet auswerten zu könen. Eine vollständige dokumentation der Sprache findet sich auf der w3school webseite \cite{SQLDoku}.
-
-\subsection{SQLite Embedded Datenbank}
-In der Vorarbeit zu dieser Bachelorarbeit wurde bereits eine auswahl für eine Datenbank getroffen. Dabei wurde sich nach einigen vergleichen für die SQLite Embedded Datenbank Engine entschieden. \\
-Diese Bietet eine zuverlässige, kleine, schnelle und vollfunktionale Datenbank Engine, welche vollständige in das Gesamtsystem integriert werden kann \cite{SQLiteHompage}. Zur implementierung der Datenbank in die anwendung wird die System.Data.SQLite Bibliothek für C\# verwendet.\\
