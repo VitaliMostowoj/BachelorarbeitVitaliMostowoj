@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  16 AUG 2023 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  16 AUG 2023 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,7 +1064,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.aux (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/einleitung/Einleitung.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/datenerfassung/Datenerfassung.aux))
+ (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.aux (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/einleitung/Einleitung.aux)
+
+LaTeX Warning: Label `fig:FuzzyLogicArchitektur' multiply defined.
+
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1301,32 +1305,32 @@ Overfull \hbox (11.74713pt too wide) in paragraph at lines 4--31
 
 
 
-] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.toc [3
-
-
-
-])
+] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.toc)
 \tf@toc=\write8
 \openout8 = `template.toc'.
 
- [4] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof)
+ [3
+
+
+
+] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof)
 \tf@lof=\write9
 \openout9 = `template.lof'.
 
- [5
+ [4
 
 
 ] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lot)
 \tf@lot=\write10
 \openout10 = `template.lot'.
 
- [6
+ [5
 
 
 ]
 \openout2 = `resources/directories/acronyms.aux'.
 
- (./resources/directories/acronyms.tex) [7
+ (./resources/directories/acronyms.tex) [6
 
 
 
@@ -1337,7 +1341,7 @@ Overfull \hbox (11.74713pt too wide) in paragraph at lines 4--31
 chapter 1.
 Package acronym Info: Label `acro:p+f' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<resources/images//P+F_Standorte.png, id=245, 1210.5225pt x 631.35875pt>
+<resources/images//P+F_Standorte.png, id=189, 1210.5225pt x 631.35875pt>
 File: resources/images//P+F_Standorte.png Graphic file (type png)
 <use resources/images//P+F_Standorte.png>
 Package pdftex.def Info: resources/images//P+F_Standorte.png  used on input line 11.
@@ -1383,7 +1387,7 @@ Package acronym Info: Label `acro:api' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:sdk' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-) (./sections/grundlagen/VisuNET.tex) (./sections/grundlagen/SoftwareDesignKonzepte.tex
+) (./sections/grundlagen/SoftwareDesignKonzepte.tex
 Overfull \hbox (5.5891pt too wide) in paragraph at lines 2--6
 \T1/cmr/m/it/12 Alle gut struk-tu-rier-ten ob-jek-t-ori-en-tier-ten Ar-chi-tek-tu-ren ba-sie-ren auf Mus-tern \T1/cmr/m/n/12 (Gra-dy Booch
  []
@@ -1393,43 +1397,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[7]
-<resources/images//UMLAdapterPattern.png, id=311, 818.05624pt x 359.3425pt>
+<resources/images//UMLAdapterPattern.png, id=249, 818.05624pt x 359.3425pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 13.
 (pdftex.def)             Requested size: 273.14923pt x 119.98706pt.
-
+[7 <./resources/images//UMLAdapterPattern.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<resources/images//UMLStrategyPattern.png, id=314, 438.63875pt x 164.615pt>
+<resources/images//UMLStrategyPattern.png, id=257, 438.63875pt x 164.615pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 28.
 (pdftex.def)             Requested size: 273.14923pt x 102.50986pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./sections/grundlagen/Datenbanken.tex [8 <./resources/images//UMLAdapterPattern.png>]
-<resources/images//DatenvolumenStatistik.png, id=324, 880.28876pt x 590.205pt>
+) (./sections/grundlagen/Datenbanken.tex
+<resources/images//DatenvolumenStatistik.png, id=262, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 5.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
-<resources/images//SQLCommands.png, id=328, 799.98875pt x 671.50874pt>
+ [8 <./resources/images//UMLStrategyPattern.png>]
+<resources/images//SQLCommands.png, id=272, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 19.
 (pdftex.def)             Requested size: 218.51521pt x 183.42053pt.
- [9 <./resources/images//UMLStrategyPattern.png> <./resources/images//DatenvolumenStatistik.png>]
 Package acronym Info: Label `acro:sequel' newly defined as it shall be overridden
 although it is yet undefined on input line 26.
 Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
 although it is yet undefined on input line 26.
 ) (./sections/grundlagen/MTBFReliability.tex
-<resources/images//BathTubCurve.png, id=350, 687.56876pt x 400.49625pt>
+Underfull \hbox (badness 1194) in paragraph at lines 26--1
+\T1/cmr/m/n/12 1969 ein Da-ten-bank-mo-dell für Re-la-tio-
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 26--1
+\T1/cmr/m/n/12 ner For-schung be-gann, in den fol-gen-
+ []
+
+[9 <./resources/images//DatenvolumenStatistik.png> <./resources/images//SQLCommands.png (PNG copy)>]
+<resources/images//BathTubCurve.png, id=291, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 6.
@@ -1439,7 +1449,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
-[10 <./resources/images//SQLCommands.png (PNG copy)>]
 Package acronym Info: Label `acro:mtbf' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
 
@@ -1462,38 +1471,33 @@ Underfull \hbox (badness 1308) in paragraph at lines 12--18
 \T1/cmr/m/n/12 Da-bei kann die Le-bens-zeit
  []
 
-[11 <./resources/images//BathTubCurve.png>]) (./sections/grundlagen/FuzzyLogic.tex
-<resources/images//FuzzyBoolLogic.png, id=375, 548.0475pt x 344.28625pt>
+[10 <./resources/images//BathTubCurve.png>]) (./sections/grundlagen/FuzzyLogic.tex
+<resources/images//FuzzyBoolLogic.png, id=312, 548.0475pt x 344.28625pt>
 File: resources/images//FuzzyBoolLogic.png Graphic file (type png)
 <use resources/images//FuzzyBoolLogic.png>
 Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 5.
 (pdftex.def)             Requested size: 182.09486pt x 114.3923pt.
- [12 <./resources/images//FuzzyBoolLogic.png>]
-<resources/images//FuzzyLogicArchitektur.png, id=396, 651.43375pt x 334.24875pt>
+ [11 <./resources/images//FuzzyBoolLogic.png>]
+<resources/images//FuzzyLogicArchitektur.png, id=334, 651.43375pt x 334.24875pt>
 File: resources/images//FuzzyLogicArchitektur.png Graphic file (type png)
 <use resources/images//FuzzyLogicArchitektur.png>
 Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 24.
 (pdftex.def)             Requested size: 364.19667pt x 186.872pt.
-) (./sections/grundlagen/Grafana.tex) [13 <./resources/images//FuzzyLogicArchitektur.png>]
-\openout2 = `sections/datenerfassung/Datenerfassung.aux'.
-
- (./sections/datenerfassung/Datenerfassung.tex
-chapter 3.
-[14
 
 
-]
-Overfull \vbox (43.14722pt too high) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [15]
-chapter 4.
-[16
-
-] [17]
-chapter 5.
-) [18
-
-]
+) (./sections/grundlagen/Grafana.tex [12]
+<resources/images//Gitlab_Dashboard.png, id=343, 975.645pt x 472.76625pt>
+File: resources/images//Gitlab_Dashboard.png Graphic file (type png)
+<use resources/images//Gitlab_Dashboard.png>
+Package pdftex.def Info: resources/images//Gitlab_Dashboard.png  used on input line 7.
+(pdftex.def)             Requested size: 364.19667pt x 176.47896pt.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 ...ntbibliography[title=Literaturverzeichnis]
+                                                   [1 <./resources/images//FuzzyLogicArchitektur.png> <./resources/images//Gitlab_Dashboard.png>]
 Overfull \hbox (0.78674pt too wide) in paragraph at lines 82--82
 []\T1/cmr/m/n/12 M. Gü-ter-mann, ^^R  Condition-based Mo-ni-to-ring für in-dus-tri-el-le PC's^^P, Pep-perl + Fuchs
  []
@@ -1511,19 +1515,20 @@ Overfull \hbox (26.97194pt too wide) in paragraph at lines 82--82
 []\T1/cmr/m/n/12 ^^R  SQL ^^U Al-les über die Da-ten-bank-spra-che^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / datascientest .
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.82 ...ntbibliography[title=Literaturverzeichnis]
-                                                   [1
+                                                   [2
 
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.III}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.85 \end{document}
-                    [2] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.aux (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/einleitung/Einleitung.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/datenerfassung/Datenerfassung.aux))
+                    [3] (/Users/vitalimostowoj/Desktop/BA_VM/build-files/template.aux (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/einleitung/Einleitung.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'template.run.xml'.
@@ -1531,18 +1536,18 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38446 strings out of 478994
- 748976 string characters out of 5858184
- 1668641 words of memory out of 5000000
- 55082 multiletter control sequences out of 15000+600000
+ 38377 strings out of 478994
+ 747954 string characters out of 5858184
+ 1667037 words of memory out of 5000000
+ 55057 multiletter control sequences out of 15000+600000
  418630 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  133i,20n,134p,10639b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (30 pages, 1200710 bytes).
+Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (24 pages, 1322617 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 551 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 433 compressed objects within 5 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
