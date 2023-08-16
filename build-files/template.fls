@@ -1659,6 +1659,14 @@ INPUT ./sections/grundlagen/FuzzyLogic.tex
 INPUT sections/grundlagen/FuzzyLogic.tex
 INPUT ./sections/grundlagen/FuzzyLogic.tex
 INPUT sections/grundlagen/FuzzyLogic.tex
+INPUT ./resources/images//FuzzyBoolLogic.png
+INPUT resources/images//FuzzyBoolLogic.png
+INPUT ./resources/images//FuzzyBoolLogic.png
+INPUT ./resources/images//FuzzyBoolLogic.png
+INPUT ./resources/images//FuzzyLogicArchitektur.png
+INPUT resources/images//FuzzyLogicArchitektur.png
+INPUT ./resources/images//FuzzyLogicArchitektur.png
+INPUT ./resources/images//FuzzyLogicArchitektur.png
 INPUT ./sections/datenerfassung/Datenerfassung.tex
 OUTPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/sections/datenerfassung/Datenerfassung.aux
 INPUT ./sections/datenerfassung/Datenerfassung.tex

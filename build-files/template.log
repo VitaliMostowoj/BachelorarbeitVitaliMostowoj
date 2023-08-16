@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  15 AUG 2023 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  16 AUG 2023 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1337,7 +1337,7 @@ Overfull \hbox (11.74713pt too wide) in paragraph at lines 4--31
 chapter 1.
 Package acronym Info: Label `acro:p+f' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<resources/images//P+F_Standorte.png, id=228, 1210.5225pt x 631.35875pt>
+<resources/images//P+F_Standorte.png, id=245, 1210.5225pt x 631.35875pt>
 File: resources/images//P+F_Standorte.png Graphic file (type png)
 <use resources/images//P+F_Standorte.png>
 Package pdftex.def Info: resources/images//P+F_Standorte.png  used on input line 11.
@@ -1377,21 +1377,21 @@ Overfull \hbox (1.32813pt too wide) in paragraph at lines 48--50
 
  (./sections/grundlagen/Vorarbeit.tex
 chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
 [5
 
 
 
 
-]) [6]
+]
+Package acronym Info: Label `acro:api' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+Package acronym Info: Label `acro:sdk' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+) [6]
 \openout2 = `sections/grundlagen/VisuNET.aux'.
 
  (./sections/grundlagen/VisuNET.tex
-<resources/images//VisunetFLX.PNG, id=281, 316.18124pt x 803.0pt>
+<resources/images//VisunetFLX.PNG, id=303, 316.18124pt x 803.0pt>
 File: resources/images//VisunetFLX.PNG Graphic file (type png)
 <use resources/images//VisunetFLX.PNG>
 Package pdftex.def Info: resources/images//VisunetFLX.PNG  used on input line 5.
@@ -1443,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-<resources/images//UMLAdapterPattern.png, id=290, 818.05624pt x 359.3425pt>
+<resources/images//UMLAdapterPattern.png, id=312, 818.05624pt x 359.3425pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 13.
@@ -1460,7 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<resources/images//UMLStrategyPattern.png, id=297, 438.63875pt x 164.615pt>
+<resources/images//UMLStrategyPattern.png, id=320, 438.63875pt x 164.615pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 28.
@@ -1469,12 +1469,12 @@ Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input
 \openout2 = `sections/grundlagen/Datenbanken.aux'.
 
  (./sections/grundlagen/Datenbanken.tex
-<resources/images//DatenvolumenStatistik.png, id=315, 880.28876pt x 590.205pt>
+<resources/images//DatenvolumenStatistik.png, id=337, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 5.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
-<resources/images//SQLCommands.png, id=319, 799.98875pt x 671.50874pt>
+<resources/images//SQLCommands.png, id=341, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 19.
@@ -1491,7 +1491,7 @@ although it is yet undefined on input line 26.
 \openout2 = `sections/grundlagen/MTBFReliability.aux'.
 
  (./sections/grundlagen/MTBFReliability.tex
-<resources/images//BathTubCurve.png, id=344, 687.56876pt x 400.49625pt>
+<resources/images//BathTubCurve.png, id=366, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 6.
@@ -1530,16 +1530,31 @@ Underfull \hbox (badness 1308) in paragraph at lines 12--18
  <./resources/images//BathTubCurve.png>]) [14]
 \openout2 = `sections/grundlagen/FuzzyLogic.aux'.
 
- (./sections/grundlagen/FuzzyLogic.tex) [15
+ (./sections/grundlagen/FuzzyLogic.tex
+<resources/images//FuzzyBoolLogic.png, id=395, 548.0475pt x 344.28625pt>
+File: resources/images//FuzzyBoolLogic.png Graphic file (type png)
+<use resources/images//FuzzyBoolLogic.png>
+Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 5.
+(pdftex.def)             Requested size: 182.09486pt x 114.3923pt.
+<resources/images//FuzzyLogicArchitektur.png, id=402, 651.43375pt x 334.24875pt>
+File: resources/images//FuzzyLogicArchitektur.png Graphic file (type png)
+<use resources/images//FuzzyLogicArchitektur.png>
+Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 20.
+(pdftex.def)             Requested size: 273.14923pt x 140.15399pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [15
 
 
 
-]
+ <./resources/images//FuzzyBoolLogic.png>] [16 <./resources/images//FuzzyLogicArchitektur.png>]
 \openout2 = `sections/datenerfassung/Datenerfassung.aux'.
 
  (./sections/datenerfassung/Datenerfassung.tex
 chapter 3.
-[16
+[17
 
 
 
@@ -1547,17 +1562,21 @@ chapter 3.
 ]
 Overfull \vbox (43.14722pt too high) has occurred while \output is active []
 
- [17]
+ [18]
 chapter 4.
-[18
+[19
 
-] [19]
+] [20]
 chapter 5.
-) [20
+) [21
 
 ]
+Overfull \hbox (0.78674pt too wide) in paragraph at lines 82--82
+[]\T1/cmr/m/n/12 M. Gü-ter-mann, ^^R  Condition-based Mo-ni-to-ring für in-dus-tri-el-le PC's^^P, Pep-perl + Fuchs
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 82.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Overfull \hbox (3.71236pt too wide) in paragraph at lines 82--82
@@ -1577,7 +1596,12 @@ l.82 ...ntbibliography[title=Literaturverzeichnis]
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
+]
+Overfull \hbox (11.1521pt too wide) in paragraph at lines 82--82
+[]\T1/cmr/m/n/12 ^^R  Ja-va T Point - Fuz-zy Lo-gic Tu-to-ri-al^^P. (2021), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / www . javatpoint .
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.85 \end{document}
@@ -1589,18 +1613,18 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38438 strings out of 478994
- 750339 string characters out of 5858184
- 1684182 words of memory out of 5000000
- 55059 multiletter control sequences out of 15000+600000
+ 38489 strings out of 478994
+ 751633 string characters out of 5858184
+ 1683811 words of memory out of 5000000
+ 55098 multiletter control sequences out of 15000+600000
  418630 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  133i,20n,134p,10639b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (32 pages, 1157354 bytes).
+Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (33 pages, 1321538 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 120 named destinations out of 1000 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 701 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 548 words of extra memory for PDF output out of 10000 (max. 10000000)
 

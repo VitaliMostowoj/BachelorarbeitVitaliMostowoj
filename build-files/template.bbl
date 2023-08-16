@@ -21,23 +21,23 @@
   \datalist[entry]{none/global//global/global}
     \entry{PAMathias}{report}{}
       \name{author}{1}{}{%
-        {{hash=ff5b5be30779451eda074a1b535d6a64}{%
-           family={Matthias},
-           familyi={M\bibinitperiod},
-           given={Gütermann},
-           giveni={G\bibinitperiod}}}%
+        {{hash=2cfcebd37be522dc92f0ff385ccea850}{%
+           family={Gütermann},
+           familyi={G\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {Pepperl + Fuchs SE}%
       }
-      \strng{namehash}{ff5b5be30779451eda074a1b535d6a64}
-      \strng{fullhash}{ff5b5be30779451eda074a1b535d6a64}
-      \strng{bibnamehash}{ff5b5be30779451eda074a1b535d6a64}
-      \strng{authorbibnamehash}{ff5b5be30779451eda074a1b535d6a64}
-      \strng{authornamehash}{ff5b5be30779451eda074a1b535d6a64}
-      \strng{authorfullhash}{ff5b5be30779451eda074a1b535d6a64}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{2cfcebd37be522dc92f0ff385ccea850}
+      \strng{fullhash}{2cfcebd37be522dc92f0ff385ccea850}
+      \strng{bibnamehash}{2cfcebd37be522dc92f0ff385ccea850}
+      \strng{authorbibnamehash}{2cfcebd37be522dc92f0ff385ccea850}
+      \strng{authornamehash}{2cfcebd37be522dc92f0ff385ccea850}
+      \strng{authorfullhash}{2cfcebd37be522dc92f0ff385ccea850}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Condition-based Monitoring für industrielle PC's}
@@ -58,16 +58,16 @@
       \strng{authorbibnamehash}{78341207d81d829cfa0b73ae71cba0b3}
       \strng{authornamehash}{78341207d81d829cfa0b73ae71cba0b3}
       \strng{authorfullhash}{78341207d81d829cfa0b73ae71cba0b3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Entwicklung einer Architektur für die Erfassung, Auswertung und Speicherung von Sensordaten zur Umsetzung eines System Health Monitorings}}
       \field{year}{2023}
     \endentry
     \entry{SQLiteHompage}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{{SQLite}}
       \field{urlday}{11}
@@ -80,6 +80,23 @@
       \endverb
       \verb{url}
       \verb %7Bhttps://www.sqlite.org/index.html%7D
+      \endverb
+    \endentry
+    \entry{HWINFO}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{{HWiNFO Diagnostic Software}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.hwinfo.com/}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.hwinfo.com/%7D
       \endverb
     \endentry
     \entry{DesignPatterns}{book}{}
@@ -120,8 +137,8 @@
       \strng{authorbibnamehash}{8dfbadc93506779891bcd87a04937462}
       \strng{authornamehash}{8dfbadc93506779891bcd87a04937462}
       \strng{authorfullhash}{8dfbadc93506779891bcd87a04937462}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{{978-0-5960-0712-6}}
@@ -129,8 +146,8 @@
       \field{year}{2004}
     \endentry
     \entry{Datenmengen}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Volumen der jährlich generierten/replizierten digitalen Datenmenge weltweit von 2010 bis 2022 und Prognose bis 2027}
       \field{urlday}{11}
@@ -259,6 +276,63 @@
       \verb{url}
       \verb %7Bhttps://relyence.com/2020/05/27/understanding-mtbf-reliability/#:~:text=The%20key%20difference%20is%20that,functioning%20at%20a%20certain%20time.&text=In%20this%20equation%3A,that%20you%20are%20interested%20in%7D
       \endverb
+    \endentry
+    \entry{FuzzyLogicTPoint}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{{Java T Point - Fuzzy Logic Tutorial}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.javatpoint.com/fuzzy-logic}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.javatpoint.com/fuzzy-logic%7D
+      \endverb
+    \endentry
+    \entry{FuzzyLogicTechTarget}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{{DEFINITION Fuzzy Logic}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.techtarget.com/searchenterpriseai/definition/fuzzy-logic#:~:text=Fuzzy%20logic%20is%20an%20approach,at%20Berkeley%20in%20the%201960s.}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.techtarget.com/searchenterpriseai/definition/fuzzy-logic#:~:text=Fuzzy%20logic%20is%20an%20approach,at%20Berkeley%20in%20the%201960s.%7D
+      \endverb
+    \endentry
+    \entry{LoftiFuzzyLogic}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7bf6f8fee25c8d181d2c38798f64e0d3}{%
+           family={{Lofti A. Zadeh}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of California, Berkeley}%
+      }
+      \strng{namehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \strng{fullhash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \strng{bibnamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \strng{authorbibnamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \strng{authornamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \strng{authorfullhash}{7bf6f8fee25c8d181d2c38798f64e0d3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Fuzzy logic - he logic underlying approximate, rather than exact, modes of reasoning- is finding applications that range from process control to medical diagnosis.}}
+      \field{type}{mathesis}
+      \field{year}{1988}
     \endentry
   \enddatalist
 \endrefsection
