@@ -23,77 +23,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}HWiNFO}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Produktfamilie VisuNet}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Produktfamilie VisuNet}{6}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}VisuNet FLX \& GXP}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}VisuNet RM Shell \& Control Center}{7}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Software Design Konzepte}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Software Design Konzepte}{7}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Adapter Pattern}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Adapter Pattern}{7}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Strategie Design Pattern}{9}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Strategie Design Pattern}{8}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Datenbanken}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Datenbanken}{9}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}SQL - Structured Query Language}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}SQL - Structured Query Language}{10}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}MTBF und Reliability}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.5}MTBF und Reliability}{11}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}FuzzyLogic}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.6}FuzzyLogic}{12}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Architektur eines Fuzzy Logic Systems}{15}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.1}Architektur eines Fuzzy Logic Systems}{13}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Architektur Konzept}{17}{chapter.3}%
+\contentsline {section}{\numberline {2.7}Grafana}{13}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Datenerfassung}{18}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Architektur Konzept}{14}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{18}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.1}Datenerfassung}{15}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{18}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{15}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Datenverarbeitung}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{15}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{18}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Datenverarbeitung}{15}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Ermittelung des Health Status}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{15}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.2}Ermittelung des Health Status}{15}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{18}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie}{15}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Dashboard}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{15}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Bereitstellung der Daten}{18}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.3}Dashboard}{15}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Konzeptentwurf zur Datenvisualisierung}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.1}Bereitstellung der Daten}{15}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Entwurf eines Task Scheduling Verfahrens}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.2}Konzeptentwurf zur Datenvisualisierung}{15}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Prototypische Implementierung}{19}{chapter.4}%
+\contentsline {section}{\numberline {3.4}Entwurf eines Task Scheduling Verfahrens}{15}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Implementierung des Taskschedulers}{20}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Prototypische Implementierung}{16}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Implementierung einer Plattform unabhängigen Datenerfassung}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Implementierung des Taskschedulers}{17}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Umsetzung der Hardware Services}{20}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Implementierung einer Plattform unabhängigen Datenerfassung}{17}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung der Datenbank Services}{20}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.1}Umsetzung der Hardware Services}{17}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Umsetzung der Strategien zur Datenerfassung}{20}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung der Datenbank Services}{17}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Implementierung der Datenverarbeitung}{20}{section.4.3}%
+\contentsline {subsection}{\numberline {4.2.3}Umsetzung der Strategien zur Datenerfassung}{17}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Implementierung der Algorithmen zur Health Status Erfassung}{20}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.3}Implementierung der Datenverarbeitung}{17}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Implementierung der Datenvisualisierung}{20}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.1}Implementierung der Algorithmen zur Health Status Erfassung}{17}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Implementierung der API}{20}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.4}Implementierung der Datenvisualisierung}{17}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Aufbau eines Dashboards}{20}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.1}Implementierung der API}{17}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Ausblick}{21}{chapter.5}%
+\contentsline {subsection}{\numberline {4.4.2}Aufbau eines Dashboards}{17}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Ausblick}{18}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Literaturverzeichnis}{I}{chapter.5}%
 \defcounter {refsection}{0}\relax 

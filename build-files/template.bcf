@@ -2375,12 +2375,13 @@
     <bcf:citekey order="32">AREPA_LifeExpectancy</bcf:citekey>
     <bcf:citekey order="33">MTBFReliability</bcf:citekey>
     <bcf:citekey order="34">MTBFReliability</bcf:citekey>
-    <bcf:citekey order="35">FuzzyLogicTPoint</bcf:citekey>
-    <bcf:citekey order="36">FuzzyLogicTPoint</bcf:citekey>
+    <bcf:citekey order="35">FuzzyLogicGeeks</bcf:citekey>
+    <bcf:citekey order="36">FuzzyLogicGeeks</bcf:citekey>
     <bcf:citekey order="37">FuzzyLogicTechTarget</bcf:citekey>
     <bcf:citekey order="38">LoftiFuzzyLogic</bcf:citekey>
-    <bcf:citekey order="39">FuzzyLogicTPoint</bcf:citekey>
-    <bcf:citekey order="40">FuzzyLogicTPoint</bcf:citekey>
+    <bcf:citekey order="39">FuzzyLogicGeeks</bcf:citekey>
+    <bcf:citekey order="40">FuzzyLogicGeeks</bcf:citekey>
+    <bcf:citekey order="41">FuzzyLogicGeeks</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
