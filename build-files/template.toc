@@ -3,9 +3,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{III}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{IV}{chapter*.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{V}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{V}{chapter*.6}%
+\contentsline {chapter}{Tabellenverzeichnis}{VI}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -39,8 +39,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Architektur eines Fuzzy Logic Systems}{12}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Grafana}{I}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Grafana}{13}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{I}{figure.caption.24}%
+\contentsline {chapter}{\numberline {3}Architektur Konzept}{I}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Datenerfassung}{I}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{II}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{II}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{II}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
