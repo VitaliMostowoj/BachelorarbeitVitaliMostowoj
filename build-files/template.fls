@@ -1739,6 +1739,7 @@ OUTPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.toc
 INPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof
 INPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof
 INPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 OUTPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lof
 INPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lot
 INPUT /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.lot
@@ -1772,7 +1773,6 @@ INPUT ./resources/images//P+F_Standorte.png
 INPUT resources/images//P+F_Standorte.png
 INPUT ./resources/images//P+F_Standorte.png
 INPUT ./resources/images//P+F_Standorte.png
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT ./sections/grundlagen/Vorarbeit.tex
 INPUT sections/grundlagen/Vorarbeit.tex
 INPUT ./sections/grundlagen/Vorarbeit.tex
@@ -1852,6 +1852,21 @@ INPUT ./resources/images//UMLDatastructureHWI.png
 INPUT resources/images//UMLDatastructureHWI.png
 INPUT ./resources/images//UMLDatastructureHWI.png
 INPUT ./resources/images//UMLDatastructureHWI.png
+INPUT ./resources/images//SensorList.png
+INPUT ./resources/images//SensorList.png
+INPUT resources/images//SensorList.png
+INPUT ./resources/images//SensorList.png
+INPUT ./resources/images//SensorList.png
+INPUT ./resources/images//SensorReadings.png
+INPUT ./resources/images//SensorReadings.png
+INPUT resources/images//SensorReadings.png
+INPUT ./resources/images//SensorReadings.png
+INPUT ./resources/images//SensorReadings.png
+INPUT ./resources/images//DBModell.png
+INPUT ./resources/images//DBModell.png
+INPUT resources/images//DBModell.png
+INPUT ./resources/images//DBModell.png
+INPUT ./resources/images//DBModell.png
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd

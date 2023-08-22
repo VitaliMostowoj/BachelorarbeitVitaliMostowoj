@@ -2,7 +2,7 @@
 Die Herausforderung beim Auslesen der Daten liegt darin, die plattformspezifischen Informationen in einem allgemeinen Datenmodell zu konsolidieren. Hierbei stammen die Daten aus verschiedenen Schnittstellen. Die Architektur muss in der Lage sein, sämtliche verfügbaren Sensordaten plattformunabhängig auszulesen, darunter beispielsweise Temperaturen und CPU-Auslastung. Zusätzlich sollte sie die Integration weiterer plattformspezifischer Hardwarekonfigurationen und Schnittstellen ermöglichen, ohne eine grundlegende Neustrukturierung des bestehenden Codes zu erfordern.\\
 Das Speichern der ausgelesenen Messdaten soll in einem einheitlichen Format erfolgen, das unabhängig von der Hardwarekonfiguration der Zielplatform ist. Zudem ist eine klare und sinnhafte Struktur der Datenbank wichtig, da diese Performant und Skalierbar sein muss.   
 
-\subsection{Entwurf einer Architektur zum Auslesen der Systemhardware}
+\subsection{Entwurf einer Architektur zum Auslesen der Systemhardware}\label{sec:AuslesenHardware}
  
 Die Objekte und Klassen, die für das Auslesen der Systemhardware verwendet werden, sind im Verzeichnis \textit{HM.HWServices} abgelegt. Dieses Verzeichnis enthält alles, was benötigt wird, um die Hardware der Zielplatformen auszulesen.\\
 Das UML Diagramm in Abbildung \ref{fig:HWServicesUML} veranschaulicht den Aufbau von \textit{HM.HWServices}. 
@@ -21,7 +21,7 @@ Durch den \textit{Context} kann die gewünschte Strategie ausgewählt und aufger
 Da sich das Auswerten von VisuNet FLX und GXP voneinander unterscheidet, soll für jede Platform eine eigene Strategieklasse verantwortlich sein. Jede dieser Strategieklasse wird hierbei von dem \textit{IHWStrategy} Interface abgeleitet. Dieses definiert die Struktur der Klassen, sodas die Funktion der ausgewählten Klasse im \textit{Context} ausgeführt werden kann, ohne die spezifische Strategieklasse genau zu kennen. Anschließend kann beim Start des Programms entschieden werden, welche dieser Strategien angewendet werden soll.\\
 Muss das Programm in Zukunft um eine neue Hardwarekonfiguration einer Platform erweitert werden, kann dies über das hinzufügen einer weiteren Strategieklasse realisiert werden.\\
 Zum Auslesen der Sensordaten stehen zunächst zwei Schnittstellen zurverfügung. Zum einen liefert über die in Abschnitt \ref{sec:HWiNFO} beschriebene Shared Memory Funktion der HWiNFO Software Messwerte aller an das Mainboard angeschlossenen Sensoren. Die VisuNet FLX Platform bedarf keiner weiteren Schnittstellen zum lesen von Sensordaten.\\
-Um die Temperatursensoren in DPU (Display Unit) und TCU (Thin Client Unit) der VisuNet GXP Plattform aus zu lesen, wird eine Weitere Bibliothek verwerwendet, welche die Komunikation mit dem in der Platform verbauten Servicecontroller ermöglicht.\\
+Um die Temperatursensoren in \ac{dpu} und \ac{tcu} der VisuNet GXP Plattform aus zu lesen, wird eine Weitere Bibliothek verwerwendet, welche die Komunikation mit dem in der Platform verbauten Servicecontroller ermöglicht.\\
 Für beide Schnittstellen wurde eine Wrapperklasse (Siehe Abschnitt \ref{sec:AdapterPattern}) konzipiert, welche die wesentlichen Funktionen in einer übersichtlichen Klasse bereitstellen und die Datenstruktur der Schnittstelle adaptieren. Die Wrapperklassen werden im Verzeichnis \textit{HM.HWServices.Wrapper} organisiert. Die Wrapperklassen sind in Abbildung \ref{fig:HWServicesUML} zu sehen.
 \subsubsection*{Adaption der Schnittstelle}
 Beim Auslesen der Sensorik über die \textit{HWiNFOWrapper} Klasse, können zwei Listen ausgelesen werden. Zum einen werden alle verfügbaren Sensoren der Platform in einer Liste von \textit{SensorListElement} abgelegt. Zum anderen wird eine Liste des Typen \textit{SensorData} erzeugt. In dieser ist jeder Sensor mit dem aktuellen Messwertwert hinterlegt. Die Datentypen hierzu sind in Abbildung \ref{fig:DatastructuresUML} abgebildet.      
@@ -36,7 +36,38 @@ Beim Auslesen der Sensorik über die \textit{HWiNFOWrapper} Klasse, können zwei
 \vspace{-1.8cm}
 
 \subsubsection*{Strategie Konzept}
-Ziel der Strategieklassen ist wie zuvor bereits erwähnt die Kapselung der Algorithmen zum Auslesen der Zielplatformen. Eine Strategie soll daher folgende daten zurück liefern: Zum einen soll eine Aufzählung aller Sensoren im System erstellt werden, und in einer Liste von \textit{SensorListElement} hinterlegt werden. Zum anderen soll ein aktueller auszug der Sensorwerte erstellt werden können. Hierzu sollen die Werte der einzelnen Sensoren in einer Liste von \textit{SensorData} gespeichert werden.\\
-Da die \textit{HWiNFOWrapper} Schnittstelle alle verfügbraren Sensoren der VisuNet FLX Platform abdekt, ist die Strategie zum Auslesen dieser Platform recht Simpel. Dabei soll über einen Funktionsaufruf  eine Liste mit den Aktuellen messwerten der Sensoren erstellt und zurückgegeben werden. 
+Ziel der Strategieklassen ist wie zuvor bereits erwähnt die Kapselung der Algorithmen zum Auslesen der Zielplatformen. Eine Strategie soll daher folgende daten zurück liefern: Zum einen soll eine Aufzählung aller Sensoren im System erstellt werden, und in einer Liste von \textit{SensorListElement} hinterlegt werden. (Siehe Abbildung \ref{fig:SensorList}) 
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.7\textwidth]{SensorList.png}
+        \caption{Beispiel einer Liste bestehend aus \textit{SensorListElement}}
+        \label{fig:SensorList}
+    \end{figure}
+\end{center}
+\vspace{-1.8cm}
+Zum anderen soll ein aktueller Auszug der Sensorwerte erstellt werden können. Hierzu sollen die Werte der einzelnen Sensoren in einer Liste von \textit{SensorData} gespeichert werden. (Siehe Abbildung \ref{fig:SensorReadings})
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{SensorReadings.png}
+        \caption{Beispiel einer Liste bestehend aus \textit{SensorData}}
+        \label{fig:SensorReadings}
+    \end{figure}
+\end{center}
+\vspace{-1.8cm}
+Da die \textit{HWiNFOWrapper} Schnittstelle alle verfügbraren Sensoren der VisuNet FLX Platform abdekt, ist die Strategie zum Auslesen dieser Platform recht Simpel. Dabei soll über einen Funktionsaufruf eine Liste mit den Aktuellen Messwerten der Sensoren erstellt und zurückgegeben werden.\\
+Der \textit{ServiceControllerWrapper} liefert, neben dem werten des \textit{HWiNFOWrapper}, \ac{dpu} und \ac{tcu} Temperaturen der VisuNet GXP Platform. Die Datensätze der beiden Schnittstellen müssen daher in der \textit{GXPStrategy} kombiniert werden, sodas wie auch bei der \textit{FLXStrategy} jeweils eine Liste der Sensoren und eine Liste mit den Messwerten erstellt wird (Siehe Abb. \ref{fig:SensorList} und \ref{fig:SensorReadings}).\\
+Mithilfe der Strategieklassen kann somit für jegliche Hardwarekonfiguration einer Platform, eine gezielte Strategie erstellt werden, welche lediglich zwei Listen zurückliefert. Dabei ist der Anwendung selbst egal welche und wieviel Schnittstellen verwendet werden.
 
 \subsection{Entwurf eines Datenbankmodells zum Speichern der Messwerte}
+Im vorherigen Abschnitt \ref{sec:AuslesenHardware} wurde eine Architektur zum Auslesen der plattformunabhängigen Sensoren beschrieben. Resultierend daraus steht dem Programm eine Schnittstelle bereit, welche eine Reihe von Messdaten zur verfügung stellt. Ziel des Datenbankmodells ist es die bereitgestellten Messdaten in einem strukturierten und übersichtlichen Format ab zu speichern.\\
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{DBModell.png}
+        \caption{}
+        \label{fig:DBModell}
+    \end{figure}
+\end{center}
+\vspace{-1.8cm}  

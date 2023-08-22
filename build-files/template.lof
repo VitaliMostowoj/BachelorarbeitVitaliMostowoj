@@ -27,6 +27,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architektur der HM.HWServices für das Auslesen der Hardware\relax }}{15}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Beispiel einer Liste bestehend aus \textit {SensorListElement}\relax }}{17}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Beispiel einer Liste bestehend aus \textit {SensorData}\relax }}{17}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{18}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
