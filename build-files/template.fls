@@ -1842,6 +1842,16 @@ INPUT ./sections/datenerfassung/Datenerfassung.tex
 INPUT sections/datenerfassung/Datenerfassung.tex
 INPUT ./sections/datenerfassung/Datenerfassung.tex
 INPUT sections/datenerfassung/Datenerfassung.tex
+INPUT ./resources/images//UMLDatenerfassung.png
+INPUT ./resources/images//UMLDatenerfassung.png
+INPUT resources/images//UMLDatenerfassung.png
+INPUT ./resources/images//UMLDatenerfassung.png
+INPUT ./resources/images//UMLDatenerfassung.png
+INPUT ./resources/images//UMLDatastructureHWI.png
+INPUT ./resources/images//UMLDatastructureHWI.png
+INPUT resources/images//UMLDatastructureHWI.png
+INPUT ./resources/images//UMLDatastructureHWI.png
+INPUT ./resources/images//UMLDatastructureHWI.png
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd

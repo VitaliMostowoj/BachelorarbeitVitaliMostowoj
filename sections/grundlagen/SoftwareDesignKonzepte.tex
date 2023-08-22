@@ -4,7 +4,7 @@ Hierbei bieten sogenannte Design Patterns Abhilfe. \textit{Jedes Muster beschrei
 \textit{Alle gut strukturierten objektorientierten Architekturen basieren auf Mustern} (Grady Booch \cite[S.21]{DesignPatterns}).
 In den folgenden Kapiteln wird genauer auf die in dieser Arbeit verwendeten Design Patterns eingegangen.      
 
-\subsection{Adapter Pattern}
+\subsection{Adapter Pattern}\label{sec:AdapterPattern}
 Zweck des Adapter Patterns ist die Anpassung der Schnittstelle einer Klasse an eine andere von dem Client erwarteten Schnittstelle. Somit ermöglicht das Pattern die Zusammenarbeit von zwei Klassen, welche aufgrund ihrer Schnellen nicht möglich wäre. Das Adapter Patern ist auch unter dem Namen Wrapper bekannt, welcher im folgenden Verlauf der Arbeit verwendet wird.\\
 Das Pattern kommt immer dann zum Einsatz, wenn eine bereits existierende Klasse genutzt werden soll, jedoch die Schnittstelle der Klasse nicht mit den aktuellen Anforderungen des Clients übereinstimmt. Des Weiteren wird das Pattern verwendet, wenn eine wiederverwendbare Klasse erzeugt werden soll, welche mit unabhängigen und nicht vorhersehbaren Klassen interagieren soll.\\      
 \begin{center}
@@ -19,7 +19,7 @@ Das Pattern kommt immer dann zum Einsatz, wenn eine bereits existierende Klasse 
 Das Design Pattern besteht aus einem \textit{Target}, welches die vom Client verwendete Schnittstelle definiert. Zudem kommt der \textit{Client}, welcher mit den Objekten zusammen arbeitet, die der Zielschnittstelle entsprechen. Zuletzt beinhaltet das Adapter Pattern einen \textit{Adaptee} so wie den \textit{Adapter} selbst. Der \textit{Adaptee} definiert eine bestehende Schnittstelle, welche vom \textit{Adapter} adaptiert werden muss.\\ 
 Der \textit{Client} ruft die gewünschte Operation auf einer \textit{Adapter}-Instanz auf, welche anschließend die gewünschten \textit{Adaptee}-Operation ausführt.
 
-\subsection{Strategie Design Pattern}
+\subsection{Strategie Design Pattern}\label{sec:StrategyPattern}
 Zweck des Strategy (Strategie) Patterns ist es, eine Familie von einzelnen gekapselten und austauschbaren Algorithmen zu schaffen. Dieses Patern ermöglicht eine variable und vom Client unabhängige Nutzung des Algorithmus.\\
 Das Pattern kommt zum Einsatz, wenn eine Reihe von zusammenhängenden Klassen sich nur in Ihrem Verhalten unterscheiden, verschiedene Varianten eines Algorithmus erfordert werden, der Client keine Kenntnis von den vom Algorithmus verwendeten Daten haben soll, oder eine Klasse verschiedene Verhaltensweisen aufweist.\\
 \begin{center}
