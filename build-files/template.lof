@@ -3,19 +3,19 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Standorte der Pepperl+Fuchs SE\relax }}{1}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Standorte der Pepperl+Fuchs SE\relax }}{1}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Adapter Pattern Struktur \cite {DesignPatterns}\relax }}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Adapter Pattern Struktur \cite {DesignPatterns}\relax }}{7}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Strategie Pattern Struktur \cite {DesignPatterns}\relax }}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Strategie Pattern Struktur \cite {DesignPatterns}\relax }}{8}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Volumen der weltweit generierten Daten bis 2027 \cite {Datenmengen}\relax }}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Volumen der weltweit generierten Daten bis 2027 \cite {Datenmengen}\relax }}{9}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces SQL Befehls Kategorien \cite {SQLCommands}\relax }}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SQL Befehls Kategorien \cite {SQLCommands}\relax }}{9}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Bathtub Curve \cite {AREPA_LifeExpectancy}\relax }}{10}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Bathtub Curve \cite {AREPA_LifeExpectancy}\relax }}{10}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Vergleich von Fuzzy Logic zu Boolescher Logik \cite {FuzzyLogicGeeks}\relax }}{11}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
@@ -32,5 +32,11 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{19}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{21}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \ac {mtbf} Voirhersage für die VisuNet FLX Platform\relax }}{21}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform\relax }}{22}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
