@@ -29,7 +29,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Strategie Design Pattern}{8}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Datenbanken}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Datenbanken}{9}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}SQL - Structured Query Language}{9}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -49,6 +49,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{18}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{18}{figure.caption.33}%
+\contentsline {chapter}{Literaturverzeichnis}{20}{section*.37}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

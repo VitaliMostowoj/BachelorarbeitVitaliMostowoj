@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  22 AUG 2023 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  23 AUG 2023 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1466,7 +1466,7 @@ Overfull \hbox (11.74713pt too wide) in paragraph at lines 4--31
 chapter 1.
 Package acronym Info: Label `acro:p+f' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<resources/images//P+F_Standorte.png, id=220, 1210.5225pt x 631.35875pt>
+<resources/images//P+F_Standorte.png, id=223, 1210.5225pt x 631.35875pt>
 File: resources/images//P+F_Standorte.png Graphic file (type png)
 <use resources/images//P+F_Standorte.png>
 Package pdftex.def Info: resources/images//P+F_Standorte.png  used on input line 11.
@@ -1522,29 +1522,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-<resources/images//UMLAdapterPattern.png, id=279, 818.05624pt x 359.3425pt>
+<resources/images//UMLAdapterPattern.png, id=282, 321.2pt x 273.02pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 13.
-(pdftex.def)             Requested size: 273.14923pt x 119.98706pt.
+(pdftex.def)             Requested size: 182.09486pt x 154.78566pt.
 [7 <./resources/images//UMLAdapterPattern.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<resources/images//UMLStrategyPattern.png, id=287, 438.63875pt x 164.615pt>
+<resources/images//UMLStrategyPattern.png, id=289, 714.67pt x 327.2225pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 28.
-(pdftex.def)             Requested size: 273.14923pt x 102.50986pt.
+(pdftex.def)             Requested size: 318.66948pt x 145.90564pt.
 ) (./sections/grundlagen/Datenbanken.tex
-<resources/images//DatenvolumenStatistik.png, id=292, 880.28876pt x 590.205pt>
+<resources/images//DatenvolumenStatistik.png, id=294, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 5.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
  [8 <./resources/images//UMLStrategyPattern.png>]
-<resources/images//SQLCommands.png, id=302, 799.98875pt x 671.50874pt>
+<resources/images//SQLCommands.png, id=303, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 19.
@@ -1564,7 +1564,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 26--1
  []
 
 [9 <./resources/images//DatenvolumenStatistik.png> <./resources/images//SQLCommands.png (PNG copy)>]
-<resources/images//BathTubCurve.png, id=323, 687.56876pt x 400.49625pt>
+<resources/images//BathTubCurve.png, id=324, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 6.
@@ -1597,28 +1597,24 @@ Underfull \hbox (badness 1308) in paragraph at lines 12--18
  []
 
 [10 <./resources/images//BathTubCurve.png>]) (./sections/grundlagen/FuzzyLogic.tex
-<resources/images//FuzzyBoolLogic.png, id=342, 548.0475pt x 344.28625pt>
+<resources/images//FuzzyBoolLogic.png, id=343, 548.0475pt x 344.28625pt>
 File: resources/images//FuzzyBoolLogic.png Graphic file (type png)
 <use resources/images//FuzzyBoolLogic.png>
-Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 5.
+Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 6.
 (pdftex.def)             Requested size: 182.09486pt x 114.3923pt.
  [11 <./resources/images//FuzzyBoolLogic.png>]
-<resources/images//FuzzyLogicArchitektur.png, id=364, 651.43375pt x 334.24875pt>
+<resources/images//FuzzyLogicArchitektur.png, id=365, 651.43375pt x 334.24875pt>
 File: resources/images//FuzzyLogicArchitektur.png Graphic file (type png)
 <use resources/images//FuzzyLogicArchitektur.png>
-Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 24.
-(pdftex.def)             Requested size: 364.19667pt x 186.872pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./sections/grundlagen/Grafana.tex [12]
-<resources/images//Gitlab_Dashboard.png, id=373, 975.645pt x 472.76625pt>
+Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 25.
+(pdftex.def)             Requested size: 314.11954pt x 161.1771pt.
+ [12 <./resources/images//FuzzyLogicArchitektur.png>]) (./sections/grundlagen/Grafana.tex
+<resources/images//Gitlab_Dashboard.png, id=375, 975.645pt x 472.76625pt>
 File: resources/images//Gitlab_Dashboard.png Graphic file (type png)
 <use resources/images//Gitlab_Dashboard.png>
 Package pdftex.def Info: resources/images//Gitlab_Dashboard.png  used on input line 7.
 (pdftex.def)             Requested size: 364.19667pt x 176.47896pt.
-) (./sections/datenerfassung/SystemArchitekur.tex [13 <./resources/images//FuzzyLogicArchitektur.png> <./resources/images//Gitlab_Dashboard.png>]
+) (./sections/datenerfassung/SystemArchitekur.tex [13 <./resources/images//Gitlab_Dashboard.png>]
 chapter 3.
 
 LaTeX Warning: Reference `sec:Datenverarbeitung' on page 14 undefined on input line 3.
@@ -1637,7 +1633,7 @@ Overfull \hbox (2.21501pt too wide) in paragraph at lines 7--9
 [14
 
 ]
-<resources/images//UMLDatenerfassung.png, id=388, 1096.095pt x 597.23125pt>
+<resources/images//UMLDatenerfassung.png, id=389, 1096.095pt x 597.23125pt>
 File: resources/images//UMLDatenerfassung.png Graphic file (type png)
 <use resources/images//UMLDatenerfassung.png>
 Package pdftex.def Info: resources/images//UMLDatenerfassung.png  used on input line 12.
@@ -1647,34 +1643,45 @@ although it is yet undefined on input line 24.
 Package acronym Info: Label `acro:tcu' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
  [15 <./resources/images//UMLDatenerfassung.png>]
-<resources/images//UMLDatastructureHWI.png, id=401, 449.68pt x 358.33875pt>
+<resources/images//UMLDatastructureHWI.png, id=402, 449.68pt x 358.33875pt>
 File: resources/images//UMLDatastructureHWI.png Graphic file (type png)
 <use resources/images//UMLDatastructureHWI.png>
 Package pdftex.def Info: resources/images//UMLDatastructureHWI.png  used on input line 31.
 (pdftex.def)             Requested size: 204.85846pt x 163.24669pt.
  [16 <./resources/images//UMLDatastructureHWI.png>]
-<resources/images//SensorList.png, id=408, 737.00343pt x 139.27031pt>
+<resources/images//SensorList.png, id=409, 1046.91125pt x 521.95pt>
 File: resources/images//SensorList.png Graphic file (type png)
 <use resources/images//SensorList.png>
-Package pdftex.def Info: resources/images//SensorList.png  used on input line 43.
-(pdftex.def)             Requested size: 318.66948pt x 60.21657pt.
-<resources/images//SensorReadings.png, id=410, 1373.88281pt x 271.76532pt>
+Package pdftex.def Info: resources/images//SensorList.png  used on input line 44.
+(pdftex.def)             Requested size: 318.66948pt x 158.87195pt.
+<resources/images//SensorReadings.png, id=411, 1109.14375pt x 717.68124pt>
 File: resources/images//SensorReadings.png Graphic file (type png)
 <use resources/images//SensorReadings.png>
-Package pdftex.def Info: resources/images//SensorReadings.png  used on input line 53.
-(pdftex.def)             Requested size: 455.24411pt x 90.04774pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Package pdftex.def Info: resources/images//SensorReadings.png  used on input line 55.
+(pdftex.def)             Requested size: 368.74661pt x 238.59863pt.
+ [17 <./resources/images//SensorList.png> <./resources/images//SensorReadings.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[17 <./resources/images//SensorList.png> <./resources/images//SensorReadings.png>]
-<resources/images//DBModell.png, id=423, 846.16125pt x 346.29375pt>
+[18]
+<resources/images//DBModell.png, id=433, 846.16125pt x 346.29375pt>
 File: resources/images//DBModell.png Graphic file (type png)
 <use resources/images//DBModell.png>
-Package pdftex.def Info: resources/images//DBModell.png  used on input line 68.
+Package pdftex.def Info: resources/images//DBModell.png  used on input line 74.
 (pdftex.def)             Requested size: 455.24411pt x 186.30891pt.
-) [18 <./resources/images//DBModell.png>]
+ [19 <./resources/images//DBModell.png>]
+<resources/images//DBErweitert.png, id=443, 842.14626pt x 150.5625pt>
+File: resources/images//DBErweitert.png Graphic file (type png)
+<use resources/images//DBErweitert.png>
+Package pdftex.def Info: resources/images//DBErweitert.png  used on input line 89.
+(pdftex.def)             Requested size: 455.24411pt x 81.39212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
+
+ []
+
+) [20 <./resources/images//DBErweitert.png>]
 Overfull \hbox (0.78674pt too wide) in paragraph at lines 83--83
 []\T1/cmr/m/n/12 M. Gü-ter-mann, ^^R  Condition-based Mo-ni-to-ring für in-dus-tri-el-le PC's^^P, Pep-perl + Fuchs
  []
@@ -1692,7 +1699,7 @@ Overfull \hbox (26.97194pt too wide) in paragraph at lines 83--83
 []\T1/cmr/m/n/12 ^^R  SQL ^^U Al-les über die Da-ten-bank-spra-che^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / datascientest .
  []
 
-[19
+[21
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
@@ -1712,18 +1719,18 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41218 strings out of 478994
- 807679 string characters out of 5858184
- 1748032 words of memory out of 5000000
- 57789 multiletter control sequences out of 15000+600000
- 418630 words of font info for 60 fonts, out of 8000000 for 9000
+ 41237 strings out of 478994
+ 808072 string characters out of 5858184
+ 1748182 words of memory out of 5000000
+ 57800 multiletter control sequences out of 15000+600000
+ 418967 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  133i,20n,134p,10639b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (30 pages, 1503977 bytes).
+Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (32 pages, 1912563 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 643 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 

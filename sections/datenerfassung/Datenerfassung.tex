@@ -36,38 +36,85 @@ Beim Auslesen der Sensorik über die \textit{HWiNFOWrapper} Klasse, können zwei
 \vspace{-1.8cm}
 
 \subsubsection*{Strategie Konzept}
-Ziel der Strategieklassen ist wie zuvor bereits erwähnt die Kapselung der Algorithmen zum Auslesen der Zielplatformen. Eine Strategie soll daher folgende daten zurück liefern: Zum einen soll eine Aufzählung aller Sensoren im System erstellt werden, und in einer Liste von \textit{SensorListElement} hinterlegt werden. (Siehe Abbildung \ref{fig:SensorList}) 
+Ziel der Strategieklassen ist wie zuvor bereits erwähnt die Kapselung der Algorithmen zum Auslesen der Zielplatformen. Eine Strategie soll daher folgende daten zurück liefern: Zum einen soll eine Aufzählung aller Sensoren im System erstellt werden, und in einer Liste von \textit{SensorListElement} hinterlegt werden. (Siehe Tabelle \ref{fig:SensorList}) 
+\vspace{-0.5cm}
 \begin{center}
-    \begin{figure}[h!]
+    \begin{table}[h!]
         \centering
         \includegraphics[width=0.7\textwidth]{SensorList.png}
         \caption{Beispiel einer Liste bestehend aus \textit{SensorListElement}}
         \label{fig:SensorList}
-    \end{figure}
+    \end{table}
 \end{center}
 \vspace{-1.8cm}
-Zum anderen soll ein aktueller Auszug der Sensorwerte erstellt werden können. Hierzu sollen die Werte der einzelnen Sensoren in einer Liste von \textit{SensorData} gespeichert werden. (Siehe Abbildung \ref{fig:SensorReadings})
+Zum anderen soll ein aktueller Auszug der Sensorwerte erstellt werden können. Hierzu sollen die Werte der einzelnen Sensoren in einer Liste von \textit{SensorData} gespeichert werden. (Siehe Tabelle \ref{fig:SensorReadings})
+\vspace{-0.5cm}
 \begin{center}
-    \begin{figure}[h!]
+    \begin{table}[h!]
         \centering
-        \includegraphics[width=1\textwidth]{SensorReadings.png}
+        \includegraphics[width=0.81\textwidth]{SensorReadings.png}
         \caption{Beispiel einer Liste bestehend aus \textit{SensorData}}
         \label{fig:SensorReadings}
-    \end{figure}
+    \end{table}
 \end{center}
 \vspace{-1.8cm}
 Da die \textit{HWiNFOWrapper} Schnittstelle alle verfügbraren Sensoren der VisuNet FLX Platform abdekt, ist die Strategie zum Auslesen dieser Platform recht Simpel. Dabei soll über einen Funktionsaufruf eine Liste mit den Aktuellen Messwerten der Sensoren erstellt und zurückgegeben werden.\\
-Der \textit{ServiceControllerWrapper} liefert, neben dem werten des \textit{HWiNFOWrapper}, \ac{dpu} und \ac{tcu} Temperaturen der VisuNet GXP Platform. Die Datensätze der beiden Schnittstellen müssen daher in der \textit{GXPStrategy} kombiniert werden, sodas wie auch bei der \textit{FLXStrategy} jeweils eine Liste der Sensoren und eine Liste mit den Messwerten erstellt wird (Siehe Abb. \ref{fig:SensorList} und \ref{fig:SensorReadings}).\\
+Der \textit{ServiceControllerWrapper} liefert, neben dem werten des \textit{HWiNFOWrapper}, \ac{dpu} und \ac{tcu} Temperaturen der VisuNet GXP Platform. Die Datensätze der beiden Schnittstellen müssen daher in der \textit{GXPStrategy} kombiniert werden, sodas wie auch bei der \textit{FLXStrategy} jeweils eine Liste der Sensoren und eine Liste mit den Messwerten erstellt wird (Siehe Tabelle \ref{fig:SensorList} und \ref{fig:SensorReadings}).\\
 Mithilfe der Strategieklassen kann somit für jegliche Hardwarekonfiguration einer Platform, eine gezielte Strategie erstellt werden, welche lediglich zwei Listen zurückliefert. Dabei ist der Anwendung selbst egal welche und wieviel Schnittstellen verwendet werden.
 
 \subsection{Entwurf eines Datenbankmodells zum Speichern der Messwerte}
 Im vorherigen Abschnitt \ref{sec:AuslesenHardware} wurde eine Architektur zum Auslesen der plattformunabhängigen Sensoren beschrieben. Resultierend daraus steht dem Programm eine Schnittstelle bereit, welche eine Reihe von Messdaten zur verfügung stellt. Ziel des Datenbankmodells ist es die bereitgestellten Messdaten in einem strukturierten und übersichtlichen Format ab zu speichern.\\
+
+\subsubsection*{Zuordnung der Datensätze}
+Aus Tabelle \ref{fig:SensorReadings} geht hervor das die Datensätze der SensorData Tabelle grundsätzlich in 3 kattegorien unterteilt werden können. Anhand der Spalte \textit{SzUnit} können die Daten in drei Kattegorien Temperatur (°C), Auslastung (\%) und Events (Yes/No) unterteilt werden. Bei weiterer Betrachtung der Datensätze wird zudem ersichtlich, das die Spalten \textit{TReading}, \textit{DwSensorIndex}, \textit{DwReadingID}, \textit{SzLabelOrig}, \textit{SzLabelUser} und \textit{SzUnit} bei jedem Sensor wiederholen.\\
+Einhergehend aus diesen Beoabahtung wurde die in Abbildung \ref{fig:DBModell} abgebildete Struktur der Datenbank erstellt. 
 \begin{center}
     \begin{figure}[h!]
         \centering
         \includegraphics[width=1\textwidth]{DBModell.png}
-        \caption{}
+        \caption{Datenbankmodell des Hardware-Health-Monitorings}
         \label{fig:DBModell}
     \end{figure}
 \end{center}
-\vspace{-1.8cm}  
+\vspace{-1.8cm}
+Die Datensätze der Tabellen \ref{fig:SensorList} und \ref{fig:SensorReadings} werden in 5 Datenbank Tabellen unterteilt. Dabei werden die Felder \textit{TReading}, \textit{DwSensorIndex}, \textit{DwReadingID}, \textit{SzLabel} und \textit{SzUnit} in die Tabelle \textit{LabelList} ausgelagert. Hinzu kommt das Feld \textit{SensorName}, welches aus Tabelle \ref{fig:SensorList} stammt. Über das Feld \textit{LabelID}, welches als Primär Schlüssel konfiguriert wird. Über diesen Schlüssel können nun die eigentlichen Messwerte, den Sensoren Zugeordnet werden. Die Messwerte werden dabei sortiert nach \textit{SzUnit} in vier Tabellen geschrieben. \textit{TempTabel} für Temperaturen in  °C, \textit{LoadReadings} für Auslastung in \%, \textit{EventTabel} für Events in 1/0 und \textit{OtherReadings} für alle andere Einheiten. Jede der vier Tabellen verfügt über ein Feld \textit{Value}, \textit{TimeStamp} und einer zugehörigen Schlüssel \textit{LabelID}.\\
+Möchte man eine Reihe von messwerten eines Spezifischen Sensors erhalten, muss man zunächst den Primär Schlüssel des Sensors aus der \textit{LabelList} Tabelle ermitteln. Anschließend kann man die werte der entsprechenden Tabelle erhalten.
+
+\subsubsection*{Erweiterung der Datenbank}
+Zusätzlich zu den Ausgelesenen Messwerten, müssen auch die Ergebnisse der System Bewertung in der Datenbank abgelegt werden. 
+Hierzu werden zunächst die Tabelle \textit{SystemStatus} und \textit{SystemMTBF} erstellt. Diese sind Identisch und unterscheiden sich lediglich in der Bedeutnug ihrer Werte. Der ermittelte Systemzustand wird in die Feldern \textit{Status}, \textit{Score} und \textit{Value} geschrieben. Die Felder \textit{TimeStampStart} und \textit{TimeStampEnd} grenzen das Interval, in welchem der Systemzustand ermittelt wurde ein. Des weiteren werden die Tabellen \textit{HistorySystemStatus} und \textit{SystemReliability} erzeugt. Diese Speichern die Historischen Werte des Systems, so wie dessen Verlässlichkeit ab. (Siehe Abbildung \ref{fig:DBModellErweitert})   
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{DBErweitert.png}
+        \caption{Datenbankmodellerweiterung des Hardware-Health-Monitorings}
+        \label{fig:DBModellErweitert}
+    \end{figure}
+\end{center}
+\vspace{-1.8cm}
+
+\subsubsection*{Aufbau der Schnittstelle}
+- komplizierte Syntax -> bedarf einer Abstraktion\\
+- Datenbank wird über seperate Wrapperklasse ausgelesen und beschrieben. Hierzu Funktionen welche die datenbank beschreiben und auch wieder auslesen können. \\
+- einführung der \textit{ValueReading}. Wird verwendet um eine Reihe von sensordaten abzu speichern. \\
+- Funktionen zum auslesen bestimmter sensordaten, bezogen auf einen bestimmts intervall\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

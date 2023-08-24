@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Vergleich von Fuzzy Logic zu Boolescher Logik \cite {FuzzyLogicGeeks}\relax }}{11}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Architektur eines Fuzzy Logic Systems \cite {FuzzyLogicGeeks}\relax }}{13}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Architektur eines Fuzzy Logic Systems \cite {FuzzyLogicGeeks}\relax }}{12}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Grafana Dashboard Beispiel \cite {GrafanaWebsite}\relax }}{13}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
@@ -29,10 +29,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Beispiel einer Liste bestehend aus \textit {SensorListElement}\relax }}{17}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{19}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Beispiel einer Liste bestehend aus \textit {SensorData}\relax }}{17}{figure.caption.32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{18}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
