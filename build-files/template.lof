@@ -27,16 +27,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architektur der HM.HWServices für das Auslesen der Hardware\relax }}{15}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{19}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{19}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{21}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{21}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \ac {mtbf} Voirhersage für die VisuNet FLX Platform\relax }}{21}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \ac {mtbf} Voirhersage für die VisuNet FLX Platform\relax }}{21}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform\relax }}{22}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform\relax }}{22}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Zugehörigkeitsfunktionen der Temperature Variable\relax }}{23}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Zugehörigkeitsfunktionen der CPULast Variable\relax }}{24}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Zugehörigkeitsfunktionen der SystemStatus Variable\relax }}{24}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Regelwerk Systemstauts\relax }}{25}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \relax }}{26}{figure.caption.52}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

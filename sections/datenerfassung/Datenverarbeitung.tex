@@ -17,7 +17,7 @@ Der Betrieb der Zielplatform wird zunächst in drei Zustände unterteilt. Sind a
 Der \textit{Systemstatus} wird daher in die drei Zustände \textit{Optimal}, \textit{Elevated} und \textit{Critical} unterteilt. Der SystemStatus kann, wie in  Abbildung \ref{fig:Systemstatus}, nach dem Ampel Prinzip visualisiert.\\
 Die Algorithmen zur ermitteung dieser Werte sind unabhängig von der Hardwarekonfiguration der verschiedenen Zielplatformen. Lediglich die verwendeten Daten die den Algorithmen zur verfügung gestellt werden unterscheiden sich für jede Platform. In den folgenden Abschnitten werden die Algorithmen auf die VisuNet FLX Platform ausgelegt. Dabei wird die Architektur so ausgelegt, das sie für alle anderen Platformen verwendbar ist.
   
-\subsubsection*{Hardwarekonfiguration der VisuNet FLX Platform}
+\subsubsection*{Hardwarekonfiguration der VisuNet FLX Platform}\label{sec:FLXHardwarekonfiguration}
 Damit die Ergebnisse der Bewertungsalgorithmen möglichst genau sind, ist es wichtig mit den Richigen Werten zu rechnen. Zum einen müssen die richigen Temperaturgrenzen für das System festgelegt werden. 
 \begin{center}
     \begin{figure}[h!]
@@ -32,20 +32,85 @@ Die aus Anhang \ref{app:mtbfprediction} entnommene Abbildung \ref{fig:FLXMTBF} s
 Gerätes festgelegt. Von 0°C bis 45°C läuft das Gerät im \textit{Optimal} Betrieb. Dabei wird für dieses Interval eine \ac{mtbf} von 60000h angenommen. Im zweiten Intervall von 45°C bis 63°C läuft das Geräte im \textit{Elevated} betrieb. Der angenommene \ac{mtbf} für dieses Intervall ist 40000h. Bei allem über 63°C läuft das Gerät im \textit{Critical} betrieb, mit einem \ac{mtbf} 30000h.\\
 \\
 Um die \ac{mtbf} Vorhersage aus Abbildung \ref{fig:FLXMTBF} mit den Temperaturen der Hardware verwenden zu können, müssen hierfür die richtigen Sensoren verwendet werden. Abbuldung \ref{fig:FLXSensoren} Zeigt die Sensorverteilung auf der VisuNet FLX Platform. Da CPU und Spannungsregulator (Siehe Abb. \ref{fig:FLXSensoren} \textit{VR VCC Temperature} und \textit{CPU Temperature}) zwei Signifikante Hitzequellen sind, wird der Sensor \textit{Temperatur 1} zur bestimmung der Betriebstemperatur gewählt. 
+\todo{Temperatur 1 typo korregieren}
 \begin{center}
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.7\textwidth]{FLXSensorPlatzierung}
+        \includegraphics[width=0.8\textwidth]{FLXSensorPlatzierung}
         \caption{Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform}
         \label{fig:FLXSensoren}
     \end{figure}
 \end{center}
 \vspace{-1.8cm}  
-\todo{Temperatur 1 typo korregieren}
 
-\subsection{Ermittelung des SystemStatus}
-Der \textit{SystemStatus} wird mithilfe des, in Abschnit \ref{sec:FuzzyLogic} beschriebenen, FuzzyLogic Verfahren ermittelt. Hierfür müssen zunächst die Linguistische Variablen festgelegt werden. Hierzu wird für jeden Eingang des Systems eine linguistische Variable und die dazugehörigen \textit{Membershipfunktion} festgelegt.  
+\subsection{Aulegung einr FuzzyLogic zur Ermittelung des SystemStatus}
+Der \textit{SystemStatus} wird mithilfe des, in Abschnit \ref{sec:FuzzyLogic} beschriebenen, FuzzyLogic Verfahren ermittelt. Das System soll dabei so ausgelegt werden, das der \textit{SystemStatus} von Temperatur und CPU Last abhängt.\\
+Im ersten Schritt müssen daher zunächst die Linguistischen Variablen, welche die Ein- und Ausgänge der FuzzyEngine representieren, definiert werden. Zu dem müssen auch die passenden Zugehörigkeitsfunktionen definiert werden. Diese sind mathematische Funktionen, welche angeben, wie stark ein Wert zu einem bestimmten Linguistischen Begriff gehört. \cite{FuzzyLogicGeeks}\\ 
 
+\subsubsection*{Definition der linguistische Variablen und der Zugehörigkeitsfunktionen}
+Die Temperaturen werden der linguistischen Variable \textit{Temperature} zugeordnet. Zudem werden drei Zugehörigkeitsfunktionen definiert. Diese sind in Abbildung \ref{fig:MSFTemp} abfebildet. Dabei werden die grenzen der Funktionen an die in Abschnitt \ref{sec:FLXHardwarekonfiguration} aufgestellten Temperaturintervalle angepasst. Es werden insgesammt drei Trapezförmige Funktionen erstellt. Die Funktionen werden mit den Begriffen \textit{Low}, \textit{Medium} und \textit{High} Bezeichnet.
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{MSFTemp.png}
+        \caption{Zugehörigkeitsfunktionen der Temperature Variable}
+        \label{fig:MSFTemp}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}
+Die Auslastung der CPU wird der linguistischen Variable \textit{CPULoad} zugeordnet. Wie auch bei den Zugehörigkeitsfunktionen der Temperatur, werden hierfür ebenfalls drei Trapezförmige Funktionen aufgestellt. Diese werden ebenfalls mit den Begriffen \textit{Low}, \textit{Medium} und \textit{High} Bezeichnet. Die Zugehörigkeitsfunktionen Funktionen der Variable \textit{CPULoad} werden in Abbildung \ref{fig:MSFCPULoad} dargestellt.
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{MSFCPULoad.png}
+        \caption{Zugehörigkeitsfunktionen der CPULast Variable}
+        \label{fig:MSFCPULoad}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}
+Der Ausgang der Engine wird als die linguistische Variable \textit{SystemStatus} deklariert. Hierzu werden drei Rechteck Funktionen \textit{Optimal}, \textit{Elevated} und \textit{Critial} erzeugt. Das Ergebniss wird in \% angegeben, wobei jede Funktion genau ein Drittel darstellt. Die Funktionen der \textit{SystemStaus} Variable sind in Abbildung \ref{fig:MSFSystemStaus} dargestellt.
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{MSFSystemStaus.png}
+        \caption{Zugehörigkeitsfunktionen der SystemStatus Variable}
+        \label{fig:MSFSystemStaus}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}  
 
+\subsubsection*{Definition der Regeln}
+Im zweiten Schritt beim auslegen eines FuzzyLogic Systems muss das Regelwerk festgelegt werden. Die Regeln eines Solchen Systems sind dabei verbal gefasst und drücken die Beziehung zwischen den linguistischen Varbiablen der Ein- und Ausgänge aus.\cite{FLRegelwerk} \\
+Die Ausgangsvariable \textit{SystemStatus} wird in abhängigkeit von den Eingangsvariablen \textit{Temperature} und \textit{CPLoad} gesetzt. Dabei werden die möglichen Zustände der Variable, die in Abbildung \ref{fig:MSFSystemStaus} gezeigt werden, wie folgt definiert. 
+\begin{enumerate}
+    \item \textit{SystemStatus: Optimal}\\
+    Das System operiert im \textit{Optimal} bereich, solange die Temperatur des Systems in die wertebereich der Zugehörigkeitsfunktion \textit{Low} fällt. Zudem muss die Auslastung der CPU in im wertebeirechder Zugehörigkeitsfunktion \textit{Low} oder \textit{Medium} liefen.  
+    \item \textit{SystemStatus: Elevated}\\
+    Das System operiert im \textit{Elevated} bereich, sobald die Temperatur des Systems in den wertebereiche der Zugehörigkeitsfunktion \textit{Medium} oder die Auslastung der CPU in den wertebereich der Zugehörigkeitsfunktion \textit{High} fällt.
+    \item \textit{SystemStatus: Critical}\\
+    Das System operiert im \textit{Critical} bereich, wenn die Temperatur des Systems in den Werteberiech der Zugehörigkeitsfunktion \textit{High} fällt. Dies bleibt unabhängig von der CPU Auslastung des Systems. 
+\end{enumerate}
+Aus dieser Zustandsdefinition kann somit das, in Abschnitt \ref{fig:FuzzyLogicRuleBase} gezeigte, Regelwerk zur Ermittelung des Systemzustands abgeleitet werden .  
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{RegelWerk.png}
+        \caption{Regelwerk Systemstauts}
+        \label{fig:FuzzyLogicRuleBase}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}  
+
+\subsubsection*{Architektur}
+Da die Basis der FuzzyLogic für jede Zielplatform die selbe ist, wird zunächst über das \textit{IFuzzyLogic} Interface, die Schnittstelle zur FuzzyEngin definiert. Hierraus wird anschließend die Basisklasse \textit{FuzzyLogic} abgeleitet werden. Diese beinhaltet die verwendeten Linguistischen Variablen, die jeweiligen Zugehörigkeitsfunktionen, so wie die Methoden zum berechnung der Ergebnisse. 
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{ScoringModel.png}
+        \caption{}
+        \label{fig:ScoringModel}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}  
 \subsection{Ermittelung der Systemstatus Historie}
 \subsection{Ermittelung der Systemzuverlässigkeit}

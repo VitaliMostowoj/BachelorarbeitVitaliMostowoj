@@ -351,6 +351,23 @@
       \verb %7Bhttps://grafana.com/%7D
       \endverb
     \endentry
+    \entry{FLRegelwerk}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{{LabVIEW PID and Fuzzy Logic Toolkit API Reference}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.ni.com/docs/de-DE/bundle/labview-pid-and-fuzzy-logic-toolkit-api-ref/page/lvpidmain/creating_rulebase.html}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.ni.com/docs/de-DE/bundle/labview-pid-and-fuzzy-logic-toolkit-api-ref/page/lvpidmain/creating_rulebase.html%7D
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
