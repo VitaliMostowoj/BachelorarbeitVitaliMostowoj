@@ -102,15 +102,44 @@ Aus dieser Zustandsdefinition kann somit das, in Abschnitt \ref{fig:FuzzyLogicRu
 \vspace{-0.5cm}  
 
 \subsubsection*{Architektur}
-Da die Basis der FuzzyLogic für jede Zielplatform die selbe ist, wird zunächst über das \textit{IFuzzyLogic} Interface, die Schnittstelle zur FuzzyEngin definiert. Hierraus wird anschließend die Basisklasse \textit{FuzzyLogic} abgeleitet werden. Diese beinhaltet die verwendeten Linguistischen Variablen, die jeweiligen Zugehörigkeitsfunktionen, so wie die Methoden zum berechnung der Ergebnisse. 
+Da die Basis der FuzzyLogic für jede Zielplatform die selbe ist, wird zunächst über das \textit{IFuzzyLogic} Interface, die Schnittstelle zur FuzzyEngin definiert. Hierraus wird anschließend die Abstrakte Basisklasse \textit{FuzzyLogic} abgeleitet werden. Diese beinhaltet die verwendeten Linguistischen Variablen, die jeweiligen Zugehörigkeitsfunktionen, so wie die Methoden zum berechnung der Ergebnisse.\\
+Aus der \textit{FuzzyLogic} Klasse können Anschließend weitere Klassen abgeleitet werden,in denen die gewünschten Zugehörigkeitsfunktionen für die jeweiligen Zielplatform angelegt werden können. Das in der Basisklasse definierte Regelwerk kann bei bedarf in der Abgeleiteten klasse überschrieben werden. Die Struktur des \textit{HM.ScoringModel} Verzeichnises wird in Abbildung \ref{fig:ScoringModel} visualisiert.  
 \begin{center}
     \begin{figure}[h!]
         \centering
         \includegraphics[width=1\textwidth]{ScoringModel.png}
-        \caption{}
+        \caption{Architektur des HM.ScoringModel für die Ermittelung des SystemStatus}
         \label{fig:ScoringModel}
     \end{figure}
 \end{center}
-\vspace{-0.5cm}  
-\subsection{Ermittelung der Systemstatus Historie}
+\vspace{-0.5cm}
+
+\subsection{Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}
+Um die Systemstatus Historie des System zu berechnen, werden die aufzeichnungen des Systemstatus benötigt. Diese müssen im gewünschten Intervall gegeben sein.\\
+Die Idee besteht im wesentlichen daraus, die einzelnen Systemzustände \textit{Optimal}, \textit{Elevated} und \textit{Critacal} in drei variablen zu adieren. Somit kommt man auf die Zeiten, ub denen das System im jeweiligen Zustand verbracht hat. Anschließend können die einzelnen zeiten duch die gesammte Zeit des Intervals geteilt werden, um auf die prozentualen anteile der jeweiligen Zustände zu kommen.\\
+Hierzu visualisiert das in Abbildung \ref{fig:SystemStatusHistoryAlgorythmus} visualisierte ablaufdiagremm, die ermittlung der Systemzusands Historie.
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.94\textwidth]{SystemStatusHistory.png}
+        \caption{Algorithmus zur berechnung der Systemstatus Historie}
+        \label{fig:SystemStatusHistoryAlgorythmus}
+    \end{figure}
+\end{center}
+
+
+
+\subsubsection*{Architektur}
+Zur ermittlung der Reliability so wie der Systemstatus Historie steht dem Verzeichnis \textit{HM.ScoringModel} eine weitere Klasse zurverfügung. Die 
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{StatusHistory.png}
+        \caption{Wrapperklasse zur berechnung von Reliability und der Systemstatus Historie}
+        \label{fig:SystemHistory}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}
+
+
 \subsection{Ermittelung der Systemzuverlässigkeit}

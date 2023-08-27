@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  27 AUG 2023 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  27 AUG 2023 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1469,7 +1469,7 @@ although it is yet undefined on input line 38.
 chapter 1.
 Package acronym Info: Label `acro:p+f' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<resources/images//P+F_Standorte.png, id=260, 1210.5225pt x 631.35875pt>
+<resources/images//P+F_Standorte.png, id=264, 1210.5225pt x 631.35875pt>
 File: resources/images//P+F_Standorte.png Graphic file (type png)
 <use resources/images//P+F_Standorte.png>
 Package pdftex.def Info: resources/images//P+F_Standorte.png  used on input line 11.
@@ -1525,7 +1525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-<resources/images//UMLAdapterPattern.png, id=320, 321.2pt x 273.02pt>
+<resources/images//UMLAdapterPattern.png, id=324, 321.2pt x 273.02pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 13.
@@ -1535,19 +1535,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<resources/images//UMLStrategyPattern.png, id=327, 714.67pt x 327.2225pt>
+<resources/images//UMLStrategyPattern.png, id=331, 714.67pt x 327.2225pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 28.
 (pdftex.def)             Requested size: 318.66948pt x 145.90564pt.
 ) (./sections/grundlagen/Datenbanken.tex
-<resources/images//DatenvolumenStatistik.png, id=332, 880.28876pt x 590.205pt>
+<resources/images//DatenvolumenStatistik.png, id=336, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 5.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
  [8 <./resources/images//UMLStrategyPattern.png>]
-<resources/images//SQLCommands.png, id=341, 799.98875pt x 671.50874pt>
+<resources/images//SQLCommands.png, id=345, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 19.
@@ -1567,7 +1567,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 26--1
  []
 
 [9 <./resources/images//DatenvolumenStatistik.png> <./resources/images//SQLCommands.png (PNG copy)>]
-<resources/images//BathTubCurve.png, id=361, 687.56876pt x 400.49625pt>
+<resources/images//BathTubCurve.png, id=365, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 6.
@@ -1598,19 +1598,19 @@ Underfull \hbox (badness 1308) in paragraph at lines 12--18
  []
 
 [10 <./resources/images//BathTubCurve.png>]) (./sections/grundlagen/FuzzyLogic.tex
-<resources/images//FuzzyBoolLogic.png, id=380, 548.0475pt x 344.28625pt>
+<resources/images//FuzzyBoolLogic.png, id=384, 548.0475pt x 344.28625pt>
 File: resources/images//FuzzyBoolLogic.png Graphic file (type png)
 <use resources/images//FuzzyBoolLogic.png>
 Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 6.
 (pdftex.def)             Requested size: 182.09486pt x 114.3923pt.
  [11 <./resources/images//FuzzyBoolLogic.png>]
-<resources/images//FuzzyLogicArchitektur.png, id=402, 651.43375pt x 334.24875pt>
+<resources/images//FuzzyLogicArchitektur.png, id=406, 651.43375pt x 334.24875pt>
 File: resources/images//FuzzyLogicArchitektur.png Graphic file (type png)
 <use resources/images//FuzzyLogicArchitektur.png>
 Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 25.
 (pdftex.def)             Requested size: 314.11954pt x 161.1771pt.
  [12 <./resources/images//FuzzyLogicArchitektur.png>]) (./sections/grundlagen/Grafana.tex
-<resources/images//Gitlab_Dashboard.png, id=412, 975.645pt x 472.76625pt>
+<resources/images//Gitlab_Dashboard.png, id=416, 975.645pt x 472.76625pt>
 File: resources/images//Gitlab_Dashboard.png Graphic file (type png)
 <use resources/images//Gitlab_Dashboard.png>
 Package pdftex.def Info: resources/images//Gitlab_Dashboard.png  used on input line 7.
@@ -1631,7 +1631,7 @@ Overfull \hbox (2.21501pt too wide) in paragraph at lines 7--9
 [14
 
 ]
-<resources/images//UMLDatenerfassung.png, id=427, 1096.095pt x 597.23125pt>
+<resources/images//UMLDatenerfassung.png, id=431, 1096.095pt x 597.23125pt>
 File: resources/images//UMLDatenerfassung.png Graphic file (type png)
 <use resources/images//UMLDatenerfassung.png>
 Package pdftex.def Info: resources/images//UMLDatenerfassung.png  used on input line 12.
@@ -1642,18 +1642,18 @@ Package acronym Info: Label `acro:tcu' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
  [15 <./resources/images//UMLDatenerfassung.png>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 27.
-<resources/images//UMLDatastructureHWI.png, id=440, 449.68pt x 358.33875pt>
+<resources/images//UMLDatastructureHWI.png, id=444, 449.68pt x 358.33875pt>
 File: resources/images//UMLDatastructureHWI.png Graphic file (type png)
 <use resources/images//UMLDatastructureHWI.png>
 Package pdftex.def Info: resources/images//UMLDatastructureHWI.png  used on input line 31.
 (pdftex.def)             Requested size: 204.85846pt x 163.24669pt.
  [16 <./resources/images//UMLDatastructureHWI.png>]
-<resources/images//SensorList.png, id=448, 1046.91125pt x 521.95pt>
+<resources/images//SensorList.png, id=452, 1046.91125pt x 521.95pt>
 File: resources/images//SensorList.png Graphic file (type png)
 <use resources/images//SensorList.png>
 Package pdftex.def Info: resources/images//SensorList.png  used on input line 44.
 (pdftex.def)             Requested size: 318.66948pt x 158.87195pt.
-<resources/images//SensorReadings.png, id=450, 1109.14375pt x 717.68124pt>
+<resources/images//SensorReadings.png, id=454, 1109.14375pt x 717.68124pt>
 File: resources/images//SensorReadings.png Graphic file (type png)
 <use resources/images//SensorReadings.png>
 Package pdftex.def Info: resources/images//SensorReadings.png  used on input line 55.
@@ -1664,13 +1664,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [18]
-<resources/images//DBModell.png, id=471, 846.16125pt x 346.29375pt>
+<resources/images//DBModell.png, id=475, 846.16125pt x 346.29375pt>
 File: resources/images//DBModell.png Graphic file (type png)
 <use resources/images//DBModell.png>
 Package pdftex.def Info: resources/images//DBModell.png  used on input line 73.
 (pdftex.def)             Requested size: 455.24411pt x 186.30891pt.
  [19 <./resources/images//DBModell.png>]
-<resources/images//DBErweitert.png, id=481, 842.14626pt x 150.5625pt>
+<resources/images//DBErweitert.png, id=485, 842.14626pt x 150.5625pt>
 File: resources/images//DBErweitert.png Graphic file (type png)
 <use resources/images//DBErweitert.png>
 Package pdftex.def Info: resources/images//DBErweitert.png  used on input line 87.
@@ -1681,12 +1681,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--99
  []
 
 ) (./sections/datenerfassung/Datenverarbeitung.tex [20 <./resources/images//DBErweitert.png>]
-<resources/images//HealthStatus.png, id=488, 146.5475pt x 201.75375pt>
+<resources/images//HealthStatus.png, id=492, 146.5475pt x 201.75375pt>
 File: resources/images//HealthStatus.png Graphic file (type png)
 <use resources/images//HealthStatus.png>
 Package pdftex.def Info: resources/images//HealthStatus.png  used on input line 9.
 (pdftex.def)             Requested size: 91.04742pt x 125.34462pt.
-<resources/images//FLXMTBFPrediction.png, id=490, 691.58376pt x 713.66624pt>
+<resources/images//FLXMTBFPrediction.png, id=494, 691.58376pt x 713.66624pt>
 File: resources/images//FLXMTBFPrediction.png Graphic file (type png)
 <use resources/images//FLXMTBFPrediction.png>
 Package pdftex.def Info: resources/images//FLXMTBFPrediction.png  used on input line 25.
@@ -1707,7 +1707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
  []
 
 [21 <./resources/images//HealthStatus.png> <./resources/images//FLXMTBFPrediction.png>]
-<resources/images//FLXSensorPlatzierung.png, id=511, 1351.0475pt x 1171.37625pt>
+<resources/images//FLXSensorPlatzierung.png, id=515, 1351.0475pt x 1171.37625pt>
 File: resources/images//FLXSensorPlatzierung.png Graphic file (type png)
 <use resources/images//FLXSensorPlatzierung.png>
 Package pdftex.def Info: resources/images//FLXSensorPlatzierung.png  used on input line 39.
@@ -1718,35 +1718,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
  []
 
 [22 <./resources/images//FLXSensorPlatzierung.png>]
-<resources/images//MSFTemp.png, id=521, 1184.92688pt x 438.8897pt>
+<resources/images//MSFTemp.png, id=525, 1184.92688pt x 438.8897pt>
 File: resources/images//MSFTemp.png Graphic file (type png)
 <use resources/images//MSFTemp.png>
 Package pdftex.def Info: resources/images//MSFTemp.png  used on input line 55.
 (pdftex.def)             Requested size: 455.24411pt x 168.62146pt.
  [23 <./resources/images//MSFTemp.png>]
-<resources/images//MSFCPULoad.png, id=529, 1184.92688pt x 452.4403pt>
+<resources/images//MSFCPULoad.png, id=533, 1184.92688pt x 452.4403pt>
 File: resources/images//MSFCPULoad.png Graphic file (type png)
 <use resources/images//MSFCPULoad.png>
 Package pdftex.def Info: resources/images//MSFCPULoad.png  used on input line 65.
 (pdftex.def)             Requested size: 455.24411pt x 173.8276pt.
-<resources/images//MSFSystemStaus.png, id=531, 1188.69093pt x 435.87843pt>
+<resources/images//MSFSystemStaus.png, id=535, 1188.69093pt x 435.87843pt>
 File: resources/images//MSFSystemStaus.png Graphic file (type png)
 <use resources/images//MSFSystemStaus.png>
 Package pdftex.def Info: resources/images//MSFSystemStaus.png  used on input line 75.
 (pdftex.def)             Requested size: 455.24411pt x 166.93245pt.
  [24 <./resources/images//MSFCPULoad.png> <./resources/images//MSFSystemStaus.png>]
-<resources/images//RegelWerk.png, id=541, 1055.44313pt x 278.54062pt>
+<resources/images//RegelWerk.png, id=545, 1055.44313pt x 278.54062pt>
 File: resources/images//RegelWerk.png Graphic file (type png)
 <use resources/images//RegelWerk.png>
 Package pdftex.def Info: resources/images//RegelWerk.png  used on input line 97.
 (pdftex.def)             Requested size: 455.24411pt x 120.1399pt.
  [25 <./resources/images//RegelWerk.png>]
-<resources/images//ScoringModel.png, id=552, 1032.85875pt x 874.26625pt>
+<resources/images//ScoringModel.png, id=557, 1032.85875pt x 874.26625pt>
 File: resources/images//ScoringModel.png Graphic file (type png)
 <use resources/images//ScoringModel.png>
-Package pdftex.def Info: resources/images//ScoringModel.png  used on input line 109.
+Package pdftex.def Info: resources/images//ScoringModel.png  used on input line 110.
 (pdftex.def)             Requested size: 455.24411pt x 385.34535pt.
-) [26 <./resources/images//ScoringModel.png>] [27]
+ [26 <./resources/images//ScoringModel.png>]
+<resources/images//SystemStatusHistory.png, id=566, 801.99625pt x 626.34pt>
+File: resources/images//SystemStatusHistory.png Graphic file (type png)
+<use resources/images//SystemStatusHistory.png>
+Package pdftex.def Info: resources/images//SystemStatusHistory.png  used on input line 124.
+(pdftex.def)             Requested size: 427.93057pt x 334.2141pt.
+ [27 <./resources/images//SystemStatusHistory.png (PNG copy)>]
+<resources/images//StatusHistory.png, id=572, 974.64125pt x 214.8025pt>
+File: resources/images//StatusHistory.png Graphic file (type png)
+<use resources/images//StatusHistory.png>
+Package pdftex.def Info: resources/images//StatusHistory.png  used on input line 137.
+(pdftex.def)             Requested size: 455.24411pt x 100.33116pt.
+) [28 <./resources/images//StatusHistory.png>]
 Overfull \hbox (0.78674pt too wide) in paragraph at lines 84--84
 []\T1/cmr/m/n/12 M. Gü-ter-mann, ^^R  Condition-based Mo-ni-to-ring für in-dus-tri-el-le PC's^^P, Pep-perl + Fuchs
  []
@@ -1764,7 +1776,7 @@ Overfull \hbox (26.97194pt too wide) in paragraph at lines 84--84
 []\T1/cmr/m/n/12 ^^R  SQL ^^U Al-les über die Da-ten-bank-spra-che^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / datascientest .
  []
 
-[28
+[29
 
 ]
 Overfull \hbox (4.71478pt too wide) in paragraph at lines 84--84
@@ -1779,7 +1791,7 @@ l.88 \include{sections/appendix/appendix.tex}
 \openout2 = `sections/appendix/appendix.aux'.
 
  (./sections/appendix/appendix.tex
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=601, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=615, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
@@ -1788,7 +1800,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=604, page=1, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=618, page=1, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
@@ -1817,7 +1829,7 @@ Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used
  [2
 
  <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=649, page=2, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=664, page=2, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
@@ -1836,7 +1848,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [3 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=659, page=3, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=674, page=3, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
@@ -1855,7 +1867,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [4 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=663, page=4, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=679, page=4, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
@@ -1874,7 +1886,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [5 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=669, page=5, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=683, page=5, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
@@ -1893,7 +1905,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [6 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=673, page=6, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=687, page=6, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
@@ -1912,7 +1924,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [7 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=677, page=7, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=691, page=7, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
@@ -1926,7 +1938,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [8 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=682, page=8, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=696, page=8, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
@@ -1940,7 +1952,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [9 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=687, page=9, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=701, page=9, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
@@ -1954,7 +1966,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [10 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=692, page=10, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=707, page=10, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
@@ -1968,7 +1980,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [11 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=698, page=11, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=712, page=11, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
@@ -1982,7 +1994,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [12 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=703, page=12, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=717, page=12, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
@@ -1996,7 +2008,7 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [13 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=708, page=13, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=722, page=13, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 13>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page13 used on input line 11.
@@ -2023,18 +2035,18 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41494 strings out of 478994
- 815777 string characters out of 5858184
- 1754680 words of memory out of 5000000
- 57998 multiletter control sequences out of 15000+600000
+ 41512 strings out of 478994
+ 816342 string characters out of 5858184
+ 1754947 words of memory out of 5000000
+ 58010 multiletter control sequences out of 15000+600000
  418967 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  133i,20n,134p,10639b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (52 pages, 3200779 bytes).
+Output written on /Users/vitalimostowoj/Desktop/BA_VM/build-files/template.pdf (53 pages, 3248974 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 731 compressed objects within 8 object streams
- 164 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 925 PDF objects out of 1000 (max. 8388607)
+ 741 compressed objects within 8 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 580 words of extra memory for PDF output out of 10000 (max. 10000000)
 

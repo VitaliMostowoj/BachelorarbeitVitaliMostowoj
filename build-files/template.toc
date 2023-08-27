@@ -55,13 +55,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Aulegung einr FuzzyLogic zur Ermittelung des SystemStatus}{23}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie}{27}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}{27}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Ermittelung der Systemzuverlässigkeit}{28}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{27}{subsection.3.2.4}%
+\contentsline {chapter}{Literaturverzeichnis}{28}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.53}%
+\contentsline {chapter}{Anhang}{II}{chapter*.56}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 

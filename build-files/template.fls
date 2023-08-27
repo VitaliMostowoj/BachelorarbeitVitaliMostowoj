@@ -1918,6 +1918,16 @@ INPUT ./resources/images//ScoringModel.png
 INPUT resources/images//ScoringModel.png
 INPUT ./resources/images//ScoringModel.png
 INPUT ./resources/images//ScoringModel.png
+INPUT ./resources/images//SystemStatusHistory.png
+INPUT ./resources/images//SystemStatusHistory.png
+INPUT resources/images//SystemStatusHistory.png
+INPUT ./resources/images//SystemStatusHistory.png
+INPUT ./resources/images//SystemStatusHistory.png
+INPUT ./resources/images//StatusHistory.png
+INPUT ./resources/images//StatusHistory.png
+INPUT resources/images//StatusHistory.png
+INPUT ./resources/images//StatusHistory.png
+INPUT ./resources/images//StatusHistory.png
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd

@@ -47,6 +47,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Regelwerk Systemstauts\relax }}{25}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces \relax }}{26}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Architektur des HM.ScoringModel für die Ermittelung des SystemStatus\relax }}{26}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Algorithmus zur berechnung der Systemstatus Historie\relax }}{27}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Wrapperklasse zur berechnung von Reliability und der Systemstatus Historie\relax }}{28}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
