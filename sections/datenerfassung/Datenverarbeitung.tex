@@ -112,34 +112,55 @@ Aus der \textit{FuzzyLogic} Klasse können Anschließend weitere Klassen abgelei
         \label{fig:ScoringModel}
     \end{figure}
 \end{center}
-\vspace{-0.5cm}
 
 \subsection{Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}
-Um die Systemstatus Historie des System zu berechnen, werden die aufzeichnungen des Systemstatus benötigt. Diese müssen im gewünschten Intervall gegeben sein.\\
-Die Idee besteht im wesentlichen daraus, die einzelnen Systemzustände \textit{Optimal}, \textit{Elevated} und \textit{Critacal} in drei variablen zu adieren. Somit kommt man auf die Zeiten, ub denen das System im jeweiligen Zustand verbracht hat. Anschließend können die einzelnen zeiten duch die gesammte Zeit des Intervals geteilt werden, um auf die prozentualen anteile der jeweiligen Zustände zu kommen.\\
-Hierzu visualisiert das in Abbildung \ref{fig:SystemStatusHistoryAlgorythmus} visualisierte ablaufdiagremm, die ermittlung der Systemzusands Historie.
+Um die Systemstatus Historie des System zu berechnen, werden die aufzeichnungen des Systemstatus benötigt. Diese müssen im gewünschten Intervall, beispielsweise der letztn 24h, gegeben sein.
+Die Idee besteht im wesentlichen daraus, die zeit zwischen zwei Systemzuständen, für jeden zustand \textit{Optimal}, \textit{Elevated} und \textit{Critacal} zu addieren. Somit kommt man auf die Zeiten, in dem das System im jeweiligen Zustand verbracht hat. Anschließend können die einzelnen zeiten duch die gesammte Zeit des Intervals geteilt werden, um auf die prozentualen anteile der jeweiligen Zustände zu kommen.\\
+Hierzu visualisiert das in Abbildung \ref{fig:SystemStatusHistoryAlgorythmus} visualisierte ablaufdiagremm, die ermittlung der Systemzusands Historie. Die Systemstatus Historie wird in der \textit{HistorySystemStatus} Tabelle der Datenbank abgespeichert. (Siehe Abbildung \ref{fig:DBModellErweitert})
 \begin{center}
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.94\textwidth]{SystemStatusHistory.png}
+        \includegraphics[width=0.87 \textwidth]{SystemStatusHistory.png}
         \caption{Algorithmus zur berechnung der Systemstatus Historie}
         \label{fig:SystemStatusHistoryAlgorythmus}
     \end{figure}
 \end{center}
+\vspace{-1cm}
+Über die in Abschnitt \ref{sec:MTBF} beschrieben Formel \ref{equ:Reliability} kann die  Reliability (Zuverlässigkeit) des Systems berechnet werden. Hierzu wird zum einen die Laufzeit des Systems, zum anderen der temperaturabhängige \ac{mtbf} des Systems benötig. Jedoch kann diese Formel nicht direkt angewendet werden. Zum einen gibt es keine direkte Aufzeichnung über die gesmate Laufzeit des Systems. Zum anderen varriert die Betriebstemperatur des Systems, sodass man für verschiedene Betriebstemperaturen verschiedene \ac{mtbf} Werte verwenden muss.\\
+Abhilfe hierzu schaft der Algorithmus zur kalkulation der Systemstatus Historie. Die Idee hinter diesem Ansatz besteht darin, die unterschiedlichen Betriebstemperaturen mithilfe der FuzzyLogic Klasse und einem angepassten Regelwerks aufzuzeichnen. Anschließend kann hierzu die SystemStatus Historie berechnet werden. Das ergebniss liefert somit eine genaue aussage darüber, wie lange das System in welchem Temperaturbereich gearbeitet hat. Somit bekommt man zum einen die Systemlaufzeit, zum anderen den zugehörigen temperaturabhängigen \ac{mtbf} zur berechnung der Systemzuverlässigkeit.\\ 
+Um bei der Berechnung der Systemzuverlässigkeit nicht jedes mal alle werten zu benutzen, wird diese zudem nur für eine kleine zeitspanne, beispielsweise alle 24h, erneut durchgeführt. Das Ergebnis kann anschließend mit dem Ergebnis der vorherigen berechnung verrechnet werden, um auf die aktuelle Systemzuverlässigkeit zu kommen.\\
+Um die Berechnung durchführen zu können muss daher zunächst das Regelwerk der FuzzyEngin angepasst werden. Hierzu wird die in Abbildung \ref{fig:FuzzyLogicArchitektur} abgebildete Klasse \textit{FuzzyLogicMTBFFLX} mit dem in Abbildung \ref{fig:SystemMTBF} abgebildeten Regelwerk angelegt. Der Ausgang \textit{SystemStatus} so wie der eingang \textit{Temperature}, so wie die korespondierenden Zugehörigkeitsfunktionen bleiben dabei unverändert. (Siehe Abbildung \ref{fig:MSFSystemStaus} und \ref{fig:MSFTemp}). Eingang \textit{CPULoad} fällt weg. Der Zustand des Eingangs wird eins zu eins auf den Ausgang übersetzt. Abbildung \ref{fig:SystemMTBF} veranschaulicht das angepasste Regelwerk der \textit{SuzzyLogicMTBF} Klasse.
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\textwidth]{RegelWerkMTBF.png}
+        \caption{Regelwerk SystemMTBF}
+        \label{fig:SystemMTBF}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}
+%Steht der eingang auf \textit{Low} wird der Ausgang auf \textit{Optimal} gesetzt. Steht der Eingang auf \textit{Medium}, wird der Ausgang auf \textit{Elevated} gestezt. Steht der Eingang auf \textit{High}, wird der Ausgang auf \textit{Elevated} gesetzt. Das Ergebnis wird in der \textit{SystemMTBF} Tabelle der Datenbank gespeichert. (Siehe Abbildung \ref{fig:DBModellErweitert})  
+
+Der Algorithmus ist in ablaufdiagremm \ref{}
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{SystemReliabilityBerechnungL.png}
+        \caption{}
+        \label{}
+    \end{figure}
+\end{center}
+\vspace{-0.5cm}
 
 
-
-\subsubsection*{Architektur}
-Zur ermittlung der Reliability so wie der Systemstatus Historie steht dem Verzeichnis \textit{HM.ScoringModel} eine weitere Klasse zurverfügung. Die 
+\subsubsection*{Klassenarchitektur}
+Da die Algorithmen zur berechnen der Systemstatus Historie so wie der Reliability des Systems unabhängig von Hardwarekonfiguration sind, wird das Verzeichnis \textit{HM.ScoringModel} um die, in Abbildung \ref{fig:SystemHistoryWrapper} abgebildete, \textit{StatusHistory} Klasse erweitert. Dieses bietet Zwei Funktinoen, mit welchen die Systemzuverlässigkeit so wie die SystemStatusHistorie berechnet werden kann. Da Lediglich die temperaturabhängigen \ac{mtbf} werte der Zielplatformen sich unterscheiden können, sollen diese beim Aufruf der Funktion \textit{CalculateCurrentReliability} übergeben. 
 \begin{center}
     \begin{figure}[h!]
         \centering
         \includegraphics[width=1\textwidth]{StatusHistory.png}
         \caption{Wrapperklasse zur berechnung von Reliability und der Systemstatus Historie}
-        \label{fig:SystemHistory}
+        \label{fig:SystemHistoryWrapper}
     \end{figure}
 \end{center}
 \vspace{-0.5cm}
-
-
-\subsection{Ermittelung der Systemzuverlässigkeit}

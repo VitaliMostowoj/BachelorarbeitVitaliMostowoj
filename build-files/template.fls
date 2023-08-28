@@ -1923,6 +1923,16 @@ INPUT ./resources/images//SystemStatusHistory.png
 INPUT resources/images//SystemStatusHistory.png
 INPUT ./resources/images//SystemStatusHistory.png
 INPUT ./resources/images//SystemStatusHistory.png
+INPUT ./resources/images//RegelWerkMTBF.png
+INPUT ./resources/images//RegelWerkMTBF.png
+INPUT resources/images//RegelWerkMTBF.png
+INPUT ./resources/images//RegelWerkMTBF.png
+INPUT ./resources/images//RegelWerkMTBF.png
+INPUT ./resources/images//SystemReliabilityBerechnungL.png
+INPUT ./resources/images//SystemReliabilityBerechnungL.png
+INPUT resources/images//SystemReliabilityBerechnungL.png
+INPUT ./resources/images//SystemReliabilityBerechnungL.png
+INPUT ./resources/images//SystemReliabilityBerechnungL.png
 INPUT ./resources/images//StatusHistory.png
 INPUT ./resources/images//StatusHistory.png
 INPUT resources/images//StatusHistory.png
