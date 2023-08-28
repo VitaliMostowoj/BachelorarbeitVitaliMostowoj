@@ -3,7 +3,6 @@ Die Herausforderung beim Auslesen der Daten liegt darin, die plattformspezifisch
 Das Speichern der ausgelesenen Messdaten soll in einem einheitlichen Format erfolgen, das unabhängig von der Hardwarekonfiguration der Zielplatform ist. Zudem ist eine klare und sinnhafte Struktur der Datenbank wichtig, da diese Performant und Skalierbar sein muss.   
 
 \subsection{Entwurf einer Architektur zum Auslesen der Systemhardware}\label{sec:AuslesenHardware}
- 
 Die Objekte und Klassen, die für das Auslesen der Systemhardware verwendet werden, sind im Verzeichnis \textit{HM.HWServices} abgelegt. Dieses Verzeichnis enthält alles, was benötigt wird, um die Hardware der Zielplatformen auszulesen.\\
 Das UML Diagramm in Abbildung \ref{fig:HWServicesUML} veranschaulicht den Aufbau von \textit{HM.HWServices}. 
 \begin{center}
@@ -91,11 +90,27 @@ Hierzu werden zunächst die Tabelle \textit{SystemStatus} und \textit{SystemMTBF
 \end{center}
 \vspace{-1.8cm}
 
-\subsubsection*{Aufbau der Schnittstelle}\todo{Hier oder in die Implementierung und ConfigurationsDatei}
-- komplizierte Syntax -> bedarf einer Abstraktion\\
-- Datenbank wird über seperate Wrapperklasse ausgelesen und beschrieben. Hierzu Funktionen welche die datenbank beschreiben und auch wieder auslesen können. \\
-- einführung der \textit{ValueReading}. Wird verwendet um eine Reihe von sensordaten abzu speichern. \\
-- Funktionen zum auslesen bestimmter sensordaten, bezogen auf einen bestimmts intervall\\
+\subsubsection*{Aufbau der Schnittstellen}
+Um die Komplexe Systax der SQLite Engin zu kapsel wird eine Wrapperklasse benötigt, welche die wesentlichen Datenbank aufrufe handhabt. Neben den Befehlen zum erzeugen der Datenbank, bietet die \textit{SQLiteWrapper} Klasse auch die benötigten Funktionen um Datensätze von und in die Datenbank zu laden. Die Klasse wird in dem Verzeichnis organisiert (Siehe Abbildung \ref{fig:HMDBServi}).
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\textwidth]{HMDBService.png}
+        \caption{Architektur des HM.DBService verzeichnis}
+        \label{fig:HMDBServi}
+    \end{figure}
+\end{center}
+\vspace{-1.8cm}
+Desweiteren wird das \textit{HM.DataStrucutre.Shared.Models} Verzeichnis um die \textit{ValueReadings} Klasse erweritert. Diese besteht aus den Parametern \textit{Value} und \textit{TimeStamp}. Sie dient als Schnittstelle, über welche einzelne Datensätze aus der Datenbank im Programm zwischengespeichert werden können. (Siehe Abbildung \ref{fig:ValueReadingsKlasse})
+\begin{center}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{HMDataStructure.png}
+        \caption{Schnittstelle zum auslesen einzelner Datensätze}
+        \label{fig:ValueReadingsKlasse}
+    \end{figure}
+\end{center}
+
 
 
 

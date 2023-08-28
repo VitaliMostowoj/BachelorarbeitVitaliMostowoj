@@ -140,18 +140,16 @@ Um die Berechnung durchführen zu können muss daher zunächst das Regelwerk der
 \end{center}
 \vspace{-0.5cm}
 %Steht der eingang auf \textit{Low} wird der Ausgang auf \textit{Optimal} gesetzt. Steht der Eingang auf \textit{Medium}, wird der Ausgang auf \textit{Elevated} gestezt. Steht der Eingang auf \textit{High}, wird der Ausgang auf \textit{Elevated} gesetzt. Das Ergebnis wird in der \textit{SystemMTBF} Tabelle der Datenbank gespeichert. (Siehe Abbildung \ref{fig:DBModellErweitert})  
-
-Der Algorithmus ist in ablaufdiagremm \ref{}
+Das zuvor beschriebene Verfahren zur Ermittelung der Systemzuverlässigkeit wird in Abbildung \ref{fig:AblaufdiagramSystemReliability} visualisiert.
 \begin{center}
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.5\textwidth]{SystemReliabilityBerechnungL.png}
-        \caption{}
-        \label{}
+        \includegraphics[width=1\textwidth]{SystemReliabilityBerechnung.png}
+        \caption{Algorithmus zur berechnung der Systemzuverlässigkeit}
+        \label{fig:AblaufdiagramSystemReliability}
     \end{figure}
 \end{center}
 \vspace{-0.5cm}
-
 
 \subsubsection*{Klassenarchitektur}
 Da die Algorithmen zur berechnen der Systemstatus Historie so wie der Reliability des Systems unabhängig von Hardwarekonfiguration sind, wird das Verzeichnis \textit{HM.ScoringModel} um die, in Abbildung \ref{fig:SystemHistoryWrapper} abgebildete, \textit{StatusHistory} Klasse erweitert. Dieses bietet Zwei Funktinoen, mit welchen die Systemzuverlässigkeit so wie die SystemStatusHistorie berechnet werden kann. Da Lediglich die temperaturabhängigen \ac{mtbf} werte der Zielplatformen sich unterscheiden können, sollen diese beim Aufruf der Funktion \textit{CalculateCurrentReliability} übergeben. 

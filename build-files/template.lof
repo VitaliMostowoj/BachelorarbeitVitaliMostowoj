@@ -33,28 +33,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \relax }}{21}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Architektur des HM.DBService verzeichnis\relax }}{20}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \ac {mtbf} Voirhersage für die VisuNet FLX Platform\relax }}{21}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schnittstelle zum auslesen einzelner Datensätze\relax }}{21}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform\relax }}{22}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \relax }}{22}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Zugehörigkeitsfunktionen der Temperature Variable\relax }}{23}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \ac {mtbf} Voirhersage für die VisuNet FLX Platform\relax }}{22}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Zugehörigkeitsfunktionen der CPULast Variable\relax }}{24}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Platform\relax }}{23}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Zugehörigkeitsfunktionen der SystemStatus Variable\relax }}{24}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Zugehörigkeitsfunktionen der Temperature Variable\relax }}{24}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Regelwerk Systemstauts\relax }}{25}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Zugehörigkeitsfunktionen der CPULast Variable\relax }}{25}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Architektur des HM.ScoringModel für die Ermittelung des SystemStatus\relax }}{26}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Zugehörigkeitsfunktionen der SystemStatus Variable\relax }}{25}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Algorithmus zur berechnung der Systemstatus Historie\relax }}{27}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Regelwerk Systemstauts\relax }}{26}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Regelwerk SystemMTBF\relax }}{28}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Architektur des HM.ScoringModel für die Ermittelung des SystemStatus\relax }}{27}{figure.caption.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces \relax }}{29}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Algorithmus zur berechnung der Systemstatus Historie\relax }}{28}{figure.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Wrapperklasse zur berechnung von Reliability und der Systemstatus Historie\relax }}{30}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Regelwerk SystemMTBF\relax }}{29}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Algorithmus zur berechnung der Systemzuverlässigkeit\relax }}{30}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Wrapperklasse zur berechnung von Reliability und der Systemstatus Historie\relax }}{31}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Architektur des Taskscheduler\relax }}{32}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
