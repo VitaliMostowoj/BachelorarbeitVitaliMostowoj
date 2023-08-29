@@ -53,21 +53,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{22}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Aulegung einr FuzzyLogic zur Ermittelung des SystemStatus}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Auslegung einer FuzzyLogic zur Ermittelung des SystemStatus}{24}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}{28}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Entwurf eines Task Scheduling Verfahrens}{32}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Dashboard}{33}{section.3.4}%
+\contentsline {chapter}{Literaturverzeichnis}{33}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Bereitstellung der Daten}{33}{subsection.3.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Konzeptentwurf zur Datenvisualisierung}{33}{subsection.3.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{33}{subsection.3.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.63}%
+\contentsline {chapter}{Anhang}{II}{chapter*.60}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 
