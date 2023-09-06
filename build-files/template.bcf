@@ -2387,6 +2387,7 @@
     <bcf:citekey order="45">GrafanaWebsite</bcf:citekey>
     <bcf:citekey order="46">FuzzyLogicGeeks</bcf:citekey>
     <bcf:citekey order="47">FLRegelwerk</bcf:citekey>
+    <bcf:citekey order="48">SimpleJSON</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
