@@ -19,6 +19,49 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{PFGeschichte}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{{Die Geschichte von Pepperl+Fuchs}}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.pepperl-fuchs.com/germany/de/518.htm}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.pepperl-fuchs.com/germany/de/518.htm%7D
+      \endverb
+    \endentry
+    \entry{HMIYannick}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b192f0a725110e0c87311190216a231}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b192f0a725110e0c87311190216a231}
+      \strng{fullhash}{2b192f0a725110e0c87311190216a231}
+      \strng{bibnamehash}{2b192f0a725110e0c87311190216a231}
+      \strng{authorbibnamehash}{2b192f0a725110e0c87311190216a231}
+      \strng{authornamehash}{2b192f0a725110e0c87311190216a231}
+      \strng{authorfullhash}{2b192f0a725110e0c87311190216a231}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CITplus}
+      \field{number}{5}
+      \field{title}{Smart, simple und sicher}
+      \field{volume}{26}
+      \field{year}{2023}
+      \field{pages}{44\bibrangedash 45}
+      \range{pages}{2}
+    \endentry
     \entry{PAMathias}{report}{}
       \name{author}{1}{}{%
         {{hash=2cfcebd37be522dc92f0ff385ccea850}{%
@@ -36,8 +79,8 @@
       \strng{authorbibnamehash}{2cfcebd37be522dc92f0ff385ccea850}
       \strng{authornamehash}{2cfcebd37be522dc92f0ff385ccea850}
       \strng{authorfullhash}{2cfcebd37be522dc92f0ff385ccea850}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Condition-based Monitoring für industrielle PC's}
@@ -114,8 +157,8 @@
       \strng{authorbibnamehash}{3531d2288dfa174d56f154c261af1e89}
       \strng{authornamehash}{3531d2288dfa174d56f154c261af1e89}
       \strng{authorfullhash}{3531d2288dfa174d56f154c261af1e89}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{{978-3-8266-9700-5}}
@@ -156,15 +199,32 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb {https://datascientest.com/de/sql-alles-uber-die-datenbanksprache#:~:text=SQL%20oder%20%E2%80%9EStructured%20Query%20Language,darin%20enthaltenen%20Daten%20zu%20verwalten.}
+      \verb {https://de.statista.com/statistik/daten/studie/267974/umfrage/prognose-zum-weltweit-generierten-datenvolumen/}
       \endverb
       \verb{url}
-      \verb %7Bhttps://datascientest.com/de/sql-alles-uber-die-datenbanksprache#:~:text=SQL%20oder%20%E2%80%9EStructured%20Query%20Language,darin%20enthaltenen%20Daten%20zu%20verwalten.%7D
+      \verb %7Bhttps://de.statista.com/statistik/daten/studie/267974/umfrage/prognose-zum-weltweit-generierten-datenvolumen/%7D
+      \endverb
+    \endentry
+    \entry{SQLNoSQL}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{SQL vs. NoSQL Databases: What’s the Difference?}
+      \field{urlday}{11}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.ibm.com/blog/sql-vs-nosql/}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.ibm.com/blog/sql-vs-nosql/%7D
       \endverb
     \endentry
     \entry{SQLCommands}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{{SQL | DDL, DQL, DML, DCL and TCL Commands}}
       \field{urlday}{11}
@@ -180,8 +240,8 @@
       \endverb
     \endentry
     \entry{SQL}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{SQL – Alles über die Datenbanksprache}
       \field{urlday}{11}
@@ -197,8 +257,8 @@
       \endverb
     \endentry
     \entry{SQLDoku}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{{SQL Tutorial}}
       \field{urlday}{11}
@@ -230,8 +290,8 @@
       \strng{authorbibnamehash}{9952f118e5be8ab0b7914b0ffea50fdd}
       \strng{authornamehash}{9952f118e5be8ab0b7914b0ffea50fdd}
       \strng{authorfullhash}{9952f118e5be8ab0b7914b0ffea50fdd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Avionics Integrity Program, Technical Report ASD-TR-84-5030}
@@ -252,8 +312,8 @@
       \strng{authorbibnamehash}{a25e0a2592c985574b34579ec7fc691a}
       \strng{authornamehash}{a25e0a2592c985574b34579ec7fc691a}
       \strng{authorfullhash}{a25e0a2592c985574b34579ec7fc691a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{AREPA}
@@ -261,8 +321,8 @@
       \field{year}{2020}
     \endentry
     \entry{MTBFReliability}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{{Understanding MTBF and Reliability}}
       \field{urlday}{14}
@@ -278,8 +338,8 @@
       \endverb
     \endentry
     \entry{FuzzyLogicGeeks}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{{Fuzzy Logic - Introduction}}
       \field{urlday}{16}
@@ -295,8 +355,8 @@
       \endverb
     \endentry
     \entry{FuzzyLogicTechTarget}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{{DEFINITION Fuzzy Logic}}
       \field{urlday}{16}
@@ -326,8 +386,8 @@
       \strng{authorbibnamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
       \strng{authornamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
       \strng{authorfullhash}{7bf6f8fee25c8d181d2c38798f64e0d3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Fuzzy logic - he logic underlying approximate, rather than exact, modes of reasoning- is finding applications that range from process control to medical diagnosis.}}
@@ -335,8 +395,8 @@
       \field{year}{1988}
     \endentry
     \entry{GrafanaWebsite}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{{Grafana Labs Dashbords}}
       \field{urlday}{16}
@@ -352,8 +412,8 @@
       \endverb
     \endentry
     \entry{FLRegelwerk}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{{LabVIEW PID and Fuzzy Logic Toolkit API Reference}}
       \field{urlday}{25}
@@ -369,8 +429,8 @@
       \endverb
     \endentry
     \entry{SimpleJSON}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{{Simple JSON Datasource - a generic backend datasource}}
       \field{urlday}{20}

@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}HWiNFO}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Software Design Konzepte}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Software Design Konzepte}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Adapter Pattern}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -31,41 +31,57 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Datenbanken}{9}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}SQL - Structured Query Language}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}SQL - Structured Query Language}{10}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}MTBF und Reliability}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.4}MTBF und Reliability}{11}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}FuzzyLogic}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.5}FuzzyLogic}{12}{section.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Architektur eines Fuzzy Logic Systems}{12}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Grafana}{13}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Architektur Konzept}{14}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Architektur Konzept}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Datenerfassung}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Datenerfassung}{15}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Entwurf einer Architektur zum Auslesen der Systemhardware}{16}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{18}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{19}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Datenverarbeitung}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Datenverarbeitung}{22}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{23}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Auslegung einer FuzzyLogic zur Ermittelung des SystemStatus}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Auslegung einer FuzzyLogic zur Ermittelung des SystemStatus}{25}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}{28}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}{29}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Entwurf eines Task Scheduling Verfahrens}{32}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Entwurf eines Task Scheduling Verfahrens}{33}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Datenvisualisierung}{34}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Datenvisualisierung}{35}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Architektur der REST API}{34}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Architektur der REST API}{35}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{35}{figure.caption.65}%
+\contentsline {chapter}{\numberline {4}Prototypische Implementierung}{37}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.66}%
+\contentsline {section}{\numberline {4.1}HealthMonitor}{37}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}HM.TimerBasedScheduler}{39}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}HM.HWServices}{39}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}HM.DBServices}{39}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}HM.ScoringModel}{39}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}HM.API}{39}{section.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{40}{section.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{41}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anhang}{II}{chapter*.77}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 

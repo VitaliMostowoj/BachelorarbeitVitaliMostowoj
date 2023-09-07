@@ -1,0 +1,22 @@
+\section{HealthMonitor}
+Das \textit{HealthMonitor} Verzeichnis ist das zentrale Element der Anwendung. In dieser werden die Klassen und Funktionen der Verzeichnisse \text{HM.TimerBasedScheduler} und \textit{HM.API} aufgerufen. Zudem enthält \textit{HealthMonitor} die \textit{Program}, welche als Einstiegspunkt für die Anwendung dient. \\
+\begin{lstlisting}[caption={Einstiegspunkt der Anwendung}, label={lst:main}]
+    static void Main(string[] args) 
+    {
+        SetUpDataBase();
+        initSchedule();
+        
+        schedulerThread.Start();
+        APIThread.Start();
+    }
+\end{lstlisting}
+Die \textit{Main()} Funktionen (Listing \ref{lst:main}) der Klasse ist die erste Funktion die beim Start der Anwendung aufgerufen wird. In dieser wird zunächst die Datenbank der Anwendung aufgebaut. Anschließend wird über die \textit{initSchedule()} Funktion der Klasse, der Taskscheduler konfiguriert. Anaschließend werden die Threads für den Taskscheduler so wie der \ac{api} gestartet (Listing \ref{lst:main} Zeile 6 - 7). Die Verwendung von Threads an dieser Stelle ermöglicht dem Programm das parallele Ausführen des Task Schedulers sowie die Bearbeitung der Anfragen an die \ac{api}.
+\begin{lstlisting}[caption={Registrierung der Jobs im Taskscheduler}, label={lst:initSchedule}]
+    static void initSchedule() 
+    {
+        Scheduler.Add(new ReadingJob());
+        Scheduler.Add(new CurrentSystemStatusJob());
+        Scheduler.Add(new SystemStatusHistoryJob());
+    }
+\end{lstlisting}
+Die \textit{initSchedule()} Funktion (\ref{lst:initSchedule}) der Klasse spielt hierbei eine zentrale Rolle für die Konfigurationen der Anwendung. In dieser werden die Angelegten Jobs, zur Datenerfassung und Datenverarbeitung, im Taskscheduler registriert. Soll das System in Zukunft über weitere Jobs ausgestattet werden, muss die hierzu angelegte Job Klasse diese über \lstinline$Scheduler.Add(new NewJob());$ an dieser Stelle im Taskscheduler registriert werden.   
