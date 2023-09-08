@@ -445,6 +445,23 @@
       \verb %7Bhttps://grafana.com/grafana/plugins/grafana-simple-json-datasource/%7D
       \endverb
     \endentry
+    \entry{HttpListener}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{{HttpListener Klasse}}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://learn.microsoft.com/de-de/dotnet/api/system.net.httplistener?view=net-7.0}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://learn.microsoft.com/de-de/dotnet/api/system.net.httplistener?view=net-7.0%7D
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

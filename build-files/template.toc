@@ -75,11 +75,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}HM.ScoringModel}{39}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}HM.API}{39}{section.4.6}%
+\contentsline {section}{\numberline {4.6}HM.API}{40}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{40}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{42}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{41}{figure.caption.76}%
+\contentsline {chapter}{Literaturverzeichnis}{43}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Anhang}{II}{chapter*.77}%
 \defcounter {refsection}{0}\relax 

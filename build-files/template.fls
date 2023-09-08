@@ -2008,6 +2008,10 @@ INPUT ./sections/Implementierung/API.tex
 INPUT sections/Implementierung/API.tex
 INPUT ./sections/Implementierung/API.tex
 INPUT sections/Implementierung/API.tex
+INPUT ./sections/Implementierung/Dashboard.tex
+INPUT sections/Implementierung/Dashboard.tex
+INPUT ./sections/Implementierung/Dashboard.tex
+INPUT sections/Implementierung/Dashboard.tex
 INPUT ./resources/images//GrafanaDatenquelle.png
 INPUT ./resources/images//GrafanaDatenquelle.png
 INPUT resources/images//GrafanaDatenquelle.png

@@ -1,37 +1,44 @@
-\section{HM.API}
 \newpage
-\section{Aufsetzen des Dashboards}
-Zur Visualisierung der Daten wird die in Abschnitt \ref{sec:Grafana} beschriebene Open-Source-Platform Grafana genutz. Um das Grafana Dashboard mit den Daten der Hardware-Health-Monitoring Lösung zu versorgen wird das \textit{SimpleJson} Plugin verwendet. Dieses liefert eine Datenquelle, welche \ac{http} Anfragen an eine REST \ac{api} Stellt. Die Antworten dieser Anfragen werden dann als \ac{json} Dashboard bereitstehen.\\
-Um die Datenquelle in Grafan nutzen zu können, muss diese zunächst konfiguriert werden. Dies kann Unter dem Reiter \textit{Data source} in der Menüleiste der Anwendung vorgenommen werden. Abbildung \ref{fig:SimpleJSONKonfig} zeigt das Konfigurationsmenü der Datenquelle. 
-\begin{center}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=1\textwidth]{GrafanaDatenquelle.png}
-        \caption{Konfiguration der \textit{SimpleJson} Datenquelle}
-        \label{fig:SimpleJSONKonfig}
-    \end{figure}
-\end{center}
-Unter dem Feld \textit{1} im Bild \ref{fig:SimpleJSONKonfig} kann der Datenquelle ein Name vegeben werden. Anschließend wird im Feld \textit{2} die Basis URL der \ac{api} eingetragen werden. Bild zeigt nur einen abschnitt von möglichen Konfigurationsfeldern. Da dies nur ein Prototypischer Aufbau wird können die anderen Parameter offen gelassen werden. Unter den Button \textit{3} kann die Datenquelle gespeichert werden. Hierbei wird zudem direkt die Verbindung zur \ac{api} getestet.\\
-Über den Menüpunkt \textit{Dashboard} kann Anschließend ein neues Dashboard erstellt werden. In diesem werden die einzelnen Panels zur visualisierung konkreter Daten erzeugt und konfiguriert. Zur visualisierung von verschiedenen Daten steht eine Reihe von Diagrammen zur verfügung.\\
-Abbildung \ref{fig:PanelBearbeitung} zeigt die Ansicht, welche zur Konfiguration der einzelnen Diagramme verwendet wird.
-\begin{center}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=1\textwidth]{GrafanaPanelEdit.png}
-        \caption{Grafana \textit{edit panel} Ansicht}
-        \label{fig:PanelBearbeitung}
-    \end{figure}
-\end{center}
-\vspace{-1.8cm}
-Zur visualisierung der einzenlen Messewerte wird das \textit{Time Series} Diagramm verwendet. Hierbei muss zunächst im Bereich links unten (Siehe Abbildung \ref{fig:PanelBearbeitung}) die zuvor erstellte Datenquelle ausgewählt werden. Anschließend wird die Anfrage Konfiguriert. Hierbei wird das Format der angefragten Daten, so wie das Label des Gewünschten Datensätze ausgewählt. Über die Rechte Spalte im bild wird Anschließend das Visuelle erscheinen des Diagrammes konfiguriert.\\
-Zur visualisierung des System Status wird ein einfaches \textit{Gauge} Diagramm verwendet. Die Visualisierung der Systemstatus Historie wird mittels \textit{Pie chart} Realisiert. Die Systemzuverlässigkeit wird über ein \textit{Bar gauge} Visualisiert.\\
-Abbildung \ref{fig:Grafa} zeigt das vollständige Dashboard der Anwendung.
-\vspace{-2cm}
-\begin{center}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[height=1\textheight]{GrafanaDashboard.png}
-        \caption{Grafana Dashboard Ansicht}
-        \label{fig:Grafa}
-    \end{figure}
-\end{center}
+\section{HM.API}
+Zur Implementierung der REST \ac{api} wird die \textit{HttpListener} Klasse verwendet. Diese Klasse stellt einen HTTP-Protokollistener zur verfügung, welcher auf die \ac{http}-Anfragen antwortet. \cite{HttpListener}\\
+Die \textit{HttpListener} Klasse wird von der \textit{DataBaseAPI} Klasse im \textit{HM.API} Verzeichnis abstrahiert. Des weitern referenziert die \textit{DataBaseAPI} Klasse das in Abschnitt \ref{sec:HMDBServices} beschriebene \textit{HM.DBServices} Verzeichnis und verwendet hierbei die \textit{SQLiteWrapper} und \textit{ConfigurationReader} Klassen. Desweiteren wird die Property \textit{Targets} definiert, welche eine Liste von zur auswahl stehenden Datensätze repräsentiert. Die Instanzen der einzelnen Klassen werden anschließend im Construktor der Klasse erzeugt. (Siehe Listing \ref{lst:DataBaseAPIRef})
+\begin{lstlisting}[caption={Property der DataBaseAPI Klasse}, label={lst:DataBaseAPIRef}]
+    namespace HM.API
+    {
+        public class DataBaseAPI
+        {
+            private HttpListener listener;
+            private readonly SQLiteWrapper Database;
+            private Configuration config;
+            List<Target> Targets;
+            
+            public DataBaseAPI(SQLiteWrapper db)
+            {
+                SetConfiguration();
+                this.Database = new SQLiteWrapper(config.databaseFileName);
+                InitTargets();
+            }
+\end{lstlisting}
+Um die Platformunabhängigkeit des Systems beizubehalten wird in der \textit{InitTargets()} Funktion der Klasse die Targetliste, abhängig von der in der Konfigurations Datei gesetzten Platform erstellt. Hierbei wird ein \textit{Target} Objekt an die \textit{Targets} Liste hinzugefügt. Dieses setzt sich aus den Parametern \textit{dwReadingID}, \textit{szLabelUser} und dem \textit{tableName}, um den richtigen Datensatz in der Datenbank ausfündig zu machen.\\
+Sollen weitere Daten des Hardware-Health-Monitors über die \ac{api} zugängig gemacht werden, müssen diese in der in Listing \ref{lst:InitTargets} aufgeführten \textit{InitTargets()} Funktion hinzugefügt werden. 
+\begin{lstlisting}[caption={InitTargets Funktino der DataBaseAPI}, label={lst:InitTargets}]
+    private void InitTargets()
+    {
+        Targets = new List<Target>();
+        switch (config.deviceType)
+        {
+            case "FLX":
+                Targets.Add(new Target("16777217", "Temperature 1", "TempReadings"));
+                ...
+                break;
+            case "OfficePC":
+                Targets.Add(new Target("16777470", "CPU Package", "TempReadings"));
+                ...
+                break;
+        }
+        Targets.Add(new Target("latest", "CurrentSystemStatus", "SystemStatus"));
+        Targets.Add(new Target("latest", "SystemStatusHistory", "HistorySystemStatus"));
+        Targets.Add(new Target("latest", "SystemReliability", "SystemReliability"));
+
+    }
+\end{lstlisting}
