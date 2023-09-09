@@ -1,5 +1,5 @@
 \newpage
-\section{Aufsetzen des Dashboards}
+\section{Aufsetzen des Dashboards}\label{sec:AufsetzenDashboard}
 Zur Visualisierung der Daten wird die in Abschnitt \ref{sec:Grafana} beschriebene Open-Source-Platform Grafana genutz. Um das Grafana Dashboard mit den Daten der Hardware-Health-Monitoring Lösung zu versorgen wird das \textit{SimpleJson} Plugin verwendet. Dieses liefert eine Datenquelle, welche \ac{http} Anfragen an eine REST \ac{api} Stellt. Die Antworten dieser Anfragen werden dann als \ac{json} Dashboard bereitstehen.\\
 Um die Datenquelle in Grafan nutzen zu können, muss diese zunächst konfiguriert werden. Dies kann Unter dem Reiter \textit{Data source} in der Menüleiste der Anwendung vorgenommen werden. Abbildung \ref{fig:SimpleJSONKonfig} zeigt das Konfigurationsmenü der Datenquelle. 
 \begin{center}

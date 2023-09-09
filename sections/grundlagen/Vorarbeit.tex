@@ -1,6 +1,4 @@
 \chapter{Stand der Technik}
-In diesem Kapitel werden die in dieser Arbeit verwendeten Konzepte und Technologien beleuchtet. 
-
 \section{Vorarbeiten zur Bachelorthesis}
 Zum Thema dieser Bachelorarbeit wurden bereits zwei Vorarbeiten geleistet. Zum einen wurde im Rahmen einer Praxisphase, eine Voruntersuchung zum Thema \textit{Condition-Based-Monitorig für industrielle PCs}  vorgenommen. Die im Rahmen der Arbeit \cite{PAMathias} durchgeführte Grundlagenuntersuchung und Marktrecherche hat auf zwei Computer Monitoring Technologien aufmerksam gemacht. Diese wurden anschließend in der zweiten Vorarbeit \cite{t3000} evaluiert. Aus dieser Bewertung heraus, wurde sich für die \textit{HWiNFO} Software, zum Auslesen der auf der Hardware verbauten Sensoren entschieden. Die Software wird genauer in Abschnitt \ref{sec:HWiNFO} behandelt. Des Weiteren wurde in der Vorarbeit \cite{t3000} auch eine geeignete Datenbank für das Health Monitoring System ausgewählt. In Abschnitt \ref{sec:SQLite} wird die ausgewählte Datenbanktechnologie genauer beschrieben. 
 
@@ -15,7 +13,7 @@ Auf das Thema Datenbanken wird in Abschnitt \ref{sec:Datenbank} genauer eingegan
         \label{fig:MatrixDB}
     \end{figure}
 \end{flushleft}
-\subsection{HWiNFO}\label{sec:HWiNFO}\todo{Quellen}
+\subsection{HWiNFO}\label{sec:HWiNFO}
 \textit{Hwinfo} ist eine Software der Firma REALiX, welche zum Überwachen und Analysieren der Hardware eines Computers konzipiert wird \cite{HWINFO}. Über die grafische Oberfläche des Programms, lassen sich alle gesammelten Daten anzeigen. Der Nutzer kann diese Informationen nutzen, um Defekte an der Hardware zu erkennen.\\
-Das ausschlaggebende Argument für die Nutzung der Software liegt in der \ac{api}. Über die Shared Memory\todo{Marc fragen. Hab das aus dem Emailverkehr} Funktion der Software lassen sich alle Gerätedaten, die die Software auslesen kann über eine C\# Bibliothek auslesen. Hierzu muss die Funktion in den Einstellungen des Programms eingeschaltet werden. Da die 64 bit Version des Tools dies nur für einen Zeitraum von 12h erlaubt, wird für den Verlauf der Arbeit die 32-bit Version der Software verwendet. Zum anderen bietet der REALiX einen \ac{sdk} welcher alle Funktionen der Software in Form einer Bibliothek bereitstellt.\cite{HWINFO}\\
+Das ausschlaggebende Argument für die Nutzung der Software liegt in der \ac{api}. Über die Shared Memory Funktion der Software lassen sich alle Gerätedaten, die die Software auslesen kann über eine C\# Bibliothek auslesen. Hierzu muss die Funktion in den Einstellungen des Programms eingeschaltet werden. Da die 64 bit Version des Tools dies nur für einen Zeitraum von 12h erlaubt, wird für den Verlauf der Arbeit die 32-bit Version der Software verwendet. Zum anderen bietet der REALiX einen \ac{sdk} welcher alle Funktionen der Software in Form einer Bibliothek bereitstellt.\cite{HWINFO}\\
 Im Verlauf der Arbeit wird die Shared Memory Funktion der Software für die prototypische Implementierung des Health Monitorig Systems genutzt.   

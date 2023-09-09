@@ -2008,6 +2008,11 @@ INPUT ./sections/Implementierung/API.tex
 INPUT sections/Implementierung/API.tex
 INPUT ./sections/Implementierung/API.tex
 INPUT sections/Implementierung/API.tex
+INPUT ./resources/images//APIAblauf.png
+INPUT ./resources/images//APIAblauf.png
+INPUT resources/images//APIAblauf.png
+INPUT ./resources/images//APIAblauf.png
+INPUT ./resources/images//APIAblauf.png
 INPUT ./sections/Implementierung/Dashboard.tex
 INPUT sections/Implementierung/Dashboard.tex
 INPUT ./sections/Implementierung/Dashboard.tex
