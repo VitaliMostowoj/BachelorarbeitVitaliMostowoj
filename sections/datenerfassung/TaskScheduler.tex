@@ -13,10 +13,10 @@ Die Basis des Schedulers ist die \textit{TimerBasedScheduler} Klasse. In dieser 
 Die Schnittstelle zu einer bestimmten Aufgabe, im Weiteren als Job bezeichnet, wird über das \textit{IJob} Interface definiert. Dieses definiert die von der \textit{TimerBasedScheduler} Klasse verwendeten Funktionen und Variablen. Aus diesem wird anschließend die abstrakte \textit{JobBase} Klasse abgeleitet. Die \textit{JobBase} Klasse liefert alle Basisfunktionen und Variablen, welche in jedem Job verwendet werden. Die Verwendung einer Basisklasse verhindert Codeduplikation und erleichtert durch eine vordefinierte Struktur das Programmieren weiterer spezifischen Jobs.\\
 Im letzten Schritt wird eine Reihe von Jobs abgeleitet, welche die in gewünschten Aufgaben ausführen. Hierzu werden drei Klassen aus der \textit{JobBase} Klasse abgeleitet.
 \begin{itemize}
-    \item \textit{ReadingJob}\\
+    \item \textbf{ReadingJob}\\
     Aufgabe der \textit{ReadingJob} Klasse ist die Auswertung der Hardwarespezifischen Sensoren. Hierzu bedient sich die Klasse dem in Abschnitt \ref{sec:AuslesenHardware} beschriebenen \textit{HM.HWServices} und dessen Strategieklassen. Zudem verwendete diese Klasse die, in Abschnitt \ref{sec:DatenbankModell} beschriebene, Datenbank Schnittstelle zum Schreiben der Messwerte. 
-    \item \textit{CurrentSystemStatusJob}\\
+    \item \textbf{CurrentSystemStatusJob}\\
     Aufgabe der \textit{CurrentSystemStatusJob} Klasse ist die Ermittelung des aktuellen Systemstatus. Hierzu verwendet die Klasse das, in Abschnitt \ref{sec:SystemStatusErmittelung} beschriebene, \textit{HM.ScoringModel} Verzeichnis und dessen \textit{FuzzyLogic} Klassen. Des Weiteren bedient sich auch diese Klasse der in Abschnitt \ref{sec:DatenbankModell} beschriebene Datenbank Schnittstelle.
-    \item \textit{SystemStatusHistoryJob}\\
+    \item \textbf{SystemStatusHistoryJob}\\
     Aufgabe der \textit{SystemStatusHistoryJob} Klasse ist die Ermittelung der Systemstatus Historie so wie der Systemzuverlässigkeit. Hierzu verwendet die Klasse das, in Abschnitt \ref{sec:SystemHistoryReliability} beschriebene \textit{HM.ScoringModel} Verzeichnis und dessen \textit{StatusHistory} Klasse. Des Weiteren bedient sich auch diese Klasse der in Abschnitt \ref{sec:DatenbankModell} beschriebene Datenbank Schnittstelle. Des Weiteren bedient sich auch diese Klasse der in Abschnitt \ref{sec:DatenbankModell} beschriebene Datenbank Schnittstelle.    
 \end{itemize}
