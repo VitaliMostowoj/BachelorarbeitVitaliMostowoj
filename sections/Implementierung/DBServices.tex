@@ -17,7 +17,6 @@ Hierfür wird im Verzeichnis die \textit{ConfigFile.json} Datei angelegt, welche
 \end{lstlisting}
 Desweitern wird unter dem Verzeichnis \textit{HM.DBServices} die \textit{Configuration}-Klasse angelegt, welche der Struktur der \textit{ConfigFile.json} Datei folgt. Anschließend wird in der \textit{ConfigurationReader}-Klasse, über die \textit{ReadConfiguration()} Funktion die Konfigurationsdatei in das \textit{Configuration} Objekt übernommen.
 \begin{lstlisting}[caption={\textit{ReadConfiguration()} Funktion der \textit{ConfigurationReader}-Klasse}, label={lst:ReadConfiguration}]
-  {
     public Configuration ReadConfiguration()
     {
       try
@@ -28,9 +27,34 @@ Desweitern wird unter dem Verzeichnis \textit{HM.DBServices} die \textit{Configu
         throw ex; 
       }
     return Configuration;
-    }
-  }
-  \end{lstlisting}
+    }\end{lstlisting}
 
-  \subsection*{SQLiteWrapper}
-  Zweck der \textit{SQLiteWrapper}-Klasse ist die Abstraktion der Lese- und Schreibzugriffe auf die Datenbank. Hierbei kommt die \textit{System.Data.SQLite} Bibliothek zum Einsatz.
+\subsection*{SQLiteWrapper}
+Zweck der \textit{SQLiteWrapper}-Klasse ist die Abstraktion der Lese- und Schreibzugriffe auf die Datenbank.  Hierbei kommt die \textit{System.Data.SQLite} Bibliothek zum Einsatz. \\
+Hierzu wird  im Konstuktor der klasse zunächst die Struktur der Datenbank angelegt. Diese wird in einer Seperaten \ac{sql} Datei Festgelegt (Siehe Anhang \todo{SQL Datei Anhängen}).\\
+Die Query der Lese- und Schreibzugriffe, wird dabei in der Programiersprache \ac{sql} definiert. Eine \ac{sql}-Anfrage besteht dabei aus drei abschnitten. Die \textit{SELECT}-Anweisung gibt hierbei an, welche Spalten aus der Datenbank Abgerufen werden sollen. Die \textit{FROM}-Anweisung legt die Zieltabelle der Anfrage fest, das heißt aus welcher Tabelle die Daten entnommen werden sollen. Die-\textit{WHERE}-Anweisung filtert die ausgewählten Spalten auf basis einer bestimmten Bedingung.\\
+In der Folgenden \ac{sql}-Anfrage werden die Messwerte des Sensors \textit{Temperature 1} angefragt (Siehe Listing \ref{lst:ReadTableAnfrage}). In Zeile eins werden Spalten \textit{Value} und \textit{TimeStamp} angefragt. Zeile zwei wird die Zieltabelle \textit{tempReadings} festgelegt. Anschließend werden, über Zeile drei, die Einträge der Tabelle nach der LabelID des \textit{Temperature 1}-Sensors gefiltert.  
+\begin{lstlisting}[caption={Query Anfrage zum Auslesen eines bestimmten Sensorwertes}, label={lst:ReadTableAnfrage}]
+  SELECT Value, Timestamp 
+  FROM tempReadings 
+  WHERE LabelID = (SELECT LabelID From LabelList WHERE (dwReadingID = '16777217' AND szLabelUser = 'Temperature 1'));
+\end{lstlisting}
+
+%\begin{wrapfigure}{r}{0.3\textwidth}
+%  \vspace{-1.2cm}
+%  \begin{center}
+%    \includegraphics[width=0.3\textwidth]{DatenbankZugriff.png}
+%  \end{center}
+%  \vspace{-0.5cm}
+%  \caption{}
+%  \label{fig:Datenbankzugriff}
+%\end{wrapfigure}
+Alle Lese- und Schreibzugriffe der Datenbank folgen dem selben Muster. Hierzu wird der Datenbank Zugriff im folgenden Ablaufdiagramm \ref{fig:Datenbankzugriff} dargestellt. Eine Funktion der \textit{SQLiteWrapper}-Klasse, welche eine Einen Lese- oder Schreibzugriffe der Datenbank verwaltet, folgt daher immer den selben 4 Schritten. Zunächst wird eine verbindung zur Datebank aufgebaut. Im zweiten Schritt wird die \ac{sql}-Query Erzeugt. Hierbei werden Filterparameter, dynamisch in die Query eingebaut um die Funkitonen zum auslesen bestimmter Parameter mehrfach verwenden zu können. Anschließend wird die Query Ausgeführt und die Antwort der Datenbank als Rückgabeparameter der Funktion übergeben.   
+\begin{center}
+  \begin{figure}[h!]
+      \centering
+      \includegraphics[width=0.3\textwidth]{DatenbankZugriff.png}
+      \caption{}
+      \label{fig:Datenbankzugriff}
+  \end{figure}
+\end{center}
