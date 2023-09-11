@@ -2397,9 +2397,10 @@
     <bcf:citekey order="56">FuzzyLogicGeeks</bcf:citekey>
     <bcf:citekey order="57">FLRegelwerk</bcf:citekey>
     <bcf:citekey order="58">SimpleJSON</bcf:citekey>
-    <bcf:citekey order="59">SystemTimers</bcf:citekey>
-    <bcf:citekey order="60">HttpListener</bcf:citekey>
-    <bcf:citekey order="61">SimpleJSON</bcf:citekey>
+    <bcf:citekey order="59">FLSGit</bcf:citekey>
+    <bcf:citekey order="60">SystemTimers</bcf:citekey>
+    <bcf:citekey order="61">HttpListener</bcf:citekey>
+    <bcf:citekey order="62">SimpleJSON</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

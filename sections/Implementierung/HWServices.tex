@@ -1,0 +1,46 @@
+\section{HM.HWServices}
+Das \textit{HM.HWServices} Verzeichnis organisiert die Schnittstellen, so wie die Strategien zum Auslesen der Systemsensorik. Hierbei unterteilt sich das Verzeichnis in zwei weitere. In Kombination werden diese Verzeichnisse über die \textit{Context}-Klasse bedient, um die Systemsensorik auslesen zu können. Hierbei werden die in Abbildung \ref{fig:HWServicesUML} beschriebene Klassenarchitektur implementiert.
+
+\subsection{HM.HWServices.Services}
+Das \textit{HM.HWServices.Services} Verzeichnis organisiert die \textit{HWiNFOWrapper}- und \textit{ServiceControllerWrapper}-Klassen.\\
+Die \textit{HWiNFOWrapper}-Klasse abstrahiert die vom HWiNFO bereitgestellte Shared Memory Schnittstelle. Das Auslesen der Schnittstelle geschieht hierbei über drei aufeinanderfolgende Aufrufe. Über die \textit{Open()} Funktion der Klasse wird die Schnittstelle zum Programm geöffnet. Anschließend wird über die \textit{GetReadingList()} Funktion, der Auszug der einzelnen Sensorwerte gelesen. Im letzten Schritt wird die Schnittstelle über die \textit{Close()} Funktion der Klasse wieder geschlossen und die Schnittstelle freigegeben.\\
+Der Servicecontroller der VisuNet GXP Plattform, ist ein Mikrocontroller, welcher verschiedene Funktionen der Hardware überwacht und steuert. Über diesen wird beispielsweise auch die Bildschirmhelligkeit des Gerätes gesteuert. Auch die zwei Temperatursensoren, welche sich in der \ac{tcu} und \ac{dpu} der Einheit befinden, werden über diesen Controller ausgelesen. Hierzu steht im Betriebssystem der Plattform ein Service bereit, welcher die Kommunikation mit dem Controller ermöglicht. Über die \textit{PepperlFuchs.GXP.ServiceControllerClient} Bibliothek lassen sich diese Daten auslesen.\\
+Die \textit{ServiceControllerWrapper}-Klasse abstrahiert diese Bibliothek und stellt dem weiteren Programm die \textit{GetDiagnosticData()} Funktion bereit. Diese liefert als Rückgabeparameter die sowohl \ac{tcu} als auch \ac{dpu} Temperaturen der Plattform.
+
+\subsection{HM.HWServices.Strategy}
+Zur Implementierung der Strategieklassen wird zunächst das allgemeine Interface \textit{IHWStrategy} definiert. Dieses beschreibt die Struktur der einzelnen Strategieklasse. Jede Strategie muss zum einen die \textit{GetSensorReading()} Funktion implementieren. Ziel dieser Funktion ist es, einen Auszug der aktuellen Sensorwerte zu bekommen. Des Weiteren muss jede Strategie eine \textit{GetSensorList()} Funktion implementieren, welche eine Liste alle verfügbaren Sensoren liefert.\\
+In der \textit{Context}-Klasse wird anschließend ein Objekt vom Typen \textit{IHWStrategy} angelegt (Z.3 Listing \ref{lst:ContextStrategy}). Des Weiteren wird die \textit{RunStrategy()} Klasse implementiert, in welcher die \textit{GetSensorReading()} Funktion des Interface aufgerufen wird (Z.10 Listing \ref{lst:ContextStrategy}). Da das Interface nur die Schnittstelle definiert, kann diese Funktion nicht aufgerufen werden, bevor das \textit{IHWStrategy} Objekt nicht instanziiert wurde. Da jede Strategieklasse von diesem Interface abgeleitet wird, kann hierfür eine beliebige Strategie instanziiert werden. Hierzu wird die Instanziierung der Strategie in der \textit{SetStrategy()} Funktion der Klasse vorgenommen (Z.5 Listing \ref{lst:ContextStrategy}).
+\begin{lstlisting}[caption={Context des Strategiepatterns}, label={lst:ContextStrategy}]
+    public class Context
+    {
+        private IHWStrategy Strategy;
+   
+        public void SetStrategy(IHWStrategy strategy) { 
+            Strategy = strategy; 
+        }
+
+        public StrategyResult RunStrategy() {
+            StrategyResult strategyResult = new StrategyResult();
+
+            strategyResult.SensorList= Strategy.GetSensorList();
+            strategyResult.SensorData = Strategy.GetSensorReadings();
+
+            return strategyResult;
+        }
+    }\end{lstlisting}  
+Soll das System nun um eine weitere Hardwarekonfiguration erweitert werden, muss lediglich eine neue Strategieklasseangelegt werden. Diese kann anschließend über die \textit{Context}-Klasse aufgerufen werden. Die anzulegende Strategieklassemuss dabei wie folgt im Quellcode erzeugt werden. 
+\begin{lstlisting}[caption={Implementierung einer weiteren Strategieklasse}, label={lst:NewStrategy}]
+    public class NewStrategy : IHWStrategy
+    {
+        public FLXStrategy() {}
+
+        public List<SensorData> GetSensorReadings() 
+        {
+            //Hardwarespezifische Implementierung der Funktion
+        }
+        
+        public List<SensorListElement> GetSensorList() 
+        { 
+            //Hardwarespezifische Implementierung der Funktino  
+        }
+    }\end{lstlisting}  

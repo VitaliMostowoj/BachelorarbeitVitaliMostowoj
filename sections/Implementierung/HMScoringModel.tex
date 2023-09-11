@@ -1,0 +1,83 @@
+\section{HM.ScoringModel}
+\subsection{Implementierung der Fuzzylogic}
+Zur Implementierung der in Abbildung \ref{fig:ScoringModel} gezeigten Architektur wird zunächst das \textit{IFuzzyLogic}-Interface definiert. Abgeleitet von diesem wird zudem die abstrakte \textit{FuzzyLogic}-Klasse. Sie abstrahiert die \ac{fls} Bibliothek \cite{FLSGit}. \ac{fls} ist eine Open Source Bibliothek, welche eine einfache Fuzzylogic Implementierung bereitstellt. Sie ermöglicht die Erzeugung von linguistischen Variablen, Membershipfunktionen und zwei Deffuzifikationsverfahren.\\
+In der \textit{FuzzyLogic}-Klasse werden zunächst die verschiedenen linguistischen Variablen, so wie die Membershipfunktionen definiert. Des Weiteren werden die Eingangsvariablen, für Temperatur und Last, definiert. 
+Zudem wird eine \textit{DeffuzWithEngine()} Funktion angelegt. Diese nimmt die Eingangswerte des Systems auf und lässt sie durch die Engine gehen. Anschließend liefert die Funktion die Systembewertung zurück.\\
+Da die in Abschnitt \ref{sec:SystemStatusErmittelung} beschriebenen linguistischen Variablen und Zugehörigkeitsfunktionen nicht für jedes System dieselben sind, wird die Implementierung dieser in die gerätespezifische Klassen ausgelagert. Hierzu wird die abstrakte \textit{FuzzyLogic}-Klasse zunächst von \textit{FuzzyLogicFLX} abgeleitet. Anschließend werden in dieser Klasse die Zugehörigkeitsfunktion der einzelnen Variablen festgelegt. Listing \ref{lst:MSFTemp} zeigt die Implementierung der einzelnen Zugehörigkeitsfunktionen der Eingangsvariablen \textit{Temperature}.\\
+\begin{lstlisting}[caption={Implementierung der Zugehörigkeitsfunktionen zur Eingangsvariable \textit{Temperature}}, label={lst:MSFTemp}]
+    Temperature = new LinguisticVariable("Temperature");
+    tempLow = Temperature.MembershipFunctions.AddTrapezoid("Low", 0, 0, 40, 50);
+    tempMedium = Temperature.MembershipFunctions.AddTrapezoid("Medium", 47, 50, 60, 65);
+    tempHigh = Temperature.MembershipFunctions.AddTrapezoid("High", 63, 65, 100, 100);
+\end{lstlisting}
+Da zur Ermittlung der Systemzuverlässigkeit eine FuzzyLogic mit angepasstem Regelwerk benötigt wird, wird eine Weitere Klasse von der \textit{FuzzyLogic}-Klasse Abgeleitet. Die \textit{FuzzyLogicMTBFFLX}-Klasse enthält ein angepasstes Regelwerk welches den Systemzustand in Abhängigkeit von der Betriebstemperatur des Gerätes ermittelt. Hierzu wird in Listing \ref{lst:RBFuzzy} die \textit{InitRules()} Funktion der Abgeleiteten Basisklasse überladen. 
+\begin{lstlisting}[caption={Implementierung des Regelwerks}, label={lst:RBFuzzy}]
+    protected override void InitRules()
+    {
+        InitMembershipFunctions();
+        var rule_LowMTBF = Rule.If(Temperature.Is(tempLow)).Then(SystemStatus.Is(optimal));
+        var rule_MediumMTBF = Rule.If(Temperature.Is(tempMedium)).Then(SystemStatus.Is(elevated));
+        var rule_HighMTBF = Rule.If(Temperature.Is(tempHigh)).Then(SystemStatus.Is(critical));
+
+        FuzzyEngine.Rules.Add(rule_HighMTBF, rule_MediumMTBF, rule_LowMTBF);
+    }\end{lstlisting}
+
+\subsection{Implementierung der \textit{StatusHistory}-Klasse}
+Zur Ermittlung der Systemstatus Historie und der Systemzuverlässigkeit steht dem Verzeichnis \textit{HM.ScoringModel} eine weitere Klasse zur Verfügung. Die \textit{StatusHistory}-Klasse enthält die hierfür benötigten Algorithmen. (Siehe Abbildung \ref{fig:SystemHistoryWrapper})\\
+Über die \textit{CalculateSystemStatusHistory()} Funktion der Klasse wird die Systemstatus Historie ermittelt. Hierzu benötigt die Klasse eine Liste von Systemstatusbewertungen und den zugehörigen Zeitstempeln. Anschließend wird mit einer Schleife durch die Liste iteriert. Dabei werden die Zeiten der drei möglichen Zustände addiert. Die aufaddierten Zeiten werden anschließend durch die Zeit des gesamten Intervalls geteilt, um auf die prozentualen Anteile der Zustände zu kommen. Die Implementierung der Funktion ist in Listing \ref{lst:SSErmittlung} aufgeführt.\\
+\begin{lstlisting}[caption={Implementierung der Systemstatus Historie Ermittlung}, label={lst:SSErmittlung}]
+    public SystemStatusHistory CalculateSystemStatusHistory(List<ValueReading> systemStatusReadings)
+    {
+        BaseTime = systemStatusReadings.First().TimeStamp;
+        EndTime = systemStatusReadings.Last().TimeStamp;
+
+        double optimal = 0;
+        double elevated = 0;
+        double critical = 0;
+
+        long previous = BaseTime;
+        foreach (var reading in systemStatusReadings)
+        {
+            switch (reading.Value)
+            {
+                case 1:
+                    optimal += reading.TimeStamp - previous;
+                    previous = reading.TimeStamp;
+                    break;
+                case 2:
+                    elevated += reading.TimeStamp - previous;
+                    previous = reading.TimeStamp;
+                    break;
+                case 3:
+                    critical += reading.TimeStamp - previous;
+                    previous = reading.TimeStamp;
+                    break;
+
+            }
+        }
+        SystemStatusHistory result = new SystemStatusHistory(CalculatePercent(optimal), CalculatePercent(elevated), CalculatePercent(critical), BaseTime, EndTime);
+        return result;
+    }\end{lstlisting}
+Die Implementierung des in \ref{fig:AblaufdiagramSystemReliability} visualisierten Algorithmus geschieht in der \textit{CalculateCurrentReliability()} Funktion der \textit{StatusHistory}-Klasse. Hierzu werden die Aufzeichnungen der \textit{FuzzyLogicMTBFFLX}-Klasse berechneten Systemstatusbewertungen verwendet (Z.3 Listing \ref{lst:SRErmittlung}). Aus diesen wird zunächst die Historie über die \textit{CalculateSystemStatusHistory()}-Funktion berechnet. Anschließend wird die Systemzuverlässigkeit für die jeweiligen Anteile des Systemstatus berechnet (Z.6-8 Listing \ref{lst:SRErmittlung}). Zuletzt werden die einzelnen Ergebnisse zu einem Endergebnis zusammengerechnet (Z.10 Listing \ref{lst:SRErmittlung}).
+\begin{lstlisting}[caption={Implementierung der Systemzuverlässigkeits Ermittlung}, label={lst:SRErmittlung}]
+    public double CalculateCurrentReliability(List<ValueReading> systemMTBFReadings, (int low, int medium, int high) MTBF, double currentReliability)
+    {
+        SystemStatusHistory MTBFHistory = CalculateSystemStatusHistory(systemMTBFReadings);
+
+        double interval = (MTBFHistory.To - MTBFHistory.From);
+        long lowReliabilityTime = (long)Math.Round(interval*MTBFHistory.Optimal, 0);
+        long mediumReliabilityTime = (long)Math.Round(interval * MTBFHistory.Elevated, 0);
+        long highReliabilityTime = (long)Math.Round(interval * MTBFHistory.Critical, 0);
+
+        double newReliability = currentReliability - (1-CalculateReliability(lowReliabilityTime, MTBFlow)) - (1-CalculateReliability(mediumReliabilityTime, MTBF.medium)) - (1-CalculateReliabilit(highReliabilityTime, MTBF.high)); 
+        return newReliability;
+    }
+       
+    private double CalculateReliability(long passedTime, long mtbf)
+    {
+        double result = Math.Pow(Math.E, (-1 * ((passedTime / 3600000) / (double)mtbf)));
+        return result;
+    }\end{lstlisting}
+
+
+
