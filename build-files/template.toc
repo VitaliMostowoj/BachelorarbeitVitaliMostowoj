@@ -69,21 +69,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}HM.DBServices}{38}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}HM.TimerBasedScheduler}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.3}HM.TimerBasedScheduler}{40}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}HM.HWServices}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.4}HM.HWServices}{41}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}HM.ScoringModel}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.5}HM.ScoringModel}{42}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}HM.API}{42}{section.4.6}%
+\contentsline {section}{\numberline {4.6}HM.API}{43}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Bearbeitung der \ac {http}-Anfragen}{43}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.1}Bearbeitung der \ac {http}-Anfragen}{44}{subsection.4.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{45}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{46}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{46}{figure.caption.78}%
+\contentsline {chapter}{Literaturverzeichnis}{47}{figure.caption.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.79}%
+\contentsline {chapter}{Anhang}{II}{chapter*.80}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 

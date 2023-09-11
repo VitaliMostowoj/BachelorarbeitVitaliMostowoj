@@ -3,8 +3,8 @@
 Das \textit{HM.DBServices} Verzeichnis Implementiert die alle Klassen und Funkitonen, welche mit externen Dateien interagieren. Neben der \textit{SQLiteWrapper}- und \textit{ConfigurationReader}-Klasse, organisiert das Verzeichnis die Dateien \textit{ConfigFile.json} und \textit{HealthMonitoringDataBase.sql}.
 
 \subsection*{ConfigurationReader}
-Die \textit{ConfigurationReader}-Klasse wird benötigt, um die Konfigurationsdatei der Anwendung auslesen zu können. In dieser müssen neben der Hardwarekonfiguration und dem Namen der Datenbankdatei, die Intervalle der einzelnen Jobs festgelegt werden. Zuletzt wird die IP Addresse der Zielplattform hinnterlegt um die \ac{api} von von einem externen Rechnern erreichen zu können.\\
-Hierzu wird zunächst eine \ac{json} Datei angelegt, welche folgende Struktur hat.
+Die \textit{ConfigurationReader}-Klasse wird benötigt, um die Konfigurationsdatei der Anwen- dung auslesen zu können. In dieser werden neben der Hardwarekonfiguration und dem Namen der Datenbankdatei, die Intervalle der einzelnen Jobs festgelegt. Zuletzt wird die IP Addresse der Zielplattform hinnterlegt um die \ac{api} von von einem externen Rechnern erreichen zu können.
+Hierfür wird im Verzeichnis die \textit{ConfigFile.json} Datei angelegt, welche folgender Struktur folgt.
 \begin{lstlisting}[caption={Konfigurationsdatei der Hardware-Health-Monitor Anwendung}, label={lst:ConfigFileStrukture}]
 {
   "deviceType": "OfficePC",
@@ -15,6 +15,22 @@ Hierzu wird zunächst eine \ac{json} Datei angelegt, welche folgende Struktur ha
   "systemIP": "192.168.0.100"
 }
 \end{lstlisting}
-Die \textit{Configu}
+Desweitern wird unter dem Verzeichnis \textit{HM.DBServices} die \textit{Configuration}-Klasse angelegt, welche der Struktur der \textit{ConfigFile.json} Datei folgt. Anschließend wird in der \textit{ConfigurationReader}-Klasse, über die \textit{ReadConfiguration()} Funktion die Konfigurationsdatei in das \textit{Configuration} Objekt übernommen.
+\begin{lstlisting}[caption={\textit{ReadConfiguration()} Funktion der \textit{ConfigurationReader}-Klasse}, label={lst:ReadConfiguration}]
+  {
+    public Configuration ReadConfiguration()
+    {
+      try
+      {
+        string configString = File.ReadAllText(Path);    
+        Configuration = JsonSerializer.Deserialize <Configuration >(configString);
+      } catch (Exception ex) {
+        throw ex; 
+      }
+    return Configuration;
+    }
+  }
+  \end{lstlisting}
 
-Desweitern wird die \textit{Configuration}-Klasse angelegt, welche der Struktur der \textit{ConfigFile.json} Datei folgt. Anschließend wird in der \textit{ConfigurationReader}-Klasse, über den \textit{JsonSerializer} die  Konfigurationsdatei in das \textit{Configuration} Objekt übernommen. 
+  \subsection*{SQLiteWrapper}
+  Zweck der \textit{SQLiteWrapper}-Klasse ist die Abstraktion der Lese- und Schreibzugriffe auf die Datenbank. Hierbei kommt die \textit{System.Data.SQLite} Bibliothek zum Einsatz.
