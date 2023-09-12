@@ -1,5 +1,12 @@
 \chapter{Bewertund der Ergebnisse}
-Im Rahmen dieser Bachelorarbeit wurd die 
+Im Rahmen dieser Bachelorarbeit wurde das Konzept für eine Verteilte Hardware-Health-Monitor Lösung für die \acl{p+f} \ac{hmi} Platformen VisuNet FLX und GXP entworfen. Die Anwendung ermöglicht eine plattformunabhängig Auswertung des Systems. Hierbei werden Messdaten der auf der Hardware der Plattformen verbauten Sensorik gesammelt, so wie eine Systemzusatandsbewertung über ausgewählte Messwerte durchgeführt. Die gesammelten Messwerte, so wie die gesammte Zustandsbewertung des Systems können zur Laufzeit der Anwendung über ein Dezentrales Dashboard visualisiert werden.\\
+Die Architektur der Anwendung wurde hierzu in drei Hauptmodule unterteilt.
 
+Datenerfassung: Dieses Modul ermöglicht die plattformunabhängige Erfassung und Auswertung von Sensorikdaten. Es integriert zwei Schnittstellen, die die Auswertung der Sensorik ermöglichen. Die erfassten Daten werden in einem allgemeinen Datenmodell gespeichert.
 
-\subsection{Anpassungsaufwände}
+Datenverarbeitung: In diesem Modul wurde zunächst ein Modell zur Bewertung des Systemstatus definiert. Anschließend wurde die Logik zur Ermittlung dieses Modells implementiert. Hier erfolgt die Analyse und Auswertung der gesammelten Daten, um den aktuellen Zustand des Systems zu bewerten.
+
+Datenvisualisierung: Für die Visualisierung der Daten wurde eine Schnittstelle in der Anwendung eingebaut. Diese Schnittstelle wurde mit einer Konfiguration für ein Grafana-Dashboard verbunden, um die Daten ansprechend und benutzerfreundlich darzustellen.
+
+Zusammenfassend ermöglicht diese Lösung eine umfassende Überwachung der Gesundheit der VisuNet FLX und GXP Plattformen, unabhängig von der verwendeten Hardware. Die Daten werden erfasst, verarbeitet und benutzerfreundlich visualisiert, um dem Benutzer wichtige Informationen zum Systemzustand zur Verfügung zu stellen.
+

@@ -3,9 +3,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{III}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{V}{section*.7}%
+\contentsline {chapter}{Abbildungsverzeichnis}{V}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.8}%
+\contentsline {chapter}{Tabellenverzeichnis}{VII}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
