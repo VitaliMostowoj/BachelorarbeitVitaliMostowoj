@@ -1,4 +1,6 @@
 \section{HM.ScoringModel}
+Das \textit{HM.ScoringModel} Verzeichnis enthällt alle Klassen, welche zur bewertung der Zielplatform verendet. Zum einen werden die Klassen zur ermittelung des Systemstatus in diesem VerzeichnisOrganisiert. Zum anderen wird auch die Klasse zum Ermitteln der SystemStatusHistory und Systemzuverlässigkeit in diesem Verzeichnis organisiert.
+
 \subsection{Implementierung der Fuzzylogic}
 Zur Implementierung der in Abbildung \ref{fig:ScoringModel} gezeigten Architektur wird zunächst das \textit{IFuzzyLogic}-Interface definiert. Abgeleitet von diesem wird zudem die abstrakte \textit{FuzzyLogic}-Klasse. Sie abstrahiert die \ac{fls} Bibliothek \cite{FLSGit}. \ac{fls} ist eine Open Source Bibliothek, welche eine einfache Fuzzylogic Implementierung bereitstellt. Sie ermöglicht die Erzeugung von linguistischen Variablen, Membershipfunktionen und zwei Deffuzifikationsverfahren.\\
 In der \textit{FuzzyLogic}-Klasse werden zunächst die verschiedenen linguistischen Variablen, so wie die Membershipfunktionen definiert. Des Weiteren werden die Eingangsvariablen, für Temperatur und Last, definiert. 

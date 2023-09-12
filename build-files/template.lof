@@ -77,16 +77,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces \relax }}{40}{figure.caption.73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{47}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ablaufdiagram des Execute Events der \textit {ReadingJob}-Klasse\relax }}{47}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \relax }}{48}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ablaufdiagram des Execute Events der \textit {CurrentSystemStatusJob}-Klasse\relax }}{48}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Ablauf der Requestbehandlung\relax }}{50}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ablaufdiagram des Execute Events der \textit {SystemStatusHistoryJob}-Klasse\relax }}{49}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Konfiguration der \textit {SimpleJson} Datenquelle\relax }}{52}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ablauf der Requestbehandlung\relax }}{51}{figure.caption.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Grafana \textit {edit panel} Ansicht\relax }}{53}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Konfiguration der \textit {SimpleJson} Datenquelle\relax }}{53}{figure.caption.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Grafana Dashboard der Hardware-Health-Monitoring Lösung\relax }}{54}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Grafana \textit {edit panel} Ansicht\relax }}{54}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Grafana Dashboard der Hardware-Health-Monitoring Lösung\relax }}{55}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

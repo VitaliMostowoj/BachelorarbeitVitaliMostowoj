@@ -1502,6 +1502,12 @@ INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
@@ -2043,6 +2049,11 @@ INPUT ./resources/images//CurrentSystemStatusExecute.png
 INPUT resources/images//CurrentSystemStatusExecute.png
 INPUT ./resources/images//CurrentSystemStatusExecute.png
 INPUT ./resources/images//CurrentSystemStatusExecute.png
+INPUT ./resources/images//SystemStatusHistoryJobAblauf.png
+INPUT ./resources/images//SystemStatusHistoryJobAblauf.png
+INPUT resources/images//SystemStatusHistoryJobAblauf.png
+INPUT ./resources/images//SystemStatusHistoryJobAblauf.png
+INPUT ./resources/images//SystemStatusHistoryJobAblauf.png
 INPUT ./sections/Implementierung/API.tex
 OUTPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/API.aux
 INPUT ./sections/Implementierung/API.tex
@@ -2085,6 +2096,28 @@ INPUT ./resources/images//GrafanaDashboard.png
 INPUT resources/images//GrafanaDashboard.png
 INPUT ./resources/images//GrafanaDashboard.png
 INPUT ./resources/images//GrafanaDashboard.png
+INPUT ./sections/ende/Fazit.tex
+OUTPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT ./sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT sections/ende/Fazit.tex
+INPUT ./sections/ende/Fazit.tex
+INPUT sections/ende/Fazit.tex
+INPUT ./sections/ende/Ausblick.tex
+OUTPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
+INPUT ./sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT sections/ende/Ausblick.tex
+INPUT ./sections/ende/Ausblick.tex
+INPUT sections/ende/Ausblick.tex
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
 INPUT ./sections/appendix/appendix.tex
 OUTPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
@@ -2318,6 +2351,12 @@ INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
+INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux

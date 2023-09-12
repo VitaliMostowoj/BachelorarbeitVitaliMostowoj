@@ -83,15 +83,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}HM.TimerBasedScheduler}{47}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}HM.API}{49}{section.4.6}%
+\contentsline {subsection}{\numberline {4.5.1}ReadingJob}{47}{subsection.4.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Bearbeitung der \ac {http}-Anfragen}{50}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.5.2}CurrentSystemStatusJob}{48}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{52}{section.4.7}%
+\contentsline {subsection}{\numberline {4.5.3}SystemStatusHistoryJob}{49}{subsection.4.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{55}{figure.caption.81}%
+\contentsline {section}{\numberline {4.6}HM.API}{50}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.82}%
+\contentsline {subsection}{\numberline {4.6.1}Bearbeitung der \ac {http}-Anfragen}{51}{subsection.4.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Aufsetzen des Dashboards}{53}{section.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Bewertund der Ergebnisse}{56}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Ausblick}{57}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{58}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anhang}{II}{chapter*.83}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 
