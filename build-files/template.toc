@@ -97,9 +97,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Bewertund der Ergebnisse}{56}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Ausblick}{57}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Ausblick}{58}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{58}{chapter.6}%
+\contentsline {chapter}{Literaturverzeichnis}{59}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Anhang}{II}{chapter*.83}%
 \defcounter {refsection}{0}\relax 
