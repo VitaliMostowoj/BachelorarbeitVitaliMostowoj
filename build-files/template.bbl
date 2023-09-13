@@ -496,6 +496,23 @@
       \verb %7Bhttps://learn.microsoft.com/de-de/dotnet/api/system.net.httplistener?view=net-7.0%7D
       \endverb
     \endentry
+    \entry{ormDB}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{{object-relational mapping (ORM)}}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb {https://www.theserverside.com/definition/object-relational-mapping-ORM}
+      \endverb
+      \verb{url}
+      \verb %7Bhttps://www.theserverside.com/definition/object-relational-mapping-ORM%7D
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
