@@ -290,8 +290,8 @@
       \strng{authorbibnamehash}{9952f118e5be8ab0b7914b0ffea50fdd}
       \strng{authornamehash}{9952f118e5be8ab0b7914b0ffea50fdd}
       \strng{authorfullhash}{9952f118e5be8ab0b7914b0ffea50fdd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Avionics Integrity Program, Technical Report ASD-TR-84-5030}
@@ -386,8 +386,8 @@
       \strng{authorbibnamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
       \strng{authornamehash}{7bf6f8fee25c8d181d2c38798f64e0d3}
       \strng{authorfullhash}{7bf6f8fee25c8d181d2c38798f64e0d3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Fuzzy logic - he logic underlying approximate, rather than exact, modes of reasoning- is finding applications that range from process control to medical diagnosis.}}
@@ -446,8 +446,8 @@
       \endverb
     \endentry
     \entry{FLSGit}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{{Fuzzy-Logic-Sharp}}
       \field{urlday}{1}
