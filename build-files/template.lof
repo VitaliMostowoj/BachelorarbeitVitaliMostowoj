@@ -9,87 +9,87 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Entscheidungs Matrix zur Bewertung der Datenbanken \cite {t3000}\relax }}{6}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Adapter Pattern Struktur \cite {DesignPatterns}\relax }}{7}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Adapter Pattern Struktur \cite {DesignPatterns}\relax }}{8}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Strategie Pattern Struktur \cite {DesignPatterns}\relax }}{8}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Strategie Pattern Struktur \cite {DesignPatterns}\relax }}{8}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Volumen der weltweit generierten Daten bis 2027 \cite {Datenmengen}\relax }}{9}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Volumen der weltweit generierten Daten bis 2027 \cite {Datenmengen}\relax }}{9}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces SQL Befehls Kategorien \cite {SQLCommands}\relax }}{9}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces SQL Befehls Kategorien \cite {SQLCommands}\relax }}{9}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Bathtub Curve \cite {AREPA_LifeExpectancy}\relax }}{10}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Bathtub Curve \cite {AREPA_LifeExpectancy}\relax }}{10}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Vergleich von Fuzzy Logic zu Boolescher Logik \cite {FuzzyLogicGeeks}\relax }}{11}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Vergleich von Fuzzy Logic zu Boolescher Logik \cite {FuzzyLogicGeeks}\relax }}{11}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Architektur eines Fuzzy Logic Systems \cite {FuzzyLogicGeeks}\relax }}{12}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Architektur eines Fuzzy Logic Systems \cite {FuzzyLogicGeeks}\relax }}{12}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Grafana Dashboard Beispiel \cite {GrafanaWebsite}\relax }}{13}{figure.caption.31}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architektur der HM.HWServices für das Auslesen der Hardware\relax }}{15}{figure.caption.32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum Zwischenspeichern der Sensordaten\relax }}{16}{figure.caption.36}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{19}{figure.caption.41}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{20}{figure.caption.43}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Architektur des HM.DBService Verzeichnis\relax }}{20}{figure.caption.45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Schnittstelle zum Auslesen einzelner Datensätze\relax }}{21}{figure.caption.46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \relax }}{22}{figure.caption.47}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \ac {mtbf} Vorhersage für die VisuNet FLX Plattform\relax }}{23}{figure.caption.49}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Plattform\relax }}{23}{figure.caption.50}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Zugehörigkeitsfunktionen der Temperature Variable\relax }}{24}{figure.caption.52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Zugehörigkeitsfunktionen der CPULast Variable\relax }}{25}{figure.caption.53}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Zugehörigkeitsfunktionen der SystemStatus Variable\relax }}{25}{figure.caption.54}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Regelwerk zum Ermitteln des Systemstauts\relax }}{26}{figure.caption.56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Architektur des HM.ScoringModel für die Ermittelung des SystemStatus\relax }}{27}{figure.caption.58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Algorithmus zur Berechnung der Systemstatus Historie\relax }}{28}{figure.caption.59}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Regelwerk SystemMTBF\relax }}{29}{figure.caption.60}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Algorithmus zur Berechnung der Systemzuverlässigkeit\relax }}{30}{figure.caption.61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Wrapperklasse zur Berechnung von Reliability und der Systemstatus Historie\relax }}{31}{figure.caption.63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Architektur des Taskscheduler\relax }}{32}{figure.caption.64}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Konzept zur Platformunabhängigen Datenvisualisierung\relax }}{34}{figure.caption.65}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Visualisierung der \ac {http} Anfragen an die \ac {api}\relax }}{35}{figure.caption.66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Arichtektur der \ac {api}\relax }}{35}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Grafana Dashboard Beispiel \cite {GrafanaWebsite}\relax }}{14}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Verzeichnis Aufteilung des Hardware Health Monitor Programms\relax }}{36}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architektur der HM.HWServices für das Auslesen der Hardware\relax }}{16}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ablaufdiagramm eines Datenbankzugriffs\relax }}{40}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Datenstruktur zum Zwischenspeichern der Sensordaten\relax }}{17}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ablaufdiagram des Execute Events der \textit {ReadingJob}-Klasse\relax }}{47}{figure.caption.73}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Datenbankmodell des Hardware-Health-Monitorings\relax }}{20}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Ablaufdiagram des Execute Events der \textit {CurrentSystemStatusJob}-Klasse\relax }}{48}{figure.caption.74}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Datenbankmodellerweiterung des Hardware-Health-Monitorings\relax }}{21}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Ablaufdiagram des Execute Events der \textit {SystemStatusHistoryJob}-Klasse\relax }}{49}{figure.caption.75}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Architektur des HM.DBService Verzeichnis\relax }}{21}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ablauf der Requestbehandlung\relax }}{51}{figure.caption.76}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schnittstelle zum Auslesen einzelner Datensätze\relax }}{22}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Konfiguration der \textit {SimpleJson} Datenquelle\relax }}{53}{figure.caption.78}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \relax }}{23}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Grafana \textit {edit panel} Ansicht\relax }}{54}{figure.caption.79}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \ac {mtbf} Vorhersage für die VisuNet FLX Plattform\relax }}{24}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Grafana Dashboard der Hardware-Health-Monitoring Lösung\relax }}{55}{figure.caption.80}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sensorverteilung auf der Mainboard Platine der VisuNet FLX Plattform\relax }}{24}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Zugehörigkeitsfunktionen der Temperature Variable\relax }}{25}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Zugehörigkeitsfunktionen der CPULast Variable\relax }}{26}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Zugehörigkeitsfunktionen der SystemStatus Variable\relax }}{26}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Regelwerk zum Ermitteln des Systemstauts\relax }}{27}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Architektur des HM.ScoringModel für die Ermittelung des SystemStatus\relax }}{28}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Algorithmus zur Berechnung der Systemstatus Historie\relax }}{29}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Regelwerk SystemMTBF\relax }}{30}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Algorithmus zur Berechnung der Systemzuverlässigkeit\relax }}{31}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Wrapperklasse zur Berechnung von Reliability und der Systemstatus Historie\relax }}{32}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Architektur des Taskscheduler\relax }}{33}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Konzept zur Platformunabhängigen Datenvisualisierung\relax }}{35}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Visualisierung der \ac {http} Anfragen an die \ac {api}\relax }}{36}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Arichtektur der \ac {api}\relax }}{36}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Verzeichnis Aufteilung des Hardware Health Monitor Programms\relax }}{37}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ablaufdiagramm eines Datenbankzugriffs\relax }}{41}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ablaufdiagram des Execute Events der \textit {ReadingJob}-Klasse\relax }}{48}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ablaufdiagram des Execute Events der \textit {CurrentSystemStatusJob}-Klasse\relax }}{49}{figure.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ablaufdiagram des Execute Events der \textit {SystemStatusHistoryJob}-Klasse\relax }}{50}{figure.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ablauf der Requestbehandlung\relax }}{52}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Konfiguration der \textit {SimpleJson} Datenquelle\relax }}{54}{figure.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Grafana \textit {edit panel} Ansicht\relax }}{55}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Grafana Dashboard der Hardware-Health-Monitoring Lösung\relax }}{56}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  16 SEP 2023 01:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.29)  16 SEP 2023 01:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1449,12 +1449,7 @@ although it is yet undefined on input line 4.
 
 
 
-] (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.toc
-Overfull \hbox (2.45354pt too wide) detected at line 8
- []\T1/cmss/bx/n/12 VIII
- []
-
-[4
+] (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.toc [4
 
 
 
@@ -1462,8 +1457,13 @@ Overfull \hbox (2.45354pt too wide) detected at line 8
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 although it is yet undefined on input line 94.
 
-Overfull \hbox (8.20625pt too wide) detected at line 110
- []\T1/cmr/m/n/12 XVII
+Overfull \hbox (3.64212pt too wide) detected at line 106
+ []\T1/cmr/m/n/12 XIV
+ []
+
+
+Overfull \hbox (3.64212pt too wide) detected at line 108
+ []\T1/cmr/m/n/12 XVI
  []
 
 )
@@ -1502,11 +1502,17 @@ although it is yet undefined on input line 70.
 
  (./sections/einleitung/Einleitung.tex
 chapter 1.
-<resources/images//P+F_Standorte.png, id=383, 1210.5225pt x 631.35875pt>
+
+LaTeX Warning: Citation 'PFGeschichte' on page 1 undefined on input line 6.
+
+<resources/images//P+F_Standorte.png, id=363, 1210.5225pt x 631.35875pt>
 File: resources/images//P+F_Standorte.png Graphic file (type png)
 <use resources/images//P+F_Standorte.png>
 Package pdftex.def Info: resources/images//P+F_Standorte.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 237.4333pt.
+
+LaTeX Warning: Citation 'HMIYannick' on page 1 undefined on input line 18.
+
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 18.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1537,11 +1543,32 @@ Overfull \hbox (1.32813pt too wide) in paragraph at lines 50--52
 
 ) [4] (./sections/grundlagen/Vorarbeit.tex
 chapter 2.
-<resources/images//MatrixDB.png, id=430, 1048.91875pt x 266.9975pt>
+
+LaTeX Warning: Citation 'PAMathias' on page 5 undefined on input line 3.
+
+
+LaTeX Warning: Citation 't3000' on page 5 undefined on input line 3.
+
+
+LaTeX Warning: Citation 't3000' on page 5 undefined on input line 3.
+
+
+LaTeX Warning: Citation 't3000' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'SQLiteHompage' on page 5 undefined on input line 6.
+
+<resources/images//MatrixDB.png, id=403, 1048.91875pt x 266.9975pt>
 File: resources/images//MatrixDB.png Graphic file (type png)
 <use resources/images//MatrixDB.png>
 Package pdftex.def Info: resources/images//MatrixDB.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 115.87814pt.
+
+LaTeX Warning: Citation 't3000' on page 5 undefined on input line 12.
+
+
+LaTeX Warning: Citation 't3000' on page 5 undefined on input line 12.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1550,51 +1577,163 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
+
+LaTeX Warning: Citation 'HWINFO' on page 6 undefined on input line 18.
+
 Package acronym Info: Label `acro:sdk' newly defined as it shall be overridden
 although it is yet undefined on input line 19.
-) (./sections/grundlagen/SoftwareDesignKonzepte.tex [6 <./resources/images//MatrixDB.png>]
-<resources/images//UMLAdapterPattern.png, id=452, 321.2pt x 273.02pt>
+
+LaTeX Warning: Citation 'HWINFO' on page 6 undefined on input line 19.
+
+) (./sections/grundlagen/SoftwareDesignKonzepte.tex
+
+LaTeX Warning: Citation 'DesignPatterns' on page 6 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 6 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 6 undefined on input line 4.
+
+[6 <./resources/images//MatrixDB.png>]
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 9.
+
+<resources/images//UMLAdapterPattern.png, id=417, 321.2pt x 273.02pt>
 File: resources/images//UMLAdapterPattern.png Graphic file (type png)
 <use resources/images//UMLAdapterPattern.png>
 Package pdftex.def Info: resources/images//UMLAdapterPattern.png  used on input line 14.
 (pdftex.def)             Requested size: 168.4381pt x 143.17517pt.
- [7 <./resources/images//UMLAdapterPattern.png>]
-<resources/images//UMLStrategyPattern.png, id=460, 714.67pt x 327.2225pt>
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 15.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 7 undefined on input line 25.
+
+[7]
+<resources/images//UMLStrategyPattern.png, id=423, 714.67pt x 327.2225pt>
 File: resources/images//UMLStrategyPattern.png Graphic file (type png)
 <use resources/images//UMLStrategyPattern.png>
 Package pdftex.def Info: resources/images//UMLStrategyPattern.png  used on input line 30.
 (pdftex.def)             Requested size: 318.66948pt x 145.90564pt.
-) (./sections/grundlagen/Datenbanken.tex
-<resources/images//DatenvolumenStatistik.png, id=465, 880.28876pt x 590.205pt>
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 8 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 8 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'DesignPatterns' on page 8 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'HeadfirstDesignPatterns' on page 8 undefined on input line 38.
+
+) (./sections/grundlagen/Datenbanken.tex [8 <./resources/images//UMLAdapterPattern.png> <./resources/images//UMLStrategyPattern.png>]
+<resources/images//DatenvolumenStatistik.png, id=428, 880.28876pt x 590.205pt>
 File: resources/images//DatenvolumenStatistik.png Graphic file (type png)
 <use resources/images//DatenvolumenStatistik.png>
 Package pdftex.def Info: resources/images//DatenvolumenStatistik.png  used on input line 6.
 (pdftex.def)             Requested size: 218.51521pt x 146.50621pt.
- [8 <./resources/images//UMLStrategyPattern.png>]
-<resources/images//SQLCommands.png, id=477, 799.98875pt x 671.50874pt>
+
+
+LaTeX Warning: Citation 'Datenmengen' on page 9 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Datenmengen' on page 9 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Datenmengen' on page 9 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'SQLNoSQL' on page 9 undefined on input line 14.
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 13--15
+[]\T1/cmr/m/n/12 Weltweit wur-den im Jahr 2022 Da-ten
+ []
+
+<resources/images//SQLCommands.png, id=430, 799.98875pt x 671.50874pt>
 File: resources/images//SQLCommands.png Graphic file (type png)
 <use resources/images//SQLCommands.png>
 Package pdftex.def Info: resources/images//SQLCommands.png  used on input line 21.
 (pdftex.def)             Requested size: 218.51521pt x 183.42053pt.
+
+LaTeX Warning: Citation 'SQLCommands' on page 9 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'SQLCommands' on page 9 undefined on input line 24.
+
 Package acronym Info: Label `acro:sequel' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
 Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
+
+LaTeX Warning: Citation 'SQL' on page 9 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'SQL' on page 9 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'SQL' on page 9 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'SQLCommands' on page 9 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'SQLDoku' on page 9 undefined on input line 32.
+
 ) (./sections/grundlagen/MTBFReliability.tex
 Underfull \hbox (badness 1097) in paragraph at lines 28--1
 \T1/cmr/m/n/12 Mo-dell ba-siert auf der Zu-ord-nung von
  []
 
 [9 <./resources/images//DatenvolumenStatistik.png> <./resources/images//SQLCommands.png (PNG copy)>]
-<resources/images//BathTubCurve.png, id=501, 687.56876pt x 400.49625pt>
+
+LaTeX Warning: Citation 'AIP' on page 10 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'AREPA_LifeExpectancy' on page 10 undefined on input line 2.
+
+<resources/images//BathTubCurve.png, id=447, 687.56876pt x 400.49625pt>
 File: resources/images//BathTubCurve.png Graphic file (type png)
 <use resources/images//BathTubCurve.png>
 Package pdftex.def Info: resources/images//BathTubCurve.png  used on input line 7.
 (pdftex.def)             Requested size: 291.35594pt x 169.7106pt.
 
+LaTeX Warning: Citation 'AREPA_LifeExpectancy' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'AREPA_LifeExpectancy' on page 10 undefined on input line 10.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--13
 
  []
+
+
+LaTeX Warning: Citation 'AREPA_LifeExpectancy' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'MTBFReliability' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'MTBFReliability' on page 10 undefined on input line 17.
 
 
 Underfull \hbox (badness 1997) in paragraph at lines 13--19
@@ -1602,39 +1741,90 @@ Underfull \hbox (badness 1997) in paragraph at lines 13--19
  []
 
 [10 <./resources/images//BathTubCurve.png>]) (./sections/grundlagen/FuzzyLogic.tex
-<resources/images//FuzzyBoolLogic.png, id=520, 548.0475pt x 344.28625pt>
+<resources/images//FuzzyBoolLogic.png, id=459, 548.0475pt x 344.28625pt>
 File: resources/images//FuzzyBoolLogic.png Graphic file (type png)
 <use resources/images//FuzzyBoolLogic.png>
 Package pdftex.def Info: resources/images//FuzzyBoolLogic.png  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 114.3923pt.
- [11 <./resources/images//FuzzyBoolLogic.png>]
-<resources/images//FuzzyLogicArchitektur.png, id=541, 651.43375pt x 334.24875pt>
+
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 11 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 11 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'FuzzyLogicTechTarget' on page 11 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'LoftiFuzzyLogic' on page 11 undefined on input line 15.
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 14--16
+\T1/cmr/m/n/12 siert. Im Ge-gen-satz zur her-kömm-li-chen Boo-le-
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 14--16
+\T1/cmr/m/n/12 1 oder 0 bzw. wahr oder falsch stützt, zeich-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 14--16
+\T1/cmr/m/n/12 net sich die Fuz-zy Lo-gic durch ih-re Fä-hig-keit
+ []
+
+[11 <./resources/images//FuzzyBoolLogic.png>]
+<resources/images//FuzzyLogicArchitektur.png, id=475, 651.43375pt x 334.24875pt>
 File: resources/images//FuzzyLogicArchitektur.png Graphic file (type png)
 <use resources/images//FuzzyLogicArchitektur.png>
 Package pdftex.def Info: resources/images//FuzzyLogicArchitektur.png  used on input line 24.
 (pdftex.def)             Requested size: 314.11954pt x 161.1771pt.
 
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 12 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 12 undefined on input line 25.
+
+[12 <./resources/images//FuzzyLogicArchitektur.png>]
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 13 undefined on input line 31.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[12 <./resources/images//FuzzyLogicArchitektur.png>]) (./sections/grundlagen/Grafana.tex
-<resources/images//Gitlab_Dashboard.png, id=552, 975.645pt x 472.76625pt>
+) (./sections/grundlagen/Grafana.tex
+
+LaTeX Warning: Citation 'GrafanaWebsite' on page 13 undefined on input line 2.
+
+<resources/images//Gitlab_Dashboard.png, id=481, 975.645pt x 472.76625pt>
 File: resources/images//Gitlab_Dashboard.png Graphic file (type png)
 <use resources/images//Gitlab_Dashboard.png>
 Package pdftex.def Info: resources/images//Gitlab_Dashboard.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 220.5987pt.
-) (./sections/datenerfassung/SystemArchitekur.tex [13 <./resources/images//Gitlab_Dashboard.png>]
+
+LaTeX Warning: Citation 'GrafanaWebsite' on page 13 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'GrafanaWebsite' on page 13 undefined on input line 8.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/datenerfassung/SystemArchitekur.tex [13] [14 <./resources/images//Gitlab_Dashboard.png>]
 chapter 3.
 ) (./sections/datenerfassung/Datenerfassung.tex
 Overfull \hbox (3.52153pt too wide) in paragraph at lines 6--8
 \T1/cmr/m/n/12 Das UML-Diagramm in Ab-bil-dung [][]3.1[][] ver-an-schau-licht den Auf-bau von \T1/cmr/m/it/12 HM.HWServices\T1/cmr/m/n/12 . 
  []
 
-[14
+[15
 
 ]
-<resources/images//UMLDatenerfassung.png, id=570, 1096.095pt x 597.23125pt>
+<resources/images//UMLDatenerfassung.png, id=501, 1096.095pt x 597.23125pt>
 File: resources/images//UMLDatenerfassung.png Graphic file (type png)
 <use resources/images//UMLDatenerfassung.png>
 Package pdftex.def Info: resources/images//UMLDatenerfassung.png  used on input line 11.
@@ -1643,111 +1833,123 @@ Package acronym Info: Label `acro:dpu' newly defined as it shall be overridden
 although it is yet undefined on input line 23.
 Package acronym Info: Label `acro:tcu' newly defined as it shall be overridden
 although it is yet undefined on input line 23.
- [15 <./resources/images//UMLDatenerfassung.png>]
-<resources/images//UMLDatastructureHWI.png, id=582, 449.68pt x 358.33875pt>
+ [16 <./resources/images//UMLDatenerfassung.png>]
+<resources/images//UMLDatastructureHWI.png, id=514, 449.68pt x 358.33875pt>
 File: resources/images//UMLDatastructureHWI.png Graphic file (type png)
 <use resources/images//UMLDatastructureHWI.png>
 Package pdftex.def Info: resources/images//UMLDatastructureHWI.png  used on input line 30.
 (pdftex.def)             Requested size: 204.85846pt x 163.24669pt.
- [16 <./resources/images//UMLDatastructureHWI.png>]
-<resources/images//SensorList.png, id=589, 1046.91125pt x 521.95pt>
+ [17 <./resources/images//UMLDatastructureHWI.png>]
+<resources/images//SensorList.png, id=523, 1046.91125pt x 521.95pt>
 File: resources/images//SensorList.png Graphic file (type png)
 <use resources/images//SensorList.png>
 Package pdftex.def Info: resources/images//SensorList.png  used on input line 43.
 (pdftex.def)             Requested size: 318.66948pt x 158.87195pt.
-<resources/images//SensorReadings.png, id=591, 1109.14375pt x 717.68124pt>
+<resources/images//SensorReadings.png, id=525, 1109.14375pt x 717.68124pt>
 File: resources/images//SensorReadings.png Graphic file (type png)
 <use resources/images//SensorReadings.png>
 Package pdftex.def Info: resources/images//SensorReadings.png  used on input line 54.
 (pdftex.def)             Requested size: 368.74661pt x 238.59863pt.
- [17 <./resources/images//SensorList.png> <./resources/images//SensorReadings.png>]
+ [18 <./resources/images//SensorList.png> <./resources/images//SensorReadings.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[18]
-<resources/images//DBModell.png, id=613, 846.16125pt x 346.29375pt>
+[19]
+<resources/images//DBModell.png, id=548, 846.16125pt x 346.29375pt>
 File: resources/images//DBModell.png Graphic file (type png)
 <use resources/images//DBModell.png>
 Package pdftex.def Info: resources/images//DBModell.png  used on input line 72.
 (pdftex.def)             Requested size: 455.24411pt x 186.30891pt.
- [19 <./resources/images//DBModell.png>]
-<resources/images//DBErweitert.png, id=624, 842.14626pt x 150.5625pt>
+ [20 <./resources/images//DBModell.png>]
+<resources/images//DBErweitert.png, id=559, 842.14626pt x 150.5625pt>
 File: resources/images//DBErweitert.png Graphic file (type png)
 <use resources/images//DBErweitert.png>
 Package pdftex.def Info: resources/images//DBErweitert.png  used on input line 86.
 (pdftex.def)             Requested size: 455.24411pt x 81.39212pt.
-<resources/images//HMDBService.png, id=626, 1649.16125pt x 924.45375pt>
+<resources/images//HMDBService.png, id=561, 1649.16125pt x 924.45375pt>
 File: resources/images//HMDBService.png Graphic file (type png)
 <use resources/images//HMDBService.png>
 Package pdftex.def Info: resources/images//HMDBService.png  used on input line 99.
 (pdftex.def)             Requested size: 455.24411pt x 255.17772pt.
- [20 <./resources/images//DBErweitert.png> <./resources/images//HMDBService.png>]
-<resources/images//HMDataStructure.png, id=634, 429.605pt x 175.65625pt>
+ [21 <./resources/images//DBErweitert.png> <./resources/images//HMDBService.png>]
+<resources/images//HMDataStructure.png, id=570, 429.605pt x 175.65625pt>
 File: resources/images//HMDataStructure.png Graphic file (type png)
 <use resources/images//HMDataStructure.png>
 Package pdftex.def Info: resources/images//HMDataStructure.png  used on input line 109.
 (pdftex.def)             Requested size: 227.62206pt x 93.07056pt.
-) (./sections/datenerfassung/Datenverarbeitung.tex [21 <./resources/images//HMDataStructure.png (PNG copy)>]
-<resources/images//HealthStatus.png, id=640, 146.5475pt x 201.75375pt>
+) (./sections/datenerfassung/Datenverarbeitung.tex [22 <./resources/images//HMDataStructure.png (PNG copy)>]
+<resources/images//HealthStatus.png, id=576, 146.5475pt x 201.75375pt>
 File: resources/images//HealthStatus.png Graphic file (type png)
 <use resources/images//HealthStatus.png>
 Package pdftex.def Info: resources/images//HealthStatus.png  used on input line 9.
 (pdftex.def)             Requested size: 91.04742pt x 125.34462pt.
- [22 <./resources/images//HealthStatus.png>]
-<resources/images//FLXMTBFPrediction.png, id=647, 691.58376pt x 713.66624pt>
+ [23 <./resources/images//HealthStatus.png>]
+<resources/images//FLXMTBFPrediction.png, id=584, 691.58376pt x 713.66624pt>
 File: resources/images//FLXMTBFPrediction.png Graphic file (type png)
 <use resources/images//FLXMTBFPrediction.png>
 Package pdftex.def Info: resources/images//FLXMTBFPrediction.png  used on input line 25.
 (pdftex.def)             Requested size: 136.57462pt x 140.93391pt.
-<resources/images//FLXSensorPlatzierung.png, id=656, 1355.0625pt x 1173.38374pt>
+<resources/images//FLXSensorPlatzierung.png, id=593, 1355.0625pt x 1173.38374pt>
 File: resources/images//FLXSensorPlatzierung.png Graphic file (type png)
 <use resources/images//FLXSensorPlatzierung.png>
 Package pdftex.def Info: resources/images//FLXSensorPlatzierung.png  used on input line 38.
 (pdftex.def)             Requested size: 364.19667pt x 315.36758pt.
- [23 <./resources/images//FLXMTBFPrediction.png> <./resources/images//FLXSensorPlatzierung.png>]
-<resources/images//MSFTemp.png, id=672, 2166.0925pt x 800.9925pt>
+ [24 <./resources/images//FLXMTBFPrediction.png> <./resources/images//FLXSensorPlatzierung.png>]
+
+LaTeX Warning: Citation 'FuzzyLogicGeeks' on page 25 undefined on input line 48.
+
+<resources/images//MSFTemp.png, id=610, 2166.0925pt x 800.9925pt>
 File: resources/images//MSFTemp.png Graphic file (type png)
 <use resources/images//MSFTemp.png>
 Package pdftex.def Info: resources/images//MSFTemp.png  used on input line 58.
 (pdftex.def)             Requested size: 409.71692pt x 151.5057pt.
- [24 <./resources/images//MSFTemp.png>]
-<resources/images//MSFCPULoad.png, id=680, 2122.93124pt x 788.9475pt>
+[25 <./resources/images//MSFTemp.png>]
+<resources/images//MSFCPULoad.png, id=620, 2122.93124pt x 788.9475pt>
 File: resources/images//MSFCPULoad.png Graphic file (type png)
 <use resources/images//MSFCPULoad.png>
 Package pdftex.def Info: resources/images//MSFCPULoad.png  used on input line 69.
 (pdftex.def)             Requested size: 409.71692pt x 152.2611pt.
-<resources/images//MSFSystemStaus.png, id=682, 2084.78876pt x 770.88pt>
+<resources/images//MSFSystemStaus.png, id=622, 2084.78876pt x 770.88pt>
 File: resources/images//MSFSystemStaus.png Graphic file (type png)
 <use resources/images//MSFSystemStaus.png>
 Package pdftex.def Info: resources/images//MSFSystemStaus.png  used on input line 80.
 (pdftex.def)             Requested size: 409.71692pt x 151.49138pt.
- [25 <./resources/images//MSFCPULoad.png> <./resources/images//MSFSystemStaus.png>]
-<resources/images//RegelWerk.png, id=693, 1055.44313pt x 278.54062pt>
+
+
+LaTeX Warning: Citation 'FLRegelwerk' on page 26 undefined on input line 88.
+
+
+Overfull \hbox (6.45pt too wide) in paragraph at lines 88--90
+\T1/cmr/m/n/12 Be-zie-hung zwi-schen den lin-guis-ti-schen Va-ria-blen der Ein- und Aus-gän-ge aus.[] 
+ []
+
+[26 <./resources/images//MSFCPULoad.png> <./resources/images//MSFSystemStaus.png>]
+<resources/images//RegelWerk.png, id=632, 1055.44313pt x 278.54062pt>
 File: resources/images//RegelWerk.png Graphic file (type png)
 <use resources/images//RegelWerk.png>
 Package pdftex.def Info: resources/images//RegelWerk.png  used on input line 103.
 (pdftex.def)             Requested size: 455.24411pt x 120.1399pt.
- [26 <./resources/images//RegelWerk.png>]
-<resources/images//ScoringModel.png, id=705, 1032.85875pt x 874.26625pt>
+ [27 <./resources/images//RegelWerk.png>]
+<resources/images//ScoringModel.png, id=644, 1032.85875pt x 874.26625pt>
 File: resources/images//ScoringModel.png Graphic file (type png)
 <use resources/images//ScoringModel.png>
 Package pdftex.def Info: resources/images//ScoringModel.png  used on input line 117.
 (pdftex.def)             Requested size: 455.24411pt x 385.34535pt.
- [27 <./resources/images//ScoringModel.png>]
-<resources/images//SystemStatusHistory.png, id=714, 801.99625pt x 626.34pt>
+ [28 <./resources/images//ScoringModel.png>]
+<resources/images//SystemStatusHistory.png, id=653, 801.99625pt x 626.34pt>
 File: resources/images//SystemStatusHistory.png Graphic file (type png)
 <use resources/images//SystemStatusHistory.png>
 Package pdftex.def Info: resources/images//SystemStatusHistory.png  used on input line 131.
 (pdftex.def)             Requested size: 396.06015pt x 309.31769pt.
- [28 <./resources/images//SystemStatusHistory.png (PNG copy)>]
-<resources/images//RegelWerkMTBF.png, id=730, 585.68813pt x 278.54062pt>
+ [29 <./resources/images//SystemStatusHistory.png (PNG copy)>]
+<resources/images//RegelWerkMTBF.png, id=668, 585.68813pt x 278.54062pt>
 File: resources/images//RegelWerkMTBF.png Graphic file (type png)
 <use resources/images//RegelWerkMTBF.png>
 Package pdftex.def Info: resources/images//RegelWerkMTBF.png  used on input line 145.
 (pdftex.def)             Requested size: 273.14923pt x 129.90681pt.
- [29 <./resources/images//RegelWerkMTBF.png>]
-<resources/images//SystemReliabilityBerechnung.png, id=737, 548.0475pt x 518.93875pt>
+ [30 <./resources/images//RegelWerkMTBF.png>]
+<resources/images//SystemReliabilityBerechnung.png, id=675, 548.0475pt x 518.93875pt>
 File: resources/images//SystemReliabilityBerechnung.png Graphic file (type png)
 <use resources/images//SystemReliabilityBerechnung.png>
 Package pdftex.def Info: resources/images//SystemReliabilityBerechnung.png  used on input line 156.
@@ -1762,39 +1964,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-[30 <./resources/images//SystemReliabilityBerechnung.png (PNG copy)>]
-<resources/images//StatusHistory.png, id=745, 984.67876pt x 198.7425pt>
+[31 <./resources/images//SystemReliabilityBerechnung.png (PNG copy)>]
+<resources/images//StatusHistory.png, id=685, 984.67876pt x 198.7425pt>
 File: resources/images//StatusHistory.png Graphic file (type png)
 <use resources/images//StatusHistory.png>
 Package pdftex.def Info: resources/images//StatusHistory.png  used on input line 169.
 (pdftex.def)             Requested size: 455.24411pt x 91.88359pt.
-) [31 <./resources/images//StatusHistory.png>]
+) [32 <./resources/images//StatusHistory.png>]
 \openout2 = `sections/datenerfassung/TaskScheduler.aux'.
 
  (./sections/datenerfassung/TaskScheduler.tex
-<resources/images//HMTimerBasedScheduler.png, id=755, 1025.8325pt x 905.3825pt>
+<resources/images//HMTimerBasedScheduler.png, id=694, 1025.8325pt x 905.3825pt>
 File: resources/images//HMTimerBasedScheduler.png Graphic file (type png)
 <use resources/images//HMTimerBasedScheduler.png>
 Package pdftex.def Info: resources/images//HMTimerBasedScheduler.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 401.79565pt.
- [32
+ [33
 
- <./resources/images//HMTimerBasedScheduler.png (PNG copy)>]) [33] (./sections/datenerfassung/Datenvisualisierung.tex
+ <./resources/images//HMTimerBasedScheduler.png (PNG copy)>]) [34] (./sections/datenerfassung/Datenvisualisierung.tex
 Overfull \hbox (11.87515pt too wide) in paragraph at lines 3--5
 \T1/cmr/m/n/12 Das Kon-zept für ei-ne Platt-for-mu-n-ab-hän-gi-ge Vi-sua-li-sie-rung der Hardware-Health-Monitoring
  []
 
-<resources/images//Datenvisualisierung.png, id=773, 2347.77126pt x 699.61375pt>
+<resources/images//Datenvisualisierung.png, id=712, 2347.77126pt x 699.61375pt>
 File: resources/images//Datenvisualisierung.png Graphic file (type png)
 <use resources/images//Datenvisualisierung.png>
 Package pdftex.def Info: resources/images//Datenvisualisierung.png  used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 135.65018pt.
 
+LaTeX Warning: Citation 'SimpleJSON' on page 35 undefined on input line 16.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<resources/images//APIAufrufe.png, id=780, 1926.19624pt x 730.73pt>
+<resources/images//APIAufrufe.png, id=718, 1926.19624pt x 730.73pt>
 File: resources/images//APIAufrufe.png Graphic file (type png)
 <use resources/images//APIAufrufe.png>
 Package pdftex.def Info: resources/images//APIAufrufe.png  used on input line 22.
@@ -1802,18 +2007,18 @@ Package pdftex.def Info: resources/images//APIAufrufe.png  used on input line 22
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34
+[35
 
 
  <./resources/images//Datenvisualisierung.png>]
-<resources/images//DataBaseAPI.png, id=796, 1289.81876pt x 641.39626pt>
+<resources/images//DataBaseAPI.png, id=735, 1289.81876pt x 641.39626pt>
 File: resources/images//DataBaseAPI.png Graphic file (type png)
 <use resources/images//DataBaseAPI.png>
 Package pdftex.def Info: resources/images//DataBaseAPI.png  used on input line 34.
 (pdftex.def)             Requested size: 455.24411pt x 226.38092pt.
-) (./sections/Implementierung/Implementierung.tex [35 <./resources/images//APIAufrufe.png> <./resources/images//DataBaseAPI.png (PNG copy)>]
+) (./sections/Implementierung/Implementierung.tex [36 <./resources/images//APIAufrufe.png> <./resources/images//DataBaseAPI.png (PNG copy)>]
 chapter 4.
-<resources/images//Namespaces.png, id=805, 2202.2275pt x 789.95125pt>
+<resources/images//Namespaces.png, id=744, 2202.2275pt x 789.95125pt>
 File: resources/images//Namespaces.png Graphic file (type png)
 <use resources/images//Namespaces.png>
 Package pdftex.def Info: resources/images//Namespaces.png  used on input line 9.
@@ -1827,49 +2032,56 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [36
+) [37
 
- <./resources/images//Namespaces.png>]) (./sections/Implementierung/DBServices.tex [37]
+ <./resources/images//Namespaces.png>]) (./sections/Implementierung/DBServices.tex [38]
 Overfull \hbox (8.9185pt too wide) in paragraph at lines 3--4
 \T1/cmr/m/n/12 ex-ter-nen Da-tei-en in-ter-a-gie-ren. Ne-ben der \T1/cmr/m/it/12 SQ-Li-te-Wrap-per\T1/cmr/m/n/12 - und \T1/cmr/m/it/12 Con-fi-gu-ra-tion-Rea-der\T1/cmr/m/n/12 -Klasse,
  []
 
-[38]
+[39]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 40.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [39]
-<resources/images//DatenbankZugriff.png, id=884, 474.77374pt x 943.525pt>
+) [40]
+<resources/images//DatenbankZugriff.png, id=822, 474.77374pt x 943.525pt>
 File: resources/images//DatenbankZugriff.png Graphic file (type png)
 <use resources/images//DatenbankZugriff.png>
 Package pdftex.def Info: resources/images//DatenbankZugriff.png  used on input line 49.
 (pdftex.def)             Requested size: 136.57462pt x 271.41249pt.
-) (./sections/Implementierung/HWServices.tex [40 <./resources/images//DatenbankZugriff.png>]
+) (./sections/Implementierung/HWServices.tex [41 <./resources/images//DatenbankZugriff.png>]
 Overfull \hbox (4.5311pt too wide) in paragraph at lines 11--13
 \T1/cmr/m/n/12 Zur Im-ple-men-tie-rung der Stra-te-gie-klas-sen wird zu-nächst das all-ge-mei-ne In-ter-face \T1/cmr/m/it/12 IHWStra-
  []
 
-[41]) (./sections/Implementierung/HMScoringModel.tex [42]
+[42]) (./sections/Implementierung/HMScoringModel.tex [43]
 Package acronym Info: Label `acro:fls' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
+
+
+LaTeX Warning: Citation 'FLSGit' on page 44 undefined on input line 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
 
-[43]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-[44] [45]) (./sections/Implementierung/TimerBasedScheduler.tex [46]
-<resources/images//ReadingJobExecute.png, id=1042, 528.97626pt x 467.7475pt>
+[45] [46]) (./sections/Implementierung/TimerBasedScheduler.tex [47]
+
+LaTeX Warning: Citation 'SystemTimers' on page 48 undefined on input line 3.
+
+<resources/images//ReadingJobExecute.png, id=977, 528.97626pt x 467.7475pt>
 File: resources/images//ReadingJobExecute.png Graphic file (type png)
 <use resources/images//ReadingJobExecute.png>
 Package pdftex.def Info: resources/images//ReadingJobExecute.png  used on input line 13.
 (pdftex.def)             Requested size: 159.33821pt x 140.8963pt.
- [47 <./resources/images//ReadingJobExecute.png>]
-<resources/images//CurrentSystemStatusExecute.png, id=1052, 371.3875pt x 651.43375pt>
+[48 <./resources/images//ReadingJobExecute.png>]
+<resources/images//CurrentSystemStatusExecute.png, id=986, 371.3875pt x 651.43375pt>
 File: resources/images//CurrentSystemStatusExecute.png Graphic file (type png)
 <use resources/images//CurrentSystemStatusExecute.png>
 Package pdftex.def Info: resources/images//CurrentSystemStatusExecute.png  used on input line 29.
@@ -1884,34 +2096,41 @@ Underfull \hbox (badness 1122) in paragraph at lines 35--38
 \T1/cmr/m/n/12 Die \T1/cmr/m/it/12 Cur-rent-Sys-tem-Sta-tus-Job\T1/cmr/m/n/12 -Klasse er-mit-telt auf die-sem
  []
 
-<resources/images//SystemStatusHistoryJobAblauf.png, id=1057, 532.99126pt x 875.27pt>
+<resources/images//SystemStatusHistoryJobAblauf.png, id=991, 532.99126pt x 875.27pt>
 File: resources/images//SystemStatusHistoryJobAblauf.png Graphic file (type png)
 <use resources/images//SystemStatusHistoryJobAblauf.png>
 Package pdftex.def Info: resources/images//SystemStatusHistoryJobAblauf.png  used on input line 44.
 (pdftex.def)             Requested size: 91.04742pt x 149.51512pt.
-[48 <./resources/images//CurrentSystemStatusExecute.png>]
+[49 <./resources/images//CurrentSystemStatusExecute.png>]
 Underfull \hbox (badness 5161) in paragraph at lines 50--52
 []\T1/cmr/m/n/12 Wie auch die \T1/cmr/m/it/12 Cur-rent-Sys-tem-Sta-tus-Job\T1/cmr/m/n/12 -Klasse, re-fe-ren-
  []
 
-) [49 <./resources/images//SystemStatusHistoryJobAblauf.png>]
+) [50 <./resources/images//SystemStatusHistoryJobAblauf.png>]
 \openout2 = `sections/Implementierung/API.aux'.
 
- (./sections/Implementierung/API.tex [50
+ (./sections/Implementierung/API.tex
+
+LaTeX Warning: Citation 'HttpListener' on page 51 undefined on input line 3.
+
+[51
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 29.
 
-<resources/images//APIAblauf.png, id=1099, 466.74374pt x 395.4775pt>
+<resources/images//APIAblauf.png, id=1031, 466.74374pt x 395.4775pt>
 File: resources/images//APIAblauf.png Graphic file (type png)
 <use resources/images//APIAblauf.png>
 Package pdftex.def Info: resources/images//APIAblauf.png  used on input line 34.
 (pdftex.def)             Requested size: 250.38564pt x 212.15466pt.
+
+LaTeX Warning: Citation 'SimpleJSON' on page 52 undefined on input line 42.
+
 Package acronym Info: Label `acro:json' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
-[51 <./resources/images//APIAblauf.png (PNG copy)>]
+[52 <./resources/images//APIAblauf.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
@@ -1926,7 +2145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-) [52]
+) [53]
 \openout2 = `sections/Implementierung/Dashboard.aux'.
 
  (./sections/Implementierung/Dashboard.tex
@@ -1939,22 +2158,22 @@ Overfull \hbox (18.50922pt too wide) in paragraph at lines 3--5
 \T1/cmr/m/n/12 Graf-a-na ge-nutzt. Um das Graf-a-na Das-h-board mit den Da-ten der Hardware-Health-Monitoring
  []
 
-<resources/images//GrafanaDatenquelle.png, id=1156, 1860.9525pt x 1020.81375pt>
+<resources/images//GrafanaDatenquelle.png, id=1087, 1860.9525pt x 1020.81375pt>
 File: resources/images//GrafanaDatenquelle.png Graphic file (type png)
 <use resources/images//GrafanaDatenquelle.png>
 Package pdftex.def Info: resources/images//GrafanaDatenquelle.png  used on input line 8.
 (pdftex.def)             Requested size: 455.24411pt x 249.71994pt.
-[53
+[54
 
 
 
  <./resources/images//GrafanaDatenquelle.png>]
-<resources/images//GrafanaPanelEdit.png, id=1166, 1284.8pt x 926.46124pt>
+<resources/images//GrafanaPanelEdit.png, id=1097, 1284.8pt x 926.46124pt>
 File: resources/images//GrafanaPanelEdit.png Graphic file (type png)
 <use resources/images//GrafanaPanelEdit.png>
 Package pdftex.def Info: resources/images//GrafanaPanelEdit.png  used on input line 19.
 (pdftex.def)             Requested size: 455.24411pt x 328.26695pt.
-<resources/images//GrafanaDashboard.png, id=1169, 451.6875pt x 803.0pt>
+<resources/images//GrafanaDashboard.png, id=1100, 451.6875pt x 803.0pt>
 File: resources/images//GrafanaDashboard.png Graphic file (type png)
 <use resources/images//GrafanaDashboard.png>
 Package pdftex.def Info: resources/images//GrafanaDashboard.png  used on input line 32.
@@ -1966,7 +2185,7 @@ LaTeX Warning: Float too large for page by 24.49998pt on input line 35.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [54 <./resources/images//GrafanaPanelEdit.png>] [55 <./resources/images//GrafanaDashboard.png>]
+) [55 <./resources/images//GrafanaPanelEdit.png>] [56 <./resources/images//GrafanaDashboard.png>]
 \openout2 = `sections/ende/Fazit.aux'.
 
  (./sections/ende/Fazit.tex
@@ -1976,85 +2195,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
-[56
+[57
 
 
 
 
-]) [57]
+]) [58]
 \openout2 = `sections/ende/Ausblick.aux'.
 
  (./sections/ende/Ausblick.tex
 chapter 6.
 Package acronym Info: Label `acro:orm' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
-) [58
+
+LaTeX Warning: Citation 'ormDB' on page 59 undefined on input line 3.
+
+) [59
 
 
 
 
 ]
-Overfull \hbox (0.78674pt too wide) in paragraph at lines 100--100
-[]\T1/cmr/m/n/12 M. Gü-ter-mann, ^^R  Condition-based Mo-ni-to-ring für in-dus-tri-el-le PC's^^P, Pep-perl + Fuchs
- []
 
-[59
+LaTeX Warning: Empty bibliography on input line 100.
 
+\openout2 = `sections/appendix/appendix.aux'.
 
-
-]
-Overfull \hbox (26.97194pt too wide) in paragraph at lines 100--100
-[]\T1/cmr/m/n/12 ^^R  SQL ^^U Al-les über die Da-ten-bank-spra-che^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / datascientest .
- []
-
-
-Overfull \hbox (4.71478pt too wide) in paragraph at lines 100--100
-[]\T1/cmr/m/n/12 ^^R  Lab-VIEW PID and Fuz-zy Lo-gic Tool-kit API Re-fe-rence^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps :
- []
-
-
-Overfull \hbox (11.40492pt too wide) in paragraph at lines 100--100
-[]\T1/cmr/m/n/12 ^^R  Sim-ple JSON Da-ta-sour-ce - a ge-ne-ric ba-ckend da-ta-sour-ce^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps :
- []
-
-[60]
-Overfull \hbox (23.31166pt too wide) in paragraph at lines 100--100
-[]\T1/cmr/m/n/12 ^^R  object-relational map-ping (ORM)^^P. (2023), Adres-se: [][]$\T1/cmtt/m/n/12 %7Bhttps : / / www . theserverside .
- []
-
+(./sections/appendix/appendix.tex
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1142, 614.295pt x 794.97pt>
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1145, page=1, 614.295pt x 794.97pt>
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \include{sections/appendix/appendix.tex}
-                                               [1]
-\openout2 = `sections/appendix/appendix.aux'.
+l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
+                                                  
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [1
 
- (./sections/appendix/appendix.tex
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1267, 614.295pt x 794.97pt>
+
+
+ <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1190, page=2, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF  used on input line 11.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1270, page=1, 614.295pt x 794.97pt>
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has been already used, duplicate ignored
 <to be read again> 
@@ -2062,20 +2277,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has 
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 1>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page1 used on input line 11.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [2
-
- <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1315, page=2, 614.295pt x 794.97pt>
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [2 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1201, page=3, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.III}) has been already used, duplicate ignored
 <to be read again> 
@@ -2083,18 +2296,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.III}) has
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 2>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page2 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [3 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1325, page=3, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1205, page=4, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.IV}) has been already used, duplicate ignored
 <to be read again> 
@@ -2102,18 +2315,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.IV}) has 
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 3>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page3 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [4 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1329, page=4, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1209, page=5, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.V}) has been already used, duplicate ignored
 <to be read again> 
@@ -2121,18 +2334,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.V}) has b
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 4>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page4 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [5 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1333, page=5, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1213, page=6, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.VI}) has been already used, duplicate ignored
 <to be read again> 
@@ -2140,18 +2353,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.VI}) has 
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 5>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page5 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [6 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1337, page=6, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1217, page=7, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.VII}) has been already used, duplicate ignored
 <to be read again> 
@@ -2159,18 +2372,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.VII}) has
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 6>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page6 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [7 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1342, page=7, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1221, page=8, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.VIII}) has been already used, duplicate ignored
 <to be read again> 
@@ -2178,18 +2391,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.VIII}) ha
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 7>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page7 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [8 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1346, page=8, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1226, page=9, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.IX}) has been already used, duplicate ignored
 <to be read again> 
@@ -2197,67 +2410,53 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.IX}) has 
 l.11 ]{sections/appendix/ELIT-3922-3965U_MTBF.PDF}
                                                   
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 8>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page8 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [9 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1350, page=9, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1230, page=10, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 9>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page9 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [10 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1355, page=10, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1235, page=11, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 10>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page10 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [11 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1360, page=11, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1240, page=12, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 11>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page11 used on input line 11.
+<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
+Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
  [12 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1365, page=12, 614.295pt x 794.97pt>
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
-<use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 12>
-Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page12 used on input line 11.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [13 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>]
-<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1371, page=13, 614.295pt x 794.97pt>
+<sections/appendix/ELIT-3922-3965U_MTBF.PDF, id=1245, page=13, 614.295pt x 794.97pt>
 File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 13>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page13 used on input line 11.
@@ -2270,32 +2469,87 @@ File: sections/appendix/ELIT-3922-3965U_MTBF.PDF Graphic file (type pdf)
 <use sections/appendix/ELIT-3922-3965U_MTBF.PDF, page 13>
 Package pdftex.def Info: sections/appendix/ELIT-3922-3965U_MTBF.PDF , page13 used on input line 11.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [14 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>] (./sections/appendix/HealthMonitoringDataBase.sql [15]) [16]
-<resources/images//SDSlot.png, id=1478, 490.83376pt x 506.89375pt>
+ [13 <./sections/appendix/ELIT-3922-3965U_MTBF.PDF>] (./sections/appendix/HealthMonitoringDataBase.sql [14]) [15]
+<resources/images//SDSlot.png, id=1353, 490.83376pt x 506.89375pt>
 File: resources/images//SDSlot.png Graphic file (type png)
 <use resources/images//SDSlot.png>
 Package pdftex.def Info: resources/images//SDSlot.png  used on input line 33.
 (pdftex.def)             Requested size: 91.04742pt x 94.02138pt.
-) [17 <./resources/images//SDSlot.png>] (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.aux (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/abstract/abstract-eng.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/einleitung/Einleitung.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/datenerfassung/TaskScheduler.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/API.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux))
+) [16 <./resources/images//SDSlot.png>] (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.aux (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/title/title.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/blocking-notice/blocking-notice-it.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/personal-contribution/personal-contribution.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/abstract/abstract-ger.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/abstract/abstract-eng.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/resources/directories/acronyms.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/einleitung/Einleitung.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/datenerfassung/TaskScheduler.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/API.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/Implementierung/Dashboard.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Fazit.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/ende/Ausblick.aux) (/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/appendix/appendix.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                template
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42722 strings out of 478994
- 842051 string characters out of 5858184
- 2049366 words of memory out of 5000000
- 58743 multiletter control sequences out of 15000+600000
- 422625 words of font info for 67 fonts, out of 8000000 for 9000
+ 42611 strings out of 478994
+ 838465 string characters out of 5858184
+ 2045154 words of memory out of 5000000
+ 58642 multiletter control sequences out of 15000+600000
+ 422733 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 133i,20n,134p,10679b,2730s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfso1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on "/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.pdf" (89 pages, 6496889 bytes).
+ 133i,20n,134p,10679b,2639s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.44} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.62} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.21} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.22} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.15} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.34} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.52} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.48} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.45} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.14} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.9} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.13} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfso1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on "/Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.pdf" (87 pages, 6469632 bytes).
 PDF statistics:
- 1836 PDF objects out of 2073 (max. 8388607)
- 1568 compressed objects within 16 object streams
- 547 named destinations out of 1000 (max. 500000)
+ 1705 PDF objects out of 1728 (max. 8388607)
+ 1450 compressed objects within 15 object streams
+ 537 named destinations out of 1000 (max. 500000)
  851 words of extra memory for PDF output out of 10000 (max. 10000000)
 
