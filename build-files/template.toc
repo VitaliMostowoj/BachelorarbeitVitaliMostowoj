@@ -107,4 +107,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B}Datenbank Konfiguration}{XV}{section.Alph0.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Hardware-Health-Monitor - Projektdatei}{XVII}{section.Alph0.3}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

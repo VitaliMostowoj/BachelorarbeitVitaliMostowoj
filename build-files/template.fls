@@ -2352,6 +2352,11 @@ INPUT ./sections/appendix/HealthMonitoringDataBase.sql
 INPUT sections/appendix/HealthMonitoringDataBase.sql
 INPUT ./sections/appendix/HealthMonitoringDataBase.sql
 INPUT sections/appendix/HealthMonitoringDataBase.sql
+INPUT ./resources/images//SDSlot.png
+INPUT ./resources/images//SDSlot.png
+INPUT resources/images//SDSlot.png
+INPUT ./resources/images//SDSlot.png
+INPUT ./resources/images//SDSlot.png
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/template.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/title/title.aux
 INPUT /Users/vitalimostowoj/Desktop/Neuer Ordner 2/BachelorarbeitVitaliMostowoj/build-files/sections/defaults/title/title.aux
