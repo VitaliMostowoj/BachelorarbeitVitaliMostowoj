@@ -8,7 +8,7 @@ Der Servicecontroller der VisuNet GXP Plattform, ist ein Mikrocontroller, welche
 Die \textit{ServiceControllerWrapper}-Klasse abstrahiert diese Bibliothek und stellt dem weiteren Programm die \textit{GetDiagnosticData()} Funktion bereit. Diese liefert als Rückgabeparameter sowohl \ac{tcu} als auch \ac{dpu} Temperaturen der Plattform.
 
 \subsection{HM.HWServices.Strategy}
-Zur Implementierung der Strategieklassen wird zunächst das allgemeine Interface \textit{IHWStrategy} definiert. Dieses beschreibt die Struktur der einzelnen Strategieklasse. Jede Strategie muss die \textit{GetSensorReading()} Funktion implementieren. Ziel dieser Funktion ist es, einen Auszug der aktuellen Sensorwerte zu bekommen. Des Weiteren muss jede Strategie eine \textit{GetSensorList()} Funktion implementieren, welche eine Liste alle verfügbaren Sensoren liefert.\\
+Zur Implementierung der Strategieklassen wird zunächst das allgemeine Interface \textit{IHWStrategy} definiert. Dieses beschreibt die Struktur der einzelnen Strategieklassen. Jede Strategie muss die \textit{GetSensorReading()} Funktion implementieren. Ziel dieser Funktion ist es, einen Auszug der aktuellen Sensorwerte zu bekommen. Des Weiteren muss jede Strategie eine \textit{GetSensorList()} Funktion implementieren, welche eine Liste alle verfügbaren Sensoren liefert.\\
 In der \textit{Context}-Klasse wird anschließend ein Objekt vom Typen \textit{IHWStrategy} angelegt (Z.3 Listing \ref{lst:ContextStrategy}). Des Weiteren wird die \textit{RunStrategy()} Klasse implementiert, in welcher die \textit{GetSensorReading()} Funktion des Interface aufgerufen wird (Z.10 Listing \ref{lst:ContextStrategy}). Da das Interface nur die Schnittstelle definiert, kann diese Funktion nicht aufgerufen werden, bevor das \textit{IHWStrategy} Objekt nicht instanziiert wurde. Da jede Strategieklasse von diesem Interface abgeleitet wird, kann hierfür eine beliebige Strategie instanziiert werden. Hierzu wird die Instanziierung der Strategie in der \textit{SetStrategy()} Funktion der Klasse vorgenommen (Z.5 Listing \ref{lst:ContextStrategy}).
 \begin{lstlisting}[caption={Context des Strategiepatterns}, label={lst:ContextStrategy}]
     public class Context
@@ -28,7 +28,7 @@ In der \textit{Context}-Klasse wird anschließend ein Objekt vom Typen \textit{I
             return strategyResult;
         }
     }\end{lstlisting}  
-Soll das System nun um eine weitere Hardwarekonfiguration erweitert werden, muss lediglich eine neue Strategieklasseangelegt werden. Diese kann anschließend über die \textit{Context}-Klasse aufgerufen werden. Die anzulegende Strategieklassemuss dabei wie folgt im Quellcode erzeugt werden. 
+Soll das System nun um eine weitere Hardwarekonfiguration erweitert werden, muss lediglich eine neue Strategieklasseangelegt werden. Diese kann anschließend über die \textit{Context}-Klasse aufgerufen werden. Die anzulegende Strategieklasse, muss dabei wie folgt im Quellcode erzeugt werden. 
 \begin{lstlisting}[caption={Implementierung einer weiteren Strategieklasse}, label={lst:NewStrategy}]
     public class NewStrategy : IHWStrategy
     {

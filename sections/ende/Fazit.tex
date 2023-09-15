@@ -1,31 +1,32 @@
 \chapter{Bewertund der Ergebnisse}
-Im Rahmen dieser Bachelorarbeit wurde das Konzept für eine verteilte Hardware-Health-Monitor Lösung für die \acl{p+f} \ac{hmi} Plattformen VisuNet FLX und GXP entworfen. Die entwickelte Anwendung ermöglicht eine plattformunabhängig Auswertung des Systems. Hierbei werden Messdaten der auf der Hardware der Plattformen verbauten Sensorik gesammelt, so wie eine Systemzustandsbewertung durchgeführt. Die gesammelten Messwerte und die gesamte Zustandsbewertung des Systems kann zur Laufzeit der Anwendung über ein dezentrales Dashboard visualisiert werden.\\
+Im Rahmen dieser Bachelorarbeit wurde das Konzept für eine verteilte Hardware-Health-Monitor Lösung für die \acl{p+f} \ac{hmi} Plattformen VisuNet FLX und GXP entworfen. Die entwickelte Anwendung ermöglicht eine plattformunabhängig Auswertung des Systems. Hierbei werden die Messdaten der auf der Hardware der Plattformen verbauten Sensorik gesammelt, so wie eine Systemzustandsbewertung durchgeführt. Die gesammelten Messwerte und die gesamte Zustandsbewertung des Systems kann zur Laufzeit der Anwendung über ein dezentrales Dashboard visualisiert werden.\\
 Die modulare Architektur der Anwendung ermöglicht eine einfache Weiterentwicklung der Anwendung. Module des Systems können ausgetauscht werden, ohne Einfluss auf das gesamte System zu nehmen. Dieser Aufbau ermöglicht eine einfache Erweiterung des Systems. Somit können mit wenig Aufwand weitere Schnittstellen zum Auslesen der Systemsensorik eingebunden oder plattformspezifische Anpassungen der Systemstatusbewertung vorgenommen werden.\\
 Im Verlauf dieser Arbeit wurde ein Dashboard Layout erstellt, welches neben den kritischen Sensorwerten die gesamte Systemstatusbewertung visualisiert. Das Dashboard kann auf einem beliebigen Rechner oder Server gehostet werden und wird zur Laufzeit der Anwendung von einer \ac{api} mit den Daten der Anwendung versorgt.\\
 Die in Abschnitt \ref{sec:Anforderungen} beschriebenen Anforderungen an die Anwendung wurden wie folgt umgesetzt:\\
 \\
+\vspace{0.5cm}
 \textbf{Datenerfassung}
 \begin{enumerate}
     \item \textbf{Auslesen der Systemsensorik}\\
-    Das Auslesen der Systemsensorik erfolgt über Strategieklasse, in welchen die einzelnen Strategien zum Auslesen verschiedener Hardwarekonfigurationen hinterlegt sind. Somit ist das plattformunabhängige Auslesen der Sensorik möglicht. 
+    Das Auslesen der Systemsensorik erfolgt über Strategieklassen, in welchen die einzelnen Strategien zum Auslesen verschiedener Hardwarekonfigurationen hinterlegt sind. Somit ist das plattformunabhängige Auslesen der Sensorik möglich. 
     \item \textbf{Speichern der ausgelesenen Messwerte}\\
     Alle ausgelesenen Sensorwerte werden in einer zentralen Datenbank gespeichert. Hierzu steht ein allgemeines Datenmodell zur Verfügung, in welchem unabhängig von Hardwarekonfiguration alle Daten der Sensoren gespeichert werden können.
 \end{enumerate}
 
 \textbf{Datenverarbeitung}
 \begin{enumerate}
-    \item \textbf{Ermittelung des Health Status}\\
-    Für die Ermittelung des Healthstatus wurde ein Status Modell erarbeitet, welches den Systemstatus durch drei Zuständen bewertet. Die Bewertung des Systemstatus wurde mithilfe einer Fuzzylogik implementiert. Die implementierte Architektur ermöglicht eine einfache Anpassung der Logik, sodass diese auch für weitere Zielplattformen mit wenig Aufwand angepasst werden kann.  
-    \item \textbf{Ermittelung der Health Status Historie}\\
+    \item \textbf{Ermittlung des Health Status}\\
+    Für die Ermittelung des Healthstatus wurde ein Status Modell erarbeitet, welches den Systemstatus durch drei Zuständen bewertet. Die Bewertung des Systemstatus wurde mithilfe einer Fuzzy-Logic implementiert. Die implementierte Architektur ermöglicht eine einfache Anpassung der Logik, sodass diese auch für weitere Zielplattformen mit wenig Aufwand angepasst werden kann.  
+    \item \textbf{Ermittlung der Health Status Historie}\\
     Auch eine Systemstatus Historie wird aus den einzelnen Systemstatusbewertungen ermittelt. Diese gibt Aufschluss über das Systemverhalten auf lange Sicht.  
-    \item \textbf{Ermittelung der System Reliability}\\
-    Zuletzt wird die Systemzuverlässigkeit errechnet. Diese gib Aufschluss auf Zustand der auf der Zielplattform verbauten elektronischen Komponente. Sie wird über den temperaturabhängigen \ac{mtbf} der Zielplattform, so wie der Betriebszeit dieser berechnet. 
+    \item \textbf{Ermittlung der System Reliability}\\
+    Zuletzt wird die Systemzuverlässigkeit errechnet. Diese gib Aufschluss auf den Zustand der auf der Zielplattform verbauten elektronischen Komponenten. Sie wird über den temperaturabhängigen \ac{mtbf} der Zielplattform, so wie der Betriebszeit dieser berechnet. 
 \end{enumerate}
 
 \textbf{Datendistribution}
 \begin{enumerate}
     \item \textbf{Distribution der Daten zu einem externen Service}\\
-    Die gesammelten Daten, Messwerte so wie Zustandsbewertung, werden über eine zentrale \ac{api} bereitgestellt. Über diese können die gewünschten Daten über \ac{http} Anfragen angefragt werden.   
+    Die gesammelten Daten, Messwerte so wie Zustandsbewertung, werden über eine zentrale \ac{api} bereitgestellt. Über diese können die gewünschten Daten über \ac{http}-Anfragen angefragt werden.   
     \item \textbf{Visualisierung der Systemdaten}\\
     Zur Visualisierung der Daten wurde ein Grafana Dashboard erstellt. Das Dashboard visualisiert die von der \ac{api} bereitgestellten Daten der Anwendung. Es kann dezentral auf einem separaten Rechner oder Server gestartet werden und wird über Ethernet mit der Zielplattform verbunden. 
 \end{enumerate}

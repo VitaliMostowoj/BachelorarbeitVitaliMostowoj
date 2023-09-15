@@ -1,9 +1,9 @@
 \newpage
 \section{HM.API}
-Zur Implementierung der REST \ac{api} wird die \textit{HttpListener} Klasse verwendet. Diese Klasse stellt einen HTTP-Protokollistener zur Verfügung, welcher auf die \ac{http}-Anfragen antwortet. \cite{HttpListener}\\
-Die \textit{HttpListener} Klasse wird von der \textit{DataBaseAPI} Klasse, im \textit{HM.API} Verzeichnis, abstrahiert. Des Weiteren referenziert die \textit{DataBaseAPI} Klasse das in Abschnitt \ref{sec:HMDBServices} beschriebene \textit{HM.DBServices} Verzeichnis und verwendet hierbei die \textit{SQLiteWrapper} und \textit{ConfigurationReader} Klassen. Zudem wird die Variable \textit{Targets} definiert, welche eine Liste von zur Auswahl stehenden Datensätze repräsentiert. Die Instanzen der Klassen werden anschließend im Konstruktor der Klasse erzeugt.\\
+Zur Implementierung der \ac{api} wird die \textit{HttpListener}-Klasse verwendet. Diese Klasse stellt einen HTTP-Protokollistener zur Verfügung, welcher auf \ac{http}-Anfragen antwortet. \cite{HttpListener}\\
+Die \textit{HttpListener}-Klasse wird von der \textit{DataBaseAPI}-Klasse, im \textit{HM.API} Verzeichnis, abstrahiert. Des Weiteren referenziert die \textit{DataBaseAPI}-Klasse das in Abschnitt \ref{sec:HMDBServices} beschriebene \textit{HM.DBServices} Verzeichnis und verwendet hierbei die \textit{SQLiteWrapper}- und \textit{ConfigurationReader}-Klasse. Zudem wird die Variable \textit{Targets} definiert, welche eine Liste von zur Auswahl stehenden Datensätzen repräsentiert. Die Instanzen der Klassen werden anschließend im Konstruktor der \textit{DataBaseAPI}-Klasse erzeugt.\\
 Um die Plattformunabhängigkeit des Systems beizubehalten wird in der \textit{InitTargets()} Funktion der Klasse die \textit{Targets} Liste, abhängig von der in der Konfigurationsdatei gesetzten Plattform erstellt. Hierbei wird ein \textit{Target} Objekt an die \textit{Targets} Liste hinzugefügt. Dieses setzt sich aus den Parametern \textit{dwReadingID}, \textit{szLabelUser} und \textit{tableName} zusammen und wird dazu verwendet, die richtigen Datensatz in der Datenbank ausfindig zu machen.\\
-Sollen weitere Datensätze des Hardware-Health-Monitors über die \ac{api} zugängig gemacht werden, müssen diese in der in Listing \ref{lst:InitTargets} aufgeführten \textit{InitTargets()} Funktion hinzugefügt werden. 
+Sollen weitere Datensätze des Hardware-Health-Monitors über die \ac{api} zugängig gemacht werden, müssen diese in der, in Listing \ref{lst:InitTargets} aufgeführten, \textit{InitTargets()} Funktion hinzugefügt werden. 
 \begin{lstlisting}[caption={InitTargets Funktino der DataBaseAPI}, label={lst:InitTargets}]
     List<Target> Targets;
     private void InitTargets()
@@ -28,6 +28,7 @@ Sollen weitere Datensätze des Hardware-Health-Monitors über die \ac{api} zugä
 \end{lstlisting}
 \subsection{Bearbeitung der \ac{http}-Anfragen}
 \begin{wrapfigure}{r}{0.55\textwidth}
+    \captionsetup{justification=centering,format=plain, font=small}
     \vspace{-1.2cm}
     \begin{center}
       \includegraphics[width=0.55\textwidth]{APIAblauf.png}
@@ -73,51 +74,3 @@ Im Folgenden werden die Konfigurationen der Antworten, im \ac{json} Format, aufg
         }]
     \end{lstlisting}
 \end{enumerate}
-
-
-
-
-
-%\textbf{/search} Anfragen\\
-%Die Antwort auf eine \textit{/search} Anfrage, setzt sich aus den \textit{szLabelUser} Parametern der \textit%{Targets}-Liste zusammen und ist dabei wie Folgt aufgebaut:
-%\begin{lstlisting}[caption={\glqq/search\grqq{} Response}, label={lst:search}]
-%["Temperature 1","CPU Load","CurrentSystemStatus","SystemStatusHistory","SystemReliability"]
-%\end{lstlisting}
-%\vspace{-0.9cm}
-%
-%
-%
-%Die Antwort auf eine \textit{/query} Anfrage ist abhängig von Typ des Targets. Hierbei wird zwischen \textit%{TimeSeries} und \textit{Table} unterschieden.\\
-%Die Antworten der \textit{/query} werden sehen wie folgt aus:
-%\vspace{-1cm}
-%\subsubsection*{TimeSeries}
-%\begin{lstlisting}[caption={/search-Timeseries Response}, label={lst:queryTimeseries}]
-%[{
-%    "target":"Temperature 1", 
-%    "datapoints":[
-%      [64,1450754160000],  
-%      [65,1450754220000],
-%      ...
-%    ]
-%}]
-%\end{lstlisting}
-%\vspace{-1.5cm}
-%\subsubsection*{Table}\todo{Anpassen für SystemStatus oder sowas}
-%\begin{lstlisting}[caption={/search-Table Response}, label={lst:queryTable}]
-%[
-%    {
-%      "columns":[
-%        {"text":"Time","type":"time"},
-%        {"text":"Country","type":"string"},
-%        {"text":"Number","type":"number"}
-%      ],
-%      "rows":[
-%        [1234567,"SE",123],
-%        [1234567,"DE",231],
-%        ...
-%      ],
-%      "type":"table"
-%    }
-%]
-%\end{lstlisting}
-%\vspace{-0.9cm}

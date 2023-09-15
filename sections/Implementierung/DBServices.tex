@@ -44,9 +44,10 @@ Alle Lese- und Schreibzugriffe der Datenbank folgen demselben Muster. Hierzu wir
 Zunächst wird eine Verbindung zur Datenbank aufgebaut. Im zweiten Schritt wird die \ac{sql}-Query erzeugt. Hierbei werden Filterparameter, dynamisch in die Query eingebaut, um die Funktionen zum Auslesen bestimmter Parameter mehrfach verwenden zu können. Anschließend wird die Query ausgeführt und die Antwort der Datenbank als Rückgabeparameter der Funktion übergeben.   
 \begin{center}
   \begin{figure}[h!]
+    \captionsetup{justification=centering,format=plain, font=small}
       \centering
       \includegraphics[width=0.3\textwidth]{DatenbankZugriff.png}
-      \caption{}
+      \caption{Ablaufdiagramm eines Datenbankzugriffs}
       \label{fig:Datenbankzugriff}
   \end{figure}
 \end{center}

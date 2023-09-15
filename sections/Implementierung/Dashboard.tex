@@ -1,6 +1,6 @@
 \newpage
 \section{Aufsetzen des Dashboards}\label{sec:AufsetzenDashboard}
-Zur Visualisierung der Daten wird die in Abschnitt \ref{sec:Grafana} beschriebene Open-Source-Platform Grafana genutzt. Um das Grafana Dashboard mit den Daten der Hardware-Health-Monitoring Lösung zu versorgen, wird das \textit{SimpleJson} Plugin verwendet. Dieses liefert eine Datenquelle, welche \ac{http} Anfragen an eine REST \ac{api} stellt. Die Antworten dieser Anfragen werden dann als \ac{json} Dashboard bereitstehen.\\
+Zur Visualisierung der Daten wird die in Abschnitt \ref{sec:Grafana} beschriebene Open-Source-Platform Grafana genutzt. Um das Grafana Dashboard mit den Daten der Hardware-Health-Monitoring Lösung zu versorgen, wird das \textit{SimpleJson} Plugin verwendet. Dieses liefert eine Datenquelle, welche \ac{http}-Anfragen an eine \ac{api} stellt. Die Antworten dieser Anfragen werden dann im \ac{json}-Format an das Dashboard bereitgestellt.\\
 Um die Datenquelle in Grafan nutzen zu können, muss diese zunächst konfiguriert werden. Dies kann unter dem Reiter \textit{Data source} in der Menüleiste der Anwendung vorgenommen werden. Abbildung \ref{fig:SimpleJSONKonfig} zeigt das Konfigurationsmenü der Datenquelle. 
 \begin{center}
     \begin{figure}[h!]
@@ -10,8 +10,8 @@ Um die Datenquelle in Grafan nutzen zu können, muss diese zunächst konfigurier
         \label{fig:SimpleJSONKonfig}
     \end{figure}
 \end{center}
-Unter dem Feld \textit{1} im Bild \ref{fig:SimpleJSONKonfig} kann der Datenquelle ein Name vergeben werden. Anschließend wird im Feld \textit{2} die Basis URL der \ac{api} eingetragen werden. Bild zeigt nur einen Abschnitt von möglichen Konfigurationsfeldern. Da dies nur ein prototypischer Aufbau wird, können die anderen Parameter offen gelassen werden. Unter dem Button \textit{3} kann die Datenquelle gespeichert werden. Hierbei wird zudem direkt die Verbindung zur \ac{api} getestet.\\
-Über den Menüpunkt \textit{Dashboard} kann anschließend ein neues Dashboard erstellt werden. In diesem werden die einzelnen Panels zur Visualisierung konkreter Daten erzeugt und konfiguriert. Zur Visualisierung von verschiedenen Daten steht eine Reihe von Diagrammen zur Verfügung.\\
+Unter dem Feld \textit{1} im Bild \ref{fig:SimpleJSONKonfig} kann der Datenquelle ein Name vergeben werden. Anschließend wird in Feld \textit{2} die Basis URL der \ac{api} eingetragen. Das Bild zeigt nur einen Abschnitt von möglichen Konfigurationsfeldern. Da dies nur ein prototypischer Aufbau ist, können die anderen Parameter offen gelassen werden. Über Button \textit{3} kann die Datenquelle gespeichert werden. Hierbei wird zudem direkt die Verbindung zur \ac{api} getestet.\\
+Über den Menüpunkt \textit{Dashboard} kann anschließend ein neues Dashboard erstellt werden. In diesem werden die einzelnen Panels zur Visualisierung konkreter Daten erzeugt und konfiguriert. Zur Visualisierung von verschiedenen Daten steht eine Auswahl verschiedener Diagrammen zur Verfügung.\\
 Abbildung \ref{fig:PanelBearbeitung} zeigt die Ansicht, welche zur Konfiguration der einzelnen Diagramme verwendet wird.
 \begin{center}
     \begin{figure}[h!]
@@ -22,7 +22,7 @@ Abbildung \ref{fig:PanelBearbeitung} zeigt die Ansicht, welche zur Konfiguration
     \end{figure}
 \end{center}
 \vspace{-1.8cm}
-Zur Visualisierung der einzelnen Messewerte wird das \textit{Time Series} Diagramm verwendet. Hierbei muss zunächst im Bereich links unten (Siehe Abbildung \ref{fig:PanelBearbeitung}) die zuvor erstellte Datenquelle ausgewählt werden. Anschließend wird die Anfrage konfiguriert. Hierbei wird das Format der angefragten Daten, so wie das Label des gewünschten Datensatzes ausgewählt. Über die rechte Spalte im Bild wird anschließend das visuelle Erscheinen des Diagramms konfiguriert.\\
+Zur Visualisierung der einzelnen Messewerte wird das \textit{Time Series} Diagramm verwendet. Hierbei muss zunächst im Bereich links unten (Siehe Abbildung \ref{fig:PanelBearbeitung}) die zuvor erstellte Datenquelle ausgewählt werden. Daraufhin wird die Anfrage konfiguriert. Hierbei wird das Format der angefragten Daten, sowie das Label des gewünschten Datensatzes ausgewählt. Über die rechte Spalte im Bild wird anschließend das visuelle Erscheinen des Diagramms konfiguriert.\\
 Zur Visualisierung des Systemstatus wird ein einfaches \textit{Gauge} Diagramm verwendet. Die Visualisierung der Systemstatus Historie wird mittels \textit{Pie chart} Realisiert. Die Systemzuverlässigkeit wird über ein \textit{Bar gauge} Visualisiert.\\
 Abbildung \ref{fig:Grafa} zeigt das vollständige Dashboard der Anwendung.
 \vspace{-2cm}
