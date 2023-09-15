@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}HWiNFO}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Software Design Konzepte}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Software Entwurfs Konzepte}{6}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Adapter Pattern}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -35,7 +35,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}MTBF und Reliability}{10}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}FuzzyLogic}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Fuzzy Logic}{11}{section.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Architektur eines Fuzzy Logic Systems}{12}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
@@ -49,15 +49,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Entwurf eines Datenbankmodells zum Speichern der Messwerte}{18}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Datenverarbeitung}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Datenverarbeitung}{22}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Health Status Definition}{22}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Auslegung einer FuzzyLogic zur Ermittelung des SystemStatus}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Auslegung einer Fuzzy Logik zur Ermittlung des Systemstatus}{24}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ermittelung der Systemstatus Historie und der Systemzuverlässigkeit}{28}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Ermittlung der Systemstatus Historie und der Systemzuverlässigkeit}{28}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Entwurf eines Task Scheduling Verfahrens}{31}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Entwurf eines Task Scheduling Verfahrens}{32}{section.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Datenvisualisierung}{34}{section.3.4}%
 \defcounter {refsection}{0}\relax 
@@ -101,7 +101,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Literaturverzeichnis}{59}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anhang}{II}{chapter*.84}%
+\contentsline {chapter}{Anhang}{II}{chapter*.81}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}\ignorespaces MTBF Prediction VisuNet FLX}{II}{section.Alph0.1}%
 \defcounter {refsection}{0}\relax 

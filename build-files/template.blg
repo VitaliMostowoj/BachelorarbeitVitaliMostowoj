@@ -1,15 +1,9 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'build-files/template.blg'
-[69] biber-darwin:340> INFO - === Thu Sep 14, 2023, 21:25:46
-[83] Biber.pm:415> INFO - Reading 'build-files/template.bcf'
-[171] Biber.pm:952> INFO - Found 26 citekeys in bib section 0
-[184] Biber.pm:4340> INFO - Processing section 0
-[192] Biber.pm:4531> INFO - Looking for bibtex format file 'resources/directories/bibliography.bib' for section 0
-[194] bibtex.pm:1689> INFO - LaTeX decoding ...
+[70] biber-darwin:340> INFO - === Fri Sep 15, 2023, 11:36:30
+[84] Biber.pm:415> INFO - Reading 'build-files/template.bcf'
+[172] Biber.pm:952> INFO - Found 26 citekeys in bib section 0
+[185] Biber.pm:4340> INFO - Processing section 0
+[193] Biber.pm:4531> INFO - Looking for bibtex format file 'resources/directories/bibliography.bib' for section 0
+[195] bibtex.pm:1689> INFO - LaTeX decoding ...
 [208] bibtex.pm:1494> INFO - Found BibTeX data source 'resources/directories/bibliography.bib'
-[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[283] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[283] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[295] bbl.pm:654> INFO - Writing 'build-files/template.bbl' with encoding 'UTF-8'
-[299] bbl.pm:757> INFO - Output to build-files/template.bbl

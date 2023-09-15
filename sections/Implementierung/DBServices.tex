@@ -31,16 +31,17 @@ Des Weiteren wird unter dem Verzeichnis \textit{HM.DBServices} die \textit{Confi
 
 \subsection*{SQLiteWrapper}
 Zweck der \textit{SQLiteWrapper}-Klasse ist die Abstraktion der Lese- und Schreibzugriffe auf die Datenbank.  Hierbei kommt die \textit{System.Data.SQLite} Bibliothek zum Einsatz. \\
-Hierzu wird  im Konstruktor der Klasse zunächst die Struktur der Datenbank angelegt. Diese wird in einer separaten \ac{sql} Datei festgelegt. (Siehe Anhang \ref{app:dbKonfiguration})\\
-Die Query der Lese- und Schreibzugriffe, wird dabei in der Programmiersprache \ac{sql} definiert. Eine \ac{sql}-Anfrage besteht dabei aus drei Abschnitten. Die \textit{SELECT}-Anweisung gibt hierbei an, welche Spalten aus der Datenbank abgerufen werden sollen. Die \textit{FROM}-Anweisung legt die Zieltabelle der Anfrage fest, das heißt aus welcher Tabelle die Daten entnommen werden sollen. Die-\textit{WHERE}-Anweisung filtert die ausgewählten Spalten auf Basis einer bestimmten Bedingung.\\
-In der folgenden \ac{sql}-Anfrage werden die Messwerte des Sensors \textit{Temperature 1} angefragt (Siehe Listing \ref{lst:ReadTableAnfrage}). In Zeile eins werden Spalten \textit{Value} und \textit{TimeStamp} angefragt. Zeile zwei wird die Zieltabelle \textit{tempReadings} festgelegt. Anschließend werden, über Zeile drei, die Einträge der Tabelle nach der LabelID des \textit{Temperature 1}-Sensors gefiltert.  
+Im Konstruktor der Klasse wird zunächst die Struktur der Datenbank angelegt. Diese wird in einer separaten \ac{sql} Datei festgelegt. (Siehe Anhang \ref{app:dbKonfiguration})\\
+Die Querys der Lese- und Schreibzugriffe, werden dabei in der Programmiersprache \ac{sql} definiert. Eine \ac{sql}-Anfrage besteht dabei aus drei Abschnitten. Die \textit{SELECT}-Anweisung gibt hierbei an, welche Spalten aus der Datenbank abgerufen werden sollen. Die \textit{FROM}-Anweisung legt die Zieltabelle der Anfrage fest, das heißt aus welcher Tabelle die Daten entnommen werden sollen. Die \textit{WHERE}-Anweisung filtert die ausgewählten Spalten auf Basis einer bestimmten Bedingung.\\
+In der folgenden \ac{sql}-Anfrage werden die Messwerte des Sensors \textit{Temperature 1} angefragt (Siehe Listing \ref{lst:ReadTableAnfrage}). In Zeile eins werden Spalten \textit{Value} und \textit{TimeStamp} angefragt. In Zeile zwei wird die Zieltabelle \textit{tempReadings} festgelegt. Anschließend werden, über Zeile drei, die Einträge der Tabelle nach der LabelID des \textit{Temperature 1}-Sensors gefiltert.  
 \begin{lstlisting}[caption={Query Anfrage zum Auslesen eines bestimmten Sensorwertes}, label={lst:ReadTableAnfrage}]
   SELECT Value, Timestamp 
   FROM tempReadings 
   WHERE LabelID = (SELECT LabelID From LabelList WHERE (dwReadingID = '16777217' AND szLabelUser = 'Temperature 1'));
 \end{lstlisting}
 
-Alle Lese- und Schreibzugriffe der Datenbank folgen demselben Muster. Hierzu wird der Datenbankzugriff im folgenden Ablaufdiagramm \ref{fig:Datenbankzugriff} dargestellt. Eine Funktion der \textit{SQLiteWrapper}-Klasse, welche einen Lese- oder Schreibzugriffe der Datenbank verwaltet, folgt daher immer denselben 4 Schritten. Zunächst wird eine Verbindung zur Datenbank aufgebaut. Im zweiten Schritt wird die \ac{sql}-Query erzeugt. Hierbei werden Filterparameter, dynamisch in die Query eingebaut, um die Funktionen zum Auslesen bestimmter Parameter mehrfach verwenden zu können. Anschließend wird die Query ausgeführt und die Antwort der Datenbank als Rückgabeparameter der Funktion übergeben.   
+Alle Lese- und Schreibzugriffe der Datenbank folgen demselben Muster. Hierzu wird der Datenbankzugriff im folgenden Ablaufdiagramm \ref{fig:Datenbankzugriff} dargestellt. Eine Funktion der \textit{SQLiteWrapper}-Klasse, welche einen Lese- oder Schreibzugriffe der Datenbank verwaltet, folgt daher immer denselben vier Schritten.\\
+Zunächst wird eine Verbindung zur Datenbank aufgebaut. Im zweiten Schritt wird die \ac{sql}-Query erzeugt. Hierbei werden Filterparameter, dynamisch in die Query eingebaut, um die Funktionen zum Auslesen bestimmter Parameter mehrfach verwenden zu können. Anschließend wird die Query ausgeführt und die Antwort der Datenbank als Rückgabeparameter der Funktion übergeben.   
 \begin{center}
   \begin{figure}[h!]
       \centering
